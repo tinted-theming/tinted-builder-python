@@ -1,0 +1,23 @@
+[Atelier Plateau Light]
+text=585050
+text(bold)=585050
+background=f4ecec
+black=f4ecec
+black(bold)=7e7777
+red=ca4949
+red(bold)=b45a3c
+green=4b8b8b
+green(bold)=e7dfdf
+yellow=a06e3b
+yellow(bold)=8a8585
+blue=7272ca
+blue(bold)=655d5d
+magenta=8464c4
+magenta(bold)=292424
+cyan=5485b6
+cyan(bold)=bd5187
+white=585050
+white(bold)=1b1818
+[Names]
+name0=Atelier Plateau Light
+count=1

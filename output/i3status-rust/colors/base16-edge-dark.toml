@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Edge Dark by cjayross (https://github.com/cjayross)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#262729"
+idle_fg = "#b7bec9"
+info_bg = "#5ebaa5"
+info_fg = "#262729"
+good_bg = "#a1bf78"
+good_fg = "#262729"
+warning_bg = "#dbb774"
+warning_fg = "#262729"
+critical_bg = "#e77171"
+critical_fg = "#262729"
+# The rest of the theme settings are left at default.

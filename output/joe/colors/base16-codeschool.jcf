@@ -1,0 +1,61 @@
+
+# base16 Codeschool by blockloop
+
+.colors *
+
+-text		$9ea7a6/$232c31
+-status		$84898c/$2a343a
+-cursor		$232c31/$9ea7a6
+-selection	/$2a343a
+-curlin		/$1c3657
+-linum		$3f4944/$1c3657
+-curlinum	$84898c/$1c3657
+-menusel	$1c3657/$84898c
+
+-term 0 	$232c31
+-term 1 	$484d79
+-term 2 	$237986
+-term 3 	$b02f30
+-term 4 	$43820d
+-term 5 	$c59820
+-term 6 	$a03b1e
+-term 7 	$84898c
+-term 8 	$3f4944
+-term 9 	$484d79
+-term 10	$237986
+-term 11	$b02f30
+-term 12	$2a5491
+-term 13	$c98344
+-term 14	$a03b1e
+-term 15	$b5d8f6
+
+=Constant	$43820d
+=String		$237986
+=Escape		$b02f30
+
+=Comment	$3f4944
+=StorageClass	+Type
+=Keyword	$c59820
+=Conditional	$c59820
+=Operator	$9ea7a6
+=Loop		$a03b1e
+=Statement	$2a5491
+=Type		$a03b1e
+
+=DefinedIdent	$2a5491
+=Label		$a03b1e
+=DefinedType	$a03b1e
+=Structure	$c59820
+
+=Preproc	$a03b1e
+=Include	$484d79
+=Define		$c59820
+=TODO		$a03b1e/$1c3657
+=Precond	$c59820
+
+=diff.AddLine	$237986/$1c3657
+=diff.ChgLine	$3f4944/$1c3657
+=diff.DelLine	$2a5491/$1c3657
+=diff.File	$2a5491
+=diff.FileNew	$237986
+=diff.Hunk	$484d79

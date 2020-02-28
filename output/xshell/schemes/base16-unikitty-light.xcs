@@ -1,0 +1,23 @@
+[Unikitty Light]
+text=6c696e
+text(bold)=6c696e
+background=ffffff
+black=ffffff
+black(bold)=a7a5a8
+red=d8137f
+red(bold)=d65407
+green=17ad98
+green(bold)=e1e1e2
+yellow=dc8a0e
+yellow(bold)=c4c3c5
+blue=775dff
+blue(bold)=89878b
+magenta=aa17e6
+magenta(bold)=4f4b51
+cyan=149bda
+cyan(bold)=e013d0
+white=6c696e
+white(bold)=322d34
+[Names]
+name0=Unikitty Light
+count=1

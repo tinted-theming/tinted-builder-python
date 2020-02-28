@@ -1,0 +1,26 @@
+-- Name: Base16 Nord
+-- Author: arcticicestudio
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#E5E9F0" }
+Canvas = { Colour="#2E3440" }
+Number = { Colour="#81A1C1" }
+Escape = { Colour="#ECEFF4" , Italic=true}
+String = { Colour="#BF616A" }
+BlockComment = { Colour="#4C566A" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#E5E9F0" }
+LineNum      = { Color="#4C566A" }
+PreProcessor      = { Colour="#B48EAD" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#88C0D0", Bold=true},
+  { Colour="#5E81AC"},
+  { Colour="#EBCB8B"},
+  { Colour="#5E81AC"},
+  { Colour="#5E81AC" }
+}

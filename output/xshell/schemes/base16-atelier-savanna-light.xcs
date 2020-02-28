@@ -1,0 +1,23 @@
+[Atelier Savanna Light]
+text=526057
+text(bold)=526057
+background=ecf4ee
+black=ecf4ee
+black(bold)=78877d
+red=b16139
+red(bold)=9f713c
+green=489963
+green(bold)=dfe7e2
+yellow=a07e3b
+yellow(bold)=87928a
+blue=478c90
+blue(bold)=5f6d64
+magenta=55859b
+magenta(bold)=232a25
+cyan=1c9aa0
+cyan(bold)=867469
+white=526057
+white(bold)=171c19
+[Names]
+name0=Atelier Savanna Light
+count=1

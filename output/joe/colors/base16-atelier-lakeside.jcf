@@ -1,0 +1,61 @@
+
+# base16 Atelier Lakeside by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$7ea2b4/$161b1d
+-status		$7195a8/$516d7b
+-cursor		$161b1d/$7ea2b4
+-selection	/$516d7b
+-curlin		/$1f292e
+-linum		$5a7b8c/$1f292e
+-curlinum	$7195a8/$1f292e
+-menusel	$1f292e/$7195a8
+
+-term 0 	$161b1d
+-term 1 	$257fad
+-term 2 	$568c3b
+-term 3 	$2d8f6f
+-term 4 	$935c25
+-term 5 	$6b6bb8
+-term 6 	$8a8a0f
+-term 7 	$7195a8
+-term 8 	$5a7b8c
+-term 9 	$257fad
+-term 10	$568c3b
+-term 11	$2d8f6f
+-term 12	$d22d72
+-term 13	$b72dd2
+-term 14	$8a8a0f
+-term 15	$ebf8ff
+
+=Constant	$935c25
+=String		$568c3b
+=Escape		$2d8f6f
+
+=Comment	$5a7b8c
+=StorageClass	+Type
+=Keyword	$6b6bb8
+=Conditional	$6b6bb8
+=Operator	$7ea2b4
+=Loop		$8a8a0f
+=Statement	$d22d72
+=Type		$8a8a0f
+
+=DefinedIdent	$d22d72
+=Label		$8a8a0f
+=DefinedType	$8a8a0f
+=Structure	$6b6bb8
+
+=Preproc	$8a8a0f
+=Include	$257fad
+=Define		$6b6bb8
+=TODO		$8a8a0f/$1f292e
+=Precond	$6b6bb8
+
+=diff.AddLine	$568c3b/$1f292e
+=diff.ChgLine	$5a7b8c/$1f292e
+=diff.DelLine	$d22d72/$1f292e
+=diff.File	$d22d72
+=diff.FileNew	$568c3b
+=diff.Hunk	$257fad

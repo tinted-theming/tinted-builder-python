@@ -1,0 +1,61 @@
+
+# base16 Mocha by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$d0c8c6/$3B3228
+-status		$b8afad/$645240
+-cursor		$3B3228/$d0c8c6
+-selection	/$645240
+-curlin		/$534636
+-linum		$7e705a/$534636
+-curlinum	$b8afad/$534636
+-menusel	$534636/$b8afad
+
+-term 0 	$3B3228
+-term 1 	$8ab3b5
+-term 2 	$beb55b
+-term 3 	$7bbda4
+-term 4 	$d28b71
+-term 5 	$a89bb9
+-term 6 	$f4bc87
+-term 7 	$b8afad
+-term 8 	$7e705a
+-term 9 	$8ab3b5
+-term 10	$beb55b
+-term 11	$7bbda4
+-term 12	$cb6077
+-term 13	$bb9584
+-term 14	$f4bc87
+-term 15	$f5eeeb
+
+=Constant	$d28b71
+=String		$beb55b
+=Escape		$7bbda4
+
+=Comment	$7e705a
+=StorageClass	+Type
+=Keyword	$a89bb9
+=Conditional	$a89bb9
+=Operator	$d0c8c6
+=Loop		$f4bc87
+=Statement	$cb6077
+=Type		$f4bc87
+
+=DefinedIdent	$cb6077
+=Label		$f4bc87
+=DefinedType	$f4bc87
+=Structure	$a89bb9
+
+=Preproc	$f4bc87
+=Include	$8ab3b5
+=Define		$a89bb9
+=TODO		$f4bc87/$534636
+=Precond	$a89bb9
+
+=diff.AddLine	$beb55b/$534636
+=diff.ChgLine	$7e705a/$534636
+=diff.DelLine	$cb6077/$534636
+=diff.File	$cb6077
+=diff.FileNew	$beb55b
+=diff.Hunk	$8ab3b5

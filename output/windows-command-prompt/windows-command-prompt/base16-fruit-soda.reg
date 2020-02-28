@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Fruit Soda (https://github.com/chriskempson/base16)
+; Scheme: jozip
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00f1ecf1 ; base00
+"ColorTable01"=dword:00df3129 ; base0D
+"ColorTable02"=dword:004cf747 ; base0B
+"ColorTable03"=dword:00fd9c0f ; base0C
+"ColorTable04"=dword:00313efe ; base08
+"ColorTable05"=dword:00ce1f61 ; base0E
+"ColorTable06"=dword:00086dfe ; base09
+"ColorTable07"=dword:00515151 ; base05
+"ColorTable08"=dword:00b6b4b5 ; base03
+"ColorTable09"=dword:00e0dee0 ; base01
+"ColorTable10"=dword:00d5d5d8 ; base02
+"ColorTable11"=dword:00b6b4b5 ; base03
+"ColorTable12"=dword:00989597 ; base04
+"ColorTable13"=dword:00515151 ; base05
+"ColorTable14"=dword:00454547 ; base06
+"ColorTable15"=dword:002c2c2d ; base07

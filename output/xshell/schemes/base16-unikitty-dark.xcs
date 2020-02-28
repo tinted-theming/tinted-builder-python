@@ -1,0 +1,23 @@
+[Unikitty Dark]
+text=bcbabe
+text(bold)=bcbabe
+background=2e2a31
+black=2e2a31
+black(bold)=838085
+red=d8137f
+red(bold)=d65407
+green=17ad98
+green(bold)=4a464d
+yellow=dc8a0e
+yellow(bold)=666369
+blue=796af5
+blue(bold)=9f9da2
+magenta=bb60ea
+magenta(bold)=d8d7da
+cyan=149bda
+cyan(bold)=c720ca
+white=bcbabe
+white(bold)=f5f4f7
+[Names]
+name0=Unikitty Dark
+count=1

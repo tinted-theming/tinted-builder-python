@@ -1,0 +1,61 @@
+
+# base16 Woodland by Jay Cornwall (https://jcornwall.com)
+
+.colors *
+
+-text		$cabcb1/$231e18
+-status		$b4a490/$48413a
+-cursor		$231e18/$cabcb1
+-selection	/$48413a
+-curlin		/$302b25
+-linum		$9d8b70/$302b25
+-curlinum	$b4a490/$302b25
+-menusel	$302b25/$b4a490
+
+-term 0 	$231e18
+-term 1 	$88a4d3
+-term 2 	$b7ba53
+-term 3 	$6eb958
+-term 4 	$ca7f32
+-term 5 	$bb90e2
+-term 6 	$e0ac16
+-term 7 	$b4a490
+-term 8 	$9d8b70
+-term 9 	$88a4d3
+-term 10	$b7ba53
+-term 11	$6eb958
+-term 12	$d35c5c
+-term 13	$b49368
+-term 14	$e0ac16
+-term 15	$e4d4c8
+
+=Constant	$ca7f32
+=String		$b7ba53
+=Escape		$6eb958
+
+=Comment	$9d8b70
+=StorageClass	+Type
+=Keyword	$bb90e2
+=Conditional	$bb90e2
+=Operator	$cabcb1
+=Loop		$e0ac16
+=Statement	$d35c5c
+=Type		$e0ac16
+
+=DefinedIdent	$d35c5c
+=Label		$e0ac16
+=DefinedType	$e0ac16
+=Structure	$bb90e2
+
+=Preproc	$e0ac16
+=Include	$88a4d3
+=Define		$bb90e2
+=TODO		$e0ac16/$302b25
+=Precond	$bb90e2
+
+=diff.AddLine	$b7ba53/$302b25
+=diff.ChgLine	$9d8b70/$302b25
+=diff.DelLine	$d35c5c/$302b25
+=diff.File	$d35c5c
+=diff.FileNew	$b7ba53
+=diff.Hunk	$88a4d3

@@ -1,0 +1,61 @@
+
+# base16 Twilight by David Hart (https://github.com/hartbit)
+
+.colors *
+
+-text		$a7a7a7/$1e1e1e
+-status		$838184/$464b50
+-cursor		$1e1e1e/$a7a7a7
+-selection	/$464b50
+-curlin		/$323537
+-linum		$5f5a60/$323537
+-curlinum	$838184/$323537
+-menusel	$323537/$838184
+
+-term 0 	$1e1e1e
+-term 1 	$7587a6
+-term 2 	$8f9d6a
+-term 3 	$afc4db
+-term 4 	$cda869
+-term 5 	$9b859d
+-term 6 	$f9ee98
+-term 7 	$838184
+-term 8 	$5f5a60
+-term 9 	$7587a6
+-term 10	$8f9d6a
+-term 11	$afc4db
+-term 12	$cf6a4c
+-term 13	$9b703f
+-term 14	$f9ee98
+-term 15	$ffffff
+
+=Constant	$cda869
+=String		$8f9d6a
+=Escape		$afc4db
+
+=Comment	$5f5a60
+=StorageClass	+Type
+=Keyword	$9b859d
+=Conditional	$9b859d
+=Operator	$a7a7a7
+=Loop		$f9ee98
+=Statement	$cf6a4c
+=Type		$f9ee98
+
+=DefinedIdent	$cf6a4c
+=Label		$f9ee98
+=DefinedType	$f9ee98
+=Structure	$9b859d
+
+=Preproc	$f9ee98
+=Include	$7587a6
+=Define		$9b859d
+=TODO		$f9ee98/$323537
+=Precond	$9b859d
+
+=diff.AddLine	$8f9d6a/$323537
+=diff.ChgLine	$5f5a60/$323537
+=diff.DelLine	$cf6a4c/$323537
+=diff.File	$cf6a4c
+=diff.FileNew	$8f9d6a
+=diff.Hunk	$7587a6

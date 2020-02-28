@@ -1,0 +1,23 @@
+[Mellow Purple]
+text=ffeeff
+text(bold)=ffeeff
+background=1e0528
+black=1e0528
+black(bold)=320f55
+red=00d9e9
+red(bold)=aa00a3
+green=05cb0d
+green(bold)=1A092D
+yellow=955ae7
+yellow(bold)=331354
+blue=550068
+blue(bold)=873582
+magenta=8991bb
+magenta(bold)=ffeeff
+cyan=b900b1
+cyan(bold)=4d6fff
+white=ffeeff
+white(bold)=f8c0ff
+[Names]
+name0=Mellow Purple
+count=1

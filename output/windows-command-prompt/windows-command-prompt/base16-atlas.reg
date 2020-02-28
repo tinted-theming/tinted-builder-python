@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atlas (https://github.com/chriskempson/base16)
+; Scheme: Alex Lende (https://ajlende.com)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00352600 ; base00
+"ColorTable01"=dword:00b9d75d ; base0D
+"ColorTable02"=dword:006ec07f ; base0B
+"ColorTable03"=dword:007e7414 ; base0C
+"ColorTable04"=dword:00675aff ; base08
+"ColorTable05"=dword:00a4709a ; base0E
+"ColorTable06"=dword:00488ef0 ; base09
+"ColorTable07"=dword:009aa1a1 ; base05
+"ColorTable08"=dword:00918B6C ; base03
+"ColorTable09"=dword:004d3800 ; base01
+"ColorTable10"=dword:008D7F51 ; base02
+"ColorTable11"=dword:00918B6C ; base03
+"ColorTable12"=dword:00969686 ; base04
+"ColorTable13"=dword:009aa1a1 ; base05
+"ColorTable14"=dword:00dce6e6 ; base06
+"ColorTable15"=dword:00f8fafa ; base07

@@ -1,0 +1,61 @@
+
+# base16 Cupertino by Defman21
+
+.colors *
+
+-text		$404040/$ffffff
+-status		$808080/$c0c0c0
+-cursor		$ffffff/$404040
+-selection	/$c0c0c0
+-curlin		/$c0c0c0
+-linum		$808080/$c0c0c0
+-curlinum	$808080/$c0c0c0
+-menusel	$c0c0c0/$808080
+
+-term 0 	$ffffff
+-term 1 	$0000ff
+-term 2 	$007400
+-term 3 	$318495
+-term 4 	$eb8500
+-term 5 	$a90d91
+-term 6 	$826b28
+-term 7 	$808080
+-term 8 	$808080
+-term 9 	$0000ff
+-term 10	$007400
+-term 11	$318495
+-term 12	$c41a15
+-term 13	$826b28
+-term 14	$826b28
+-term 15	$5e5e5e
+
+=Constant	$eb8500
+=String		$007400
+=Escape		$318495
+
+=Comment	$808080
+=StorageClass	+Type
+=Keyword	$a90d91
+=Conditional	$a90d91
+=Operator	$404040
+=Loop		$826b28
+=Statement	$c41a15
+=Type		$826b28
+
+=DefinedIdent	$c41a15
+=Label		$826b28
+=DefinedType	$826b28
+=Structure	$a90d91
+
+=Preproc	$826b28
+=Include	$0000ff
+=Define		$a90d91
+=TODO		$826b28/$c0c0c0
+=Precond	$a90d91
+
+=diff.AddLine	$007400/$c0c0c0
+=diff.ChgLine	$808080/$c0c0c0
+=diff.DelLine	$c41a15/$c0c0c0
+=diff.File	$c41a15
+=diff.FileNew	$007400
+=diff.Hunk	$0000ff

@@ -1,0 +1,61 @@
+
+# base16 Atelier Plateau Light by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$585050/$f4ecec
+-status		$655d5d/$8a8585
+-cursor		$f4ecec/$585050
+-selection	/$8a8585
+-curlin		/$e7dfdf
+-linum		$7e7777/$e7dfdf
+-curlinum	$655d5d/$e7dfdf
+-menusel	$e7dfdf/$655d5d
+
+-term 0 	$f4ecec
+-term 1 	$7272ca
+-term 2 	$4b8b8b
+-term 3 	$5485b6
+-term 4 	$b45a3c
+-term 5 	$8464c4
+-term 6 	$a06e3b
+-term 7 	$655d5d
+-term 8 	$7e7777
+-term 9 	$7272ca
+-term 10	$4b8b8b
+-term 11	$5485b6
+-term 12	$ca4949
+-term 13	$bd5187
+-term 14	$a06e3b
+-term 15	$1b1818
+
+=Constant	$b45a3c
+=String		$4b8b8b
+=Escape		$5485b6
+
+=Comment	$7e7777
+=StorageClass	+Type
+=Keyword	$8464c4
+=Conditional	$8464c4
+=Operator	$585050
+=Loop		$a06e3b
+=Statement	$ca4949
+=Type		$a06e3b
+
+=DefinedIdent	$ca4949
+=Label		$a06e3b
+=DefinedType	$a06e3b
+=Structure	$8464c4
+
+=Preproc	$a06e3b
+=Include	$7272ca
+=Define		$8464c4
+=TODO		$a06e3b/$e7dfdf
+=Precond	$8464c4
+
+=diff.AddLine	$4b8b8b/$e7dfdf
+=diff.ChgLine	$7e7777/$e7dfdf
+=diff.DelLine	$ca4949/$e7dfdf
+=diff.File	$ca4949
+=diff.FileNew	$4b8b8b
+=diff.Hunk	$7272ca

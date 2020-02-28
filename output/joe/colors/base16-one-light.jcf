@@ -1,0 +1,61 @@
+
+# base16 One Light by Daniel Pfeifer (http://github.com/purpleKarrot)
+
+.colors *
+
+-text		$383a42/$fafafa
+-status		$696c77/$e5e5e6
+-cursor		$fafafa/$383a42
+-selection	/$e5e5e6
+-curlin		/$f0f0f1
+-linum		$a0a1a7/$f0f0f1
+-curlinum	$696c77/$f0f0f1
+-menusel	$f0f0f1/$696c77
+
+-term 0 	$fafafa
+-term 1 	$4078f2
+-term 2 	$50a14f
+-term 3 	$0184bc
+-term 4 	$d75f00
+-term 5 	$a626a4
+-term 6 	$c18401
+-term 7 	$696c77
+-term 8 	$a0a1a7
+-term 9 	$4078f2
+-term 10	$50a14f
+-term 11	$0184bc
+-term 12	$ca1243
+-term 13	$986801
+-term 14	$c18401
+-term 15	$090a0b
+
+=Constant	$d75f00
+=String		$50a14f
+=Escape		$0184bc
+
+=Comment	$a0a1a7
+=StorageClass	+Type
+=Keyword	$a626a4
+=Conditional	$a626a4
+=Operator	$383a42
+=Loop		$c18401
+=Statement	$ca1243
+=Type		$c18401
+
+=DefinedIdent	$ca1243
+=Label		$c18401
+=DefinedType	$c18401
+=Structure	$a626a4
+
+=Preproc	$c18401
+=Include	$4078f2
+=Define		$a626a4
+=TODO		$c18401/$f0f0f1
+=Precond	$a626a4
+
+=diff.AddLine	$50a14f/$f0f0f1
+=diff.ChgLine	$a0a1a7/$f0f0f1
+=diff.DelLine	$ca1243/$f0f0f1
+=diff.File	$ca1243
+=diff.FileNew	$50a14f
+=diff.Hunk	$4078f2

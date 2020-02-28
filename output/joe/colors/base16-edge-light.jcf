@@ -1,0 +1,61 @@
+
+# base16 Edge Light by cjayross (https://github.com/cjayross)
+
+.colors *
+
+-text		$5e646f/$fafafa
+-status		$6587bf/$d69822
+-cursor		$fafafa/$5e646f
+-selection	/$d69822
+-curlin		/$7c9f4b
+-linum		$5e646f/$7c9f4b
+-curlinum	$6587bf/$7c9f4b
+-menusel	$7c9f4b/$6587bf
+
+-term 0 	$fafafa
+-term 1 	$6587bf
+-term 2 	$7c9f4b
+-term 3 	$509c93
+-term 4 	$db7070
+-term 5 	$b870ce
+-term 6 	$d69822
+-term 7 	$6587bf
+-term 8 	$5e646f
+-term 9 	$6587bf
+-term 10	$7c9f4b
+-term 11	$509c93
+-term 12	$db7070
+-term 13	$509c93
+-term 14	$d69822
+-term 15	$5e646f
+
+=Constant	$db7070
+=String		$7c9f4b
+=Escape		$509c93
+
+=Comment	$5e646f
+=StorageClass	+Type
+=Keyword	$b870ce
+=Conditional	$b870ce
+=Operator	$5e646f
+=Loop		$d69822
+=Statement	$db7070
+=Type		$d69822
+
+=DefinedIdent	$db7070
+=Label		$d69822
+=DefinedType	$d69822
+=Structure	$b870ce
+
+=Preproc	$d69822
+=Include	$6587bf
+=Define		$b870ce
+=TODO		$d69822/$7c9f4b
+=Precond	$b870ce
+
+=diff.AddLine	$7c9f4b/$7c9f4b
+=diff.ChgLine	$5e646f/$7c9f4b
+=diff.DelLine	$db7070/$7c9f4b
+=diff.File	$db7070
+=diff.FileNew	$7c9f4b
+=diff.Hunk	$6587bf

@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Outrun Dark",
+	"foreground": "#D0D0FA",
+	"background": "#00002A",
+	"black": "#20204A",
+	"blue": "#66B0FF",
+	"brightBlack": "#30305A",
+	"brightBlue": "#66B0FF",
+	"brightCyan": "#0EF0F0",
+	"brightGreen": "#59F176",
+	"brightPurple": "#F10596",
+	"brightRed": "#FF4242",
+	"brightWhite": "#F5F5FF",
+	"brightYellow": "#F3E877",
+	"cyan": "#0EF0F0",
+	"green": "#59F176",
+	"purple": "#F10596",
+	"red": "#FF4242",
+	"white": "#E0E0FF",
+	"yellow": "#FC8D28"
+},

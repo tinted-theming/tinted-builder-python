@@ -1,0 +1,6 @@
+# Base16 Atelier Lakeside Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-lakeside-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#ebf8ff\nfg_color:#516d7b\nbase_color:#ebf8ff\ntext_color:#516d7b\nselected_bg_color:#7ea2b4\nselected_fg_color:#516d7b\ntooltip_bg_color:#ebf8ff\ntooltip_fg_color:#5a7b8c\ntitlebar_bg_color:#ebf8ff\ntitlebar_fg_color:#257fad\nmenubar_bg_color:#ebf8ff\nmenubar_fg_color:#257fad\ntoolbar_bg_color:#ebf8ff\ntoolbar_fg_color:#8a8a0f\nmenu_bg_color:#ebf8ff\nmenu_fg_color:#516d7b\npanel_bg_color:#ebf8ff\npanel_fg_color:#568c3b\nlink_color:#935c25"
+

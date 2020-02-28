@@ -1,0 +1,61 @@
+
+# base16 iA Dark by iA Inc. (modified by aramisgithub)
+
+.colors *
+
+-text		$cccccc/$1a1a1a
+-status		$b8b8b8/$1d414d
+-cursor		$1a1a1a/$cccccc
+-selection	/$1d414d
+-curlin		/$222222
+-linum		$767676/$222222
+-curlinum	$b8b8b8/$222222
+-menusel	$222222/$b8b8b8
+
+-term 0 	$1a1a1a
+-term 1 	$8eccdd
+-term 2 	$83a471
+-term 3 	$7c9cae
+-term 4 	$d86868
+-term 5 	$b98eb2
+-term 6 	$b99353
+-term 7 	$b8b8b8
+-term 8 	$767676
+-term 9 	$8eccdd
+-term 10	$83a471
+-term 11	$7c9cae
+-term 12	$d88568
+-term 13	$8b6c37
+-term 14	$b99353
+-term 15	$f8f8f8
+
+=Constant	$d86868
+=String		$83a471
+=Escape		$7c9cae
+
+=Comment	$767676
+=StorageClass	+Type
+=Keyword	$b98eb2
+=Conditional	$b98eb2
+=Operator	$cccccc
+=Loop		$b99353
+=Statement	$d88568
+=Type		$b99353
+
+=DefinedIdent	$d88568
+=Label		$b99353
+=DefinedType	$b99353
+=Structure	$b98eb2
+
+=Preproc	$b99353
+=Include	$8eccdd
+=Define		$b98eb2
+=TODO		$b99353/$222222
+=Precond	$b98eb2
+
+=diff.AddLine	$83a471/$222222
+=diff.ChgLine	$767676/$222222
+=diff.DelLine	$d88568/$222222
+=diff.File	$d88568
+=diff.FileNew	$83a471
+=diff.Hunk	$8eccdd

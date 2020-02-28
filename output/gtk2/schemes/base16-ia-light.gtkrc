@@ -1,0 +1,6 @@
+# Base16 iA Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By iA Inc. (modified by aramisgithub)
+# ia-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#f6f6f6\nfg_color:#181818\nbase_color:#f6f6f6\ntext_color:#181818\nselected_bg_color:#bde5f2\nselected_fg_color:#181818\ntooltip_bg_color:#f6f6f6\ntooltip_fg_color:#767676\ntitlebar_bg_color:#f6f6f6\ntitlebar_fg_color:#48bac2\nmenubar_bg_color:#f6f6f6\nmenubar_fg_color:#48bac2\ntoolbar_bg_color:#f6f6f6\ntoolbar_fg_color:#c48218\nmenu_bg_color:#f6f6f6\nmenu_fg_color:#181818\npanel_bg_color:#f6f6f6\npanel_fg_color:#38781c\nlink_color:#c43e18"
+

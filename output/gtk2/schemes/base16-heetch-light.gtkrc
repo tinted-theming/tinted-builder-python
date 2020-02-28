@@ -1,0 +1,6 @@
+# Base16 Heetch Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Geoffrey Teale (tealeg@gmail.com)
+# heetch-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#feffff\nfg_color:#5a496e\nbase_color:#feffff\ntext_color:#5a496e\nselected_bg_color:#7b6d8b\nselected_fg_color:#5a496e\ntooltip_bg_color:#feffff\ntooltip_fg_color:#ddd6e5\ntitlebar_bg_color:#feffff\ntitlebar_fg_color:#47f9f5\nmenubar_bg_color:#feffff\nmenubar_fg_color:#47f9f5\ntoolbar_bg_color:#feffff\ntoolbar_fg_color:#5ba2b6\nmenu_bg_color:#feffff\nmenu_fg_color:#5a496e\npanel_bg_color:#feffff\npanel_fg_color:#f80059\nlink_color:#bdb6c5"
+

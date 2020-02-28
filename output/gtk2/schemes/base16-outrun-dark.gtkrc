@@ -1,0 +1,6 @@
+# Base16 Outrun Dark for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Hugo Delahousse (http://github.com/hugodelahousse/)
+# outrun-dark (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#00002A\nfg_color:#D0D0FA\nbase_color:#00002A\ntext_color:#D0D0FA\nselected_bg_color:#30305A\nselected_fg_color:#D0D0FA\ntooltip_bg_color:#00002A\ntooltip_fg_color:#B0B0DA\ntitlebar_bg_color:#00002A\ntitlebar_fg_color:#66B0FF\nmenubar_bg_color:#00002A\nmenubar_fg_color:#66B0FF\ntoolbar_bg_color:#00002A\ntoolbar_fg_color:#F3E877\nmenu_bg_color:#00002A\nmenu_fg_color:#D0D0FA\npanel_bg_color:#00002A\npanel_fg_color:#59F176\nlink_color:#FC8D28"
+

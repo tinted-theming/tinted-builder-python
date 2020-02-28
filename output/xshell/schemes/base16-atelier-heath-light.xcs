@@ -1,0 +1,23 @@
+[Atelier Heath Light]
+text=695d69
+text(bold)=695d69
+background=f7f3f7
+black=f7f3f7
+black(bold)=9e8f9e
+red=ca402b
+red(bold)=a65926
+green=918b3b
+green(bold)=d8cad8
+yellow=bb8a35
+yellow(bold)=ab9bab
+blue=516aec
+blue(bold)=776977
+magenta=7b59c0
+magenta(bold)=292329
+cyan=159393
+cyan(bold)=cc33cc
+white=695d69
+white(bold)=1b181b
+[Names]
+name0=Atelier Heath Light
+count=1

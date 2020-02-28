@@ -1,0 +1,26 @@
+-- Name: Base16 Outrun Dark
+-- Author: Hugo Delahousse (http://github.com/hugodelahousse/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#D0D0FA" }
+Canvas = { Colour="#00002A" }
+Number = { Colour="#FC8D28" }
+Escape = { Colour="#E0E0FF" , Italic=true}
+String = { Colour="#59F176" }
+BlockComment = { Colour="#50507A" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#D0D0FA" }
+LineNum      = { Color="#50507A" }
+PreProcessor      = { Colour="#F003EF" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#FF4242", Bold=true},
+  { Colour="#F3E877"},
+  { Colour="#66B0FF"},
+  { Colour="#F3E877"},
+  { Colour="#F3E877" }
+}

@@ -1,0 +1,61 @@
+
+# base16 Brogrammer by Vik Ramanujam (http://github.com/piggyslasher)
+
+.colors *
+
+-text		$4e5ab7/$1f1f1f
+-status		$2a84d2/$2dc55e
+-cursor		$1f1f1f/$4e5ab7
+-selection	/$2dc55e
+-curlin		/$f81118
+-linum		$ecba0f/$f81118
+-curlinum	$2a84d2/$f81118
+-menusel	$f81118/$2a84d2
+
+-term 0 	$1f1f1f
+-term 1 	$5350b9
+-term 2 	$f3bd09
+-term 3 	$1081d6
+-term 4 	$de352e
+-term 5 	$0f7ddb
+-term 6 	$1dd361
+-term 7 	$2a84d2
+-term 8 	$ecba0f
+-term 9 	$5350b9
+-term 10	$f3bd09
+-term 11	$1081d6
+-term 12	$d6dbe5
+-term 13	$ffffff
+-term 14	$1dd361
+-term 15	$d6dbe5
+
+=Constant	$de352e
+=String		$f3bd09
+=Escape		$1081d6
+
+=Comment	$ecba0f
+=StorageClass	+Type
+=Keyword	$0f7ddb
+=Conditional	$0f7ddb
+=Operator	$4e5ab7
+=Loop		$1dd361
+=Statement	$d6dbe5
+=Type		$1dd361
+
+=DefinedIdent	$d6dbe5
+=Label		$1dd361
+=DefinedType	$1dd361
+=Structure	$0f7ddb
+
+=Preproc	$1dd361
+=Include	$5350b9
+=Define		$0f7ddb
+=TODO		$1dd361/$f81118
+=Precond	$0f7ddb
+
+=diff.AddLine	$f3bd09/$f81118
+=diff.ChgLine	$ecba0f/$f81118
+=diff.DelLine	$d6dbe5/$f81118
+=diff.File	$d6dbe5
+=diff.FileNew	$f3bd09
+=diff.Hunk	$5350b9

@@ -1,0 +1,61 @@
+
+# base16 Dracula by Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+
+.colors *
+
+-text		$e9e9f4/$282936
+-status		$62d6e8/$4d4f68
+-cursor		$282936/$e9e9f4
+-selection	/$4d4f68
+-curlin		/$3a3c4e
+-linum		$626483/$3a3c4e
+-curlinum	$62d6e8/$3a3c4e
+-menusel	$3a3c4e/$62d6e8
+
+-term 0 	$282936
+-term 1 	$62d6e8
+-term 2 	$ebff87
+-term 3 	$a1efe4
+-term 4 	$b45bcf
+-term 5 	$b45bcf
+-term 6 	$00f769
+-term 7 	$62d6e8
+-term 8 	$626483
+-term 9 	$62d6e8
+-term 10	$ebff87
+-term 11	$a1efe4
+-term 12	$ea51b2
+-term 13	$00f769
+-term 14	$00f769
+-term 15	$f7f7fb
+
+=Constant	$b45bcf
+=String		$ebff87
+=Escape		$a1efe4
+
+=Comment	$626483
+=StorageClass	+Type
+=Keyword	$b45bcf
+=Conditional	$b45bcf
+=Operator	$e9e9f4
+=Loop		$00f769
+=Statement	$ea51b2
+=Type		$00f769
+
+=DefinedIdent	$ea51b2
+=Label		$00f769
+=DefinedType	$00f769
+=Structure	$b45bcf
+
+=Preproc	$00f769
+=Include	$62d6e8
+=Define		$b45bcf
+=TODO		$00f769/$3a3c4e
+=Precond	$b45bcf
+
+=diff.AddLine	$ebff87/$3a3c4e
+=diff.ChgLine	$626483/$3a3c4e
+=diff.DelLine	$ea51b2/$3a3c4e
+=diff.File	$ea51b2
+=diff.FileNew	$ebff87
+=diff.Hunk	$62d6e8

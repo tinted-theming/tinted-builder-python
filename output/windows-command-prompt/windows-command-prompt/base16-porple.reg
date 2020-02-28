@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Porple (https://github.com/chriskempson/base16)
+; Scheme: Niek den Breeje (https://github.com/AuditeMarlow)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00362c29 ; base00
+"ColorTable01"=dword:00ce8584 ; base0D
+"ColorTable02"=dword:006fc795 ; base0B
+"ColorTable03"=dword:008f8764 ; base0C
+"ColorTable04"=dword:004745f8 ; base08
+"ColorTable05"=dword:008949b7 ; base0E
+"ColorTable06"=dword:005d8ed2 ; base09
+"ColorTable07"=dword:00d8d8d8 ; base05
+"ColorTable08"=dword:008a5665 ; base03
+"ColorTable09"=dword:00443333 ; base01
+"ColorTable10"=dword:00604147 ; base02
+"ColorTable11"=dword:008a5665 ; base03
+"ColorTable12"=dword:00b8b8b8 ; base04
+"ColorTable13"=dword:00d8d8d8 ; base05
+"ColorTable14"=dword:00e8e8e8 ; base06
+"ColorTable15"=dword:00f8f8f8 ; base07

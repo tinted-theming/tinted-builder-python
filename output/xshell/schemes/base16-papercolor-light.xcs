@@ -1,0 +1,23 @@
+[PaperColor Light]
+text=878787
+text(bold)=878787
+background=eeeeee
+black=eeeeee
+black(bold)=5f8700
+red=bcbcbc
+red(bold)=d70000
+green=8700af
+green(bold)=af0000
+yellow=d70087
+yellow(bold)=008700
+blue=d75f00
+blue(bold)=0087af
+magenta=005faf
+magenta(bold)=005f87
+cyan=d75f00
+cyan(bold)=005f87
+white=878787
+white(bold)=444444
+[Names]
+name0=PaperColor Light
+count=1

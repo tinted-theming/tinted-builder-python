@@ -1,0 +1,61 @@
+
+# base16 Horizon Dark by Michaël Ball (http://github.com/michael-ball/)
+
+.colors *
+
+-text		$CBCED0/$1C1E26
+-status		$9DA0A2/$2E303E
+-cursor		$1C1E26/$CBCED0
+-selection	/$2E303E
+-curlin		/$232530
+-linum		$6F6F70/$232530
+-curlinum	$9DA0A2/$232530
+-menusel	$232530/$9DA0A2
+
+-term 0 	$1C1E26
+-term 1 	$26BBD9
+-term 2 	$29D398
+-term 3 	$59E1E3
+-term 4 	$FAB795
+-term 5 	$EE64AC
+-term 6 	$FAC29A
+-term 7 	$9DA0A2
+-term 8 	$6F6F70
+-term 9 	$26BBD9
+-term 10	$29D398
+-term 11	$59E1E3
+-term 12	$E95678
+-term 13	$F09383
+-term 14	$FAC29A
+-term 15	$E3E6EE
+
+=Constant	$FAB795
+=String		$29D398
+=Escape		$59E1E3
+
+=Comment	$6F6F70
+=StorageClass	+Type
+=Keyword	$EE64AC
+=Conditional	$EE64AC
+=Operator	$CBCED0
+=Loop		$FAC29A
+=Statement	$E95678
+=Type		$FAC29A
+
+=DefinedIdent	$E95678
+=Label		$FAC29A
+=DefinedType	$FAC29A
+=Structure	$EE64AC
+
+=Preproc	$FAC29A
+=Include	$26BBD9
+=Define		$EE64AC
+=TODO		$FAC29A/$232530
+=Precond	$EE64AC
+
+=diff.AddLine	$29D398/$232530
+=diff.ChgLine	$6F6F70/$232530
+=diff.DelLine	$E95678/$232530
+=diff.File	$E95678
+=diff.FileNew	$29D398
+=diff.Hunk	$26BBD9

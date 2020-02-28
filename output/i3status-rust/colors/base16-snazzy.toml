@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Snazzy by Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#282a36"
+idle_fg = "#e2e4e5"
+info_bg = "#9aedfe"
+info_fg = "#282a36"
+good_bg = "#5af78e"
+good_fg = "#282a36"
+warning_bg = "#f3f99d"
+warning_fg = "#282a36"
+critical_bg = "#ff5c57"
+critical_fg = "#282a36"
+# The rest of the theme settings are left at default.

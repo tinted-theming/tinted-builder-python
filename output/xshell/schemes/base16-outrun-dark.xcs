@@ -1,0 +1,23 @@
+[Outrun Dark]
+text=D0D0FA
+text(bold)=D0D0FA
+background=00002A
+black=00002A
+black(bold)=50507A
+red=FF4242
+red(bold)=FC8D28
+green=59F176
+green(bold)=20204A
+yellow=F3E877
+yellow(bold)=30305A
+blue=66B0FF
+blue(bold)=B0B0DA
+magenta=F10596
+magenta(bold)=E0E0FF
+cyan=0EF0F0
+cyan(bold)=F003EF
+white=D0D0FA
+white(bold)=F5F5FF
+[Names]
+name0=Outrun Dark
+count=1

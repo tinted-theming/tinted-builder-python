@@ -1,0 +1,23 @@
+[Classic Light]
+text=303030
+text(bold)=303030
+background=F5F5F5
+black=F5F5F5
+black(bold)=B0B0B0
+red=AC4142
+red(bold)=D28445
+green=90A959
+green(bold)=E0E0E0
+yellow=F4BF75
+yellow(bold)=D0D0D0
+blue=6A9FB5
+blue(bold)=505050
+magenta=AA759F
+magenta(bold)=202020
+cyan=75B5AA
+cyan(bold)=8F5536
+white=303030
+white(bold)=151515
+[Names]
+name0=Classic Light
+count=1

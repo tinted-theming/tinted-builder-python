@@ -1,0 +1,21 @@
+<!--    Base16 Synth Midnight Dark
+        Author: Michaël Ball (http://github.com/michael-ball/)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="040404" />
+    <option name="treeSelectionColor" value="03AEFF" />
+    <option name="highlightColor" value="242424" />
+    <option name="secondBorderColor" value="040404" />
+    <option name="tableSelectedColor" value="03AEFF" />
+    <option name="contrastColor" value="141414" />
+    <option name="disabledColor" value="BFBBBF" />
+    <option name="secondaryBackgroundColor" value="141414" />
+    <option name="buttonColor" value="040404" />
+    <option name="selectionForegroundColor" value="EFEBEF" />
+    <option name="selectionBackgroundColor" value="03AEFF" />
+    <option name="textColor" value="EFEBEF" />
+    <option name="foregroundColor" value="DFDBDF" />
+    <option name="backgroundColor" value="040404" />
+  </component>
+</application> 

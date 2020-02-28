@@ -1,0 +1,61 @@
+
+# base16 Mexico Light by Sheldon Johnson
+
+.colors *
+
+-text		$383838/$f8f8f8
+-status		$585858/$d8d8d8
+-cursor		$f8f8f8/$383838
+-selection	/$d8d8d8
+-curlin		/$e8e8e8
+-linum		$b8b8b8/$e8e8e8
+-curlinum	$585858/$e8e8e8
+-menusel	$e8e8e8/$585858
+
+-term 0 	$f8f8f8
+-term 1 	$7cafc2
+-term 2 	$538947
+-term 3 	$4b8093
+-term 4 	$dc9656
+-term 5 	$96609e
+-term 6 	$f79a0e
+-term 7 	$585858
+-term 8 	$b8b8b8
+-term 9 	$7cafc2
+-term 10	$538947
+-term 11	$4b8093
+-term 12	$ab4642
+-term 13	$a16946
+-term 14	$f79a0e
+-term 15	$181818
+
+=Constant	$dc9656
+=String		$538947
+=Escape		$4b8093
+
+=Comment	$b8b8b8
+=StorageClass	+Type
+=Keyword	$96609e
+=Conditional	$96609e
+=Operator	$383838
+=Loop		$f79a0e
+=Statement	$ab4642
+=Type		$f79a0e
+
+=DefinedIdent	$ab4642
+=Label		$f79a0e
+=DefinedType	$f79a0e
+=Structure	$96609e
+
+=Preproc	$f79a0e
+=Include	$7cafc2
+=Define		$96609e
+=TODO		$f79a0e/$e8e8e8
+=Precond	$96609e
+
+=diff.AddLine	$538947/$e8e8e8
+=diff.ChgLine	$b8b8b8/$e8e8e8
+=diff.DelLine	$ab4642/$e8e8e8
+=diff.File	$ab4642
+=diff.FileNew	$538947
+=diff.Hunk	$7cafc2

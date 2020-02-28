@@ -1,0 +1,42 @@
+# Base16 Heetch Dark 256 - alacritty color config
+# Geoffrey Teale (tealeg@gmail.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x190134'
+    foreground: '0xBDB6C5'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x190134'
+    cursor: '0xBDB6C5'
+
+  # Normal colors
+  normal:
+    black:   '0x190134'
+    red:     '0x27D9D5'
+    green:   '0xC33678'
+    yellow:  '0x8F6C97'
+    blue:    '0xBD0152'
+    magenta: '0x82034C'
+    cyan:    '0xF80059'
+    white:   '0xBDB6C5'
+
+  # Bright colors
+  bright:
+    black:   '0x7B6D8B'
+    red:     '0x27D9D5'
+    green:   '0xC33678'
+    yellow:  '0x8F6C97'
+    blue:    '0xBD0152'
+    magenta: '0x82034C'
+    cyan:    '0xF80059'
+    white:   '0xFEFFFF'
+
+  indexed_colors:
+    - { index: 16, color: '0x5BA2B6' }
+    - { index: 17, color: '0x470546' }
+    - { index: 18, color: '0x392551' }
+    - { index: 19, color: '0x5A496E' }
+    - { index: 20, color: '0x9C92A8' }
+    - { index: 21, color: '0xDEDAE2' }

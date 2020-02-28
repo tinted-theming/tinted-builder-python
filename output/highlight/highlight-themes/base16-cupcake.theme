@@ -1,0 +1,26 @@
+-- Name: Base16 Cupcake
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#8b8198" }
+Canvas = { Colour="#fbf1f2" }
+Number = { Colour="#EBB790" }
+Escape = { Colour="#72677E" , Italic=true}
+String = { Colour="#A3B367" }
+BlockComment = { Colour="#bfb9c6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#8b8198" }
+LineNum      = { Color="#bfb9c6" }
+PreProcessor      = { Colour="#BAA58C" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#D57E85", Bold=true},
+  { Colour="#DCB16C"},
+  { Colour="#7297B9"},
+  { Colour="#DCB16C"},
+  { Colour="#DCB16C" }
+}

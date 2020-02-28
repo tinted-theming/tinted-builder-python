@@ -1,0 +1,6 @@
+# Base16 XCode Dusk for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Elsa Gonsiorowski (https://github.com/gonsie)
+# xcode-dusk (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#282B35\nfg_color:#939599\nbase_color:#282B35\ntext_color:#939599\nselected_bg_color:#53555D\nselected_fg_color:#939599\ntooltip_bg_color:#282B35\ntooltip_fg_color:#7E8086\ntitlebar_bg_color:#282B35\ntitlebar_fg_color:#790EAD\nmenubar_bg_color:#282B35\nmenubar_fg_color:#790EAD\ntoolbar_bg_color:#282B35\ntoolbar_fg_color:#438288\nmenu_bg_color:#282B35\nmenu_fg_color:#939599\npanel_bg_color:#282B35\npanel_fg_color:#DF0002\nlink_color:#786DC5"
+

@@ -1,0 +1,26 @@
+-- Name: Base16 XCode Dusk
+-- Author: Elsa Gonsiorowski (https://github.com/gonsie)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#939599" }
+Canvas = { Colour="#282B35" }
+Number = { Colour="#786DC5" }
+Escape = { Colour="#A9AAAE" , Italic=true}
+String = { Colour="#DF0002" }
+BlockComment = { Colour="#686A71" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#939599" }
+LineNum      = { Color="#686A71" }
+PreProcessor      = { Colour="#C77C48" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#B21889", Bold=true},
+  { Colour="#438288"},
+  { Colour="#790EAD"},
+  { Colour="#438288"},
+  { Colour="#438288" }
+}

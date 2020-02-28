@@ -1,0 +1,12 @@
+<!--    Base16 Horizon Light
+        Author: Michaël Ball (http://github.com/michael-ball/)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="DA103F" />
+    <option name="accentColor" value="DA103F" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

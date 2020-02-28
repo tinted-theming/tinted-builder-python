@@ -1,0 +1,61 @@
+
+# base16 Github by Defman21
+
+.colors *
+
+-text		$333333/$ffffff
+-status		$e8e8e8/$c8c8fa
+-cursor		$ffffff/$333333
+-selection	/$c8c8fa
+-curlin		/$f5f5f5
+-linum		$969896/$f5f5f5
+-curlinum	$e8e8e8/$f5f5f5
+-menusel	$f5f5f5/$e8e8e8
+
+-term 0 	$ffffff
+-term 1 	$795da3
+-term 2 	$183691
+-term 3 	$183691
+-term 4 	$0086b3
+-term 5 	$a71d5d
+-term 6 	$795da3
+-term 7 	$e8e8e8
+-term 8 	$969896
+-term 9 	$795da3
+-term 10	$183691
+-term 11	$183691
+-term 12	$ed6a43
+-term 13	$333333
+-term 14	$795da3
+-term 15	$ffffff
+
+=Constant	$0086b3
+=String		$183691
+=Escape		$183691
+
+=Comment	$969896
+=StorageClass	+Type
+=Keyword	$a71d5d
+=Conditional	$a71d5d
+=Operator	$333333
+=Loop		$795da3
+=Statement	$ed6a43
+=Type		$795da3
+
+=DefinedIdent	$ed6a43
+=Label		$795da3
+=DefinedType	$795da3
+=Structure	$a71d5d
+
+=Preproc	$795da3
+=Include	$795da3
+=Define		$a71d5d
+=TODO		$795da3/$f5f5f5
+=Precond	$a71d5d
+
+=diff.AddLine	$183691/$f5f5f5
+=diff.ChgLine	$969896/$f5f5f5
+=diff.DelLine	$ed6a43/$f5f5f5
+=diff.File	$ed6a43
+=diff.FileNew	$183691
+=diff.Hunk	$795da3

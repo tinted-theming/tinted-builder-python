@@ -1,0 +1,23 @@
+[Solar Flare]
+text=A6AFB8
+text(bold)=A6AFB8
+background=18262F
+black=18262F
+black(bold)=667581
+red=EF5253
+red(bold)=E66B2B
+green=7CC844
+green(bold)=222E38
+yellow=E4B51C
+yellow(bold)=586875
+blue=33B5E1
+blue(bold)=85939E
+magenta=A363D5
+magenta(bold)=E8E9ED
+cyan=52CBB0
+cyan(bold)=D73C9A
+white=A6AFB8
+white(bold)=F5F7FA
+[Names]
+name0=Solar Flare
+count=1

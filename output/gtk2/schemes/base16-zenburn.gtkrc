@@ -1,0 +1,6 @@
+# Base16 Zenburn for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By elnawe
+# zenburn (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#383838\nfg_color:#dcdccc\nbase_color:#383838\ntext_color:#dcdccc\nselected_bg_color:#606060\nselected_fg_color:#dcdccc\ntooltip_bg_color:#383838\ntooltip_fg_color:#808080\ntitlebar_bg_color:#383838\ntitlebar_fg_color:#7cb8bb\nmenubar_bg_color:#383838\nmenubar_fg_color:#7cb8bb\ntoolbar_bg_color:#383838\ntoolbar_fg_color:#e0cf9f\nmenu_bg_color:#383838\nmenu_fg_color:#dcdccc\npanel_bg_color:#383838\npanel_fg_color:#5f7f5f\nlink_color:#dfaf8f"
+

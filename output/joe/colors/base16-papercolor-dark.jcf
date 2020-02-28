@@ -1,0 +1,61 @@
+
+# base16 PaperColor Dark by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+
+.colors *
+
+-text		$808080/$1c1c1c
+-status		$5fafd7/$5faf00
+-cursor		$1c1c1c/$808080
+-selection	/$5faf00
+-curlin		/$af005f
+-linum		$d7af5f/$af005f
+-curlinum	$5fafd7/$af005f
+-menusel	$af005f/$5fafd7
+
+-term 0 	$1c1c1c
+-term 1 	$ff5faf
+-term 2 	$af87d7
+-term 3 	$ffaf00
+-term 4 	$5faf5f
+-term 5 	$00afaf
+-term 6 	$afd700
+-term 7 	$5fafd7
+-term 8 	$d7af5f
+-term 9 	$ff5faf
+-term 10	$af87d7
+-term 11	$ffaf00
+-term 12	$585858
+-term 13	$5f8787
+-term 14	$afd700
+-term 15	$d0d0d0
+
+=Constant	$5faf5f
+=String		$af87d7
+=Escape		$ffaf00
+
+=Comment	$d7af5f
+=StorageClass	+Type
+=Keyword	$00afaf
+=Conditional	$00afaf
+=Operator	$808080
+=Loop		$afd700
+=Statement	$585858
+=Type		$afd700
+
+=DefinedIdent	$585858
+=Label		$afd700
+=DefinedType	$afd700
+=Structure	$00afaf
+
+=Preproc	$afd700
+=Include	$ff5faf
+=Define		$00afaf
+=TODO		$afd700/$af005f
+=Precond	$00afaf
+
+=diff.AddLine	$af87d7/$af005f
+=diff.ChgLine	$d7af5f/$af005f
+=diff.DelLine	$585858/$af005f
+=diff.File	$585858
+=diff.FileNew	$af87d7
+=diff.Hunk	$ff5faf

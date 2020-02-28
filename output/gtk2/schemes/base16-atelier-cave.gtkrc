@@ -1,0 +1,6 @@
+# Base16 Atelier Cave for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-cave (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#19171c\nfg_color:#8b8792\nbase_color:#19171c\ntext_color:#8b8792\nselected_bg_color:#585260\nselected_fg_color:#8b8792\ntooltip_bg_color:#19171c\ntooltip_fg_color:#7e7887\ntitlebar_bg_color:#19171c\ntitlebar_fg_color:#576ddb\nmenubar_bg_color:#19171c\nmenubar_fg_color:#576ddb\ntoolbar_bg_color:#19171c\ntoolbar_fg_color:#a06e3b\nmenu_bg_color:#19171c\nmenu_fg_color:#8b8792\npanel_bg_color:#19171c\npanel_fg_color:#2a9292\nlink_color:#aa573c"
+

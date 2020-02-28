@@ -1,0 +1,21 @@
+<!--    Base16 Horizon Light
+        Author: Michaël Ball (http://github.com/michael-ball/)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="FDF0ED" />
+    <option name="treeSelectionColor" value="DA103F" />
+    <option name="highlightColor" value="F9CBBE" />
+    <option name="secondBorderColor" value="FDF0ED" />
+    <option name="tableSelectedColor" value="DA103F" />
+    <option name="contrastColor" value="FADAD1" />
+    <option name="disabledColor" value="948C8A" />
+    <option name="secondaryBackgroundColor" value="FADAD1" />
+    <option name="buttonColor" value="FDF0ED" />
+    <option name="selectionForegroundColor" value="302C2D" />
+    <option name="selectionBackgroundColor" value="DA103F" />
+    <option name="textColor" value="302C2D" />
+    <option name="foregroundColor" value="403C3D" />
+    <option name="backgroundColor" value="FDF0ED" />
+  </component>
+</application> 

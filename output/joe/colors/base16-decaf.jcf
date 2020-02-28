@@ -1,0 +1,61 @@
+
+# base16 Decaf by Alex Mirrington (https://github.com/alexmirrington)
+
+.colors *
+
+-text		$cccccc/$2d2d2d
+-status		$b4b7b4/$515151
+-cursor		$2d2d2d/$cccccc
+-selection	/$515151
+-curlin		/$393939
+-linum		$777777/$393939
+-curlinum	$b4b7b4/$393939
+-menusel	$393939/$b4b7b4
+
+-term 0 	$2d2d2d
+-term 1 	$90bee1
+-term 2 	$beda78
+-term 3 	$bed6ff
+-term 4 	$ffbf70
+-term 5 	$efb3f7
+-term 6 	$ffd67c
+-term 7 	$b4b7b4
+-term 8 	$777777
+-term 9 	$90bee1
+-term 10	$beda78
+-term 11	$bed6ff
+-term 12	$ff7f7b
+-term 13	$ff93b3
+-term 14	$ffd67c
+-term 15	$ffffff
+
+=Constant	$ffbf70
+=String		$beda78
+=Escape		$bed6ff
+
+=Comment	$777777
+=StorageClass	+Type
+=Keyword	$efb3f7
+=Conditional	$efb3f7
+=Operator	$cccccc
+=Loop		$ffd67c
+=Statement	$ff7f7b
+=Type		$ffd67c
+
+=DefinedIdent	$ff7f7b
+=Label		$ffd67c
+=DefinedType	$ffd67c
+=Structure	$efb3f7
+
+=Preproc	$ffd67c
+=Include	$90bee1
+=Define		$efb3f7
+=TODO		$ffd67c/$393939
+=Precond	$efb3f7
+
+=diff.AddLine	$beda78/$393939
+=diff.ChgLine	$777777/$393939
+=diff.DelLine	$ff7f7b/$393939
+=diff.File	$ff7f7b
+=diff.FileNew	$beda78
+=diff.Hunk	$90bee1

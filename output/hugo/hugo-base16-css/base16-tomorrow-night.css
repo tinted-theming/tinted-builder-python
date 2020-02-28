@@ -1,0 +1,82 @@
+/* Background */ .chroma { color: #c5c8c6; background-color: #1d1f21 }
+/* Other */ .chroma .x { color: #c5c8c6 }
+/* Error */ .chroma .err { color: #cc6666 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; background-color: #373b41 }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #b294bb }
+/* KeywordConstant */ .chroma .kc { color: #b294bb }
+/* KeywordDeclaration */ .chroma .kd { color: #b294bb }
+/* KeywordNamespace */ .chroma .kn { color: #b294bb }
+/* KeywordPseudo */ .chroma .kp { color: #b294bb }
+/* KeywordReserved */ .chroma .kr { color: #b294bb }
+/* KeywordType */ .chroma .kt { color: #cc6666 }
+/* Name */ .chroma .n { color: #81a2be }
+/* NameAttribute */ .chroma .na { color: #81a2be }
+/* NameBuiltin */ .chroma .nb { color: #81a2be }
+/* NameBuiltinPseudo */ .chroma .bp { color: #cc6666 }
+/* NameClass */ .chroma .nc { color: #81a2be }
+/* NameConstant */ .chroma .no { color: #de935f }
+/* NameDecorator */ .chroma .nd { color: #de935f }
+/* NameEntity */ .chroma .ni { color: #81a2be }
+/* NameException */ .chroma .ne { color: #81a2be }
+/* NameFunction */ .chroma .nf { color: #81a2be }
+/* NameFunctionMagic */ .chroma .fm { color: #81a2be }
+/* NameLabel */ .chroma .nl { color: #81a2be }
+/* NameNamespace */ .chroma .nn { color: #81a2be }
+/* NameOther */ .chroma .nx { color: #81a2be }
+/* NameProperty */ .chroma .py { color: #81a2be }
+/* NameTag */ .chroma .nt { color: #b294bb }
+/* NameVariable */ .chroma .nv { color: #81a2be }
+/* NameVariableClass */ .chroma .vc { color: #81a2be }
+/* NameVariableGlobal */ .chroma .vg { color: #81a2be }
+/* NameVariableInstance */ .chroma .vi { color: #cc6666 }
+/* NameVariableMagic */ .chroma .vm { color: #81a2be }
+/* Literal */ .chroma .l { color: #b5bd68 }
+/* LiteralDate */ .chroma .ld { color: #b5bd68 }
+/* LiteralString */ .chroma .s { color: #b5bd68 }
+/* LiteralStringAffix */ .chroma .sa { color: #b5bd68 }
+/* LiteralStringBacktick */ .chroma .sb { color: #b5bd68 }
+/* LiteralStringChar */ .chroma .sc { color: #b5bd68 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #b5bd68 }
+/* LiteralStringDoc */ .chroma .sd { color: #b5bd68 }
+/* LiteralStringDouble */ .chroma .s2 { color: #b5bd68 }
+/* LiteralStringEscape */ .chroma .se { color: #b5bd68 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #b5bd68 }
+/* LiteralStringInterpol */ .chroma .si { color: #a3685a }
+/* LiteralStringOther */ .chroma .sx { color: #b5bd68 }
+/* LiteralStringRegex */ .chroma .sr { color: #8abeb7 }
+/* LiteralStringSingle */ .chroma .s1 { color: #b5bd68 }
+/* LiteralStringSymbol */ .chroma .ss { color: #de935f }
+/* LiteralNumber */ .chroma .m { color: #de935f }
+/* LiteralNumberBin */ .chroma .mb { color: #de935f }
+/* LiteralNumberFloat */ .chroma .mf { color: #de935f }
+/* LiteralNumberHex */ .chroma .mh { color: #de935f }
+/* LiteralNumberInteger */ .chroma .mi { color: #de935f }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #de935f }
+/* LiteralNumberOct */ .chroma .mo { color: #de935f }
+/* Operator */ .chroma .o { color: #c5c8c6 }
+/* OperatorWord */ .chroma .ow { color: #c5c8c6 }
+/* Punctuation */ .chroma .p { color: #c5c8c6 }
+/* Comment */ .chroma .c { color: #969896 }
+/* CommentHashbang */ .chroma .ch { color: #969896 }
+/* CommentMultiline */ .chroma .cm { color: #969896 }
+/* CommentSingle */ .chroma .c1 { color: #969896 }
+/* CommentSpecial */ .chroma .cs { color: #969896 }
+/* CommentPreproc */ .chroma .cp { color: #a3685a }
+/* CommentPreprocFile */ .chroma .cpf { color: #b5bd68 }
+/* Generic */ .chroma .g { color: #c5c8c6 }
+/* GenericDeleted */ .chroma .gd { color: #cc6666 }
+/* GenericEmph */ .chroma .ge { color: #c5c8c6; font-style: italic }
+/* GenericError */ .chroma .gr { color: #c5c8c6 }
+/* GenericHeading */ .chroma .gh { color: #81a2be }
+/* GenericInserted */ .chroma .gi { color: #b5bd68 }
+/* GenericOutput */ .chroma .go { color: #c5c8c6 }
+/* GenericPrompt */ .chroma .gp { color: #c5c8c6 }
+/* GenericStrong */ .chroma .gs { color: #c5c8c6; font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #81a2be }
+/* GenericTraceback */ .chroma .gt { color: #c5c8c6 }
+/* GenericUnderline */ .chroma .gl { color: #c5c8c6; text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #1d1f21; text-decoration: underline }

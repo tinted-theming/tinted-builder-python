@@ -1,0 +1,61 @@
+
+# base16 Gruvbox dark, pale by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+.colors *
+
+-text		$dab997/$262626
+-status		$949494/$4e4e4e
+-cursor		$262626/$dab997
+-selection	/$4e4e4e
+-curlin		/$3a3a3a
+-linum		$8a8a8a/$3a3a3a
+-curlinum	$949494/$3a3a3a
+-menusel	$3a3a3a/$949494
+
+-term 0 	$262626
+-term 1 	$83adad
+-term 2 	$afaf00
+-term 3 	$85ad85
+-term 4 	$ff8700
+-term 5 	$d485ad
+-term 6 	$ffaf00
+-term 7 	$949494
+-term 8 	$8a8a8a
+-term 9 	$83adad
+-term 10	$afaf00
+-term 11	$85ad85
+-term 12	$d75f5f
+-term 13	$d65d0e
+-term 14	$ffaf00
+-term 15	$ebdbb2
+
+=Constant	$ff8700
+=String		$afaf00
+=Escape		$85ad85
+
+=Comment	$8a8a8a
+=StorageClass	+Type
+=Keyword	$d485ad
+=Conditional	$d485ad
+=Operator	$dab997
+=Loop		$ffaf00
+=Statement	$d75f5f
+=Type		$ffaf00
+
+=DefinedIdent	$d75f5f
+=Label		$ffaf00
+=DefinedType	$ffaf00
+=Structure	$d485ad
+
+=Preproc	$ffaf00
+=Include	$83adad
+=Define		$d485ad
+=TODO		$ffaf00/$3a3a3a
+=Precond	$d485ad
+
+=diff.AddLine	$afaf00/$3a3a3a
+=diff.ChgLine	$8a8a8a/$3a3a3a
+=diff.DelLine	$d75f5f/$3a3a3a
+=diff.File	$d75f5f
+=diff.FileNew	$afaf00
+=diff.Hunk	$83adad

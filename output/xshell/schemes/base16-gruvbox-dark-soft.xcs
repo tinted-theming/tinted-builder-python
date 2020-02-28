@@ -1,0 +1,23 @@
+[Gruvbox dark, soft]
+text=d5c4a1
+text(bold)=d5c4a1
+background=32302f
+black=32302f
+black(bold)=665c54
+red=fb4934
+red(bold)=fe8019
+green=b8bb26
+green(bold)=3c3836
+yellow=fabd2f
+yellow(bold)=504945
+blue=83a598
+blue(bold)=bdae93
+magenta=d3869b
+magenta(bold)=ebdbb2
+cyan=8ec07c
+cyan(bold)=d65d0e
+white=d5c4a1
+white(bold)=fbf1c7
+[Names]
+name0=Gruvbox dark, soft
+count=1

@@ -1,0 +1,61 @@
+
+# base16 Atelier Forest by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$a8a19f/$1b1918
+-status		$9c9491/$68615e
+-cursor		$1b1918/$a8a19f
+-selection	/$68615e
+-curlin		/$2c2421
+-linum		$766e6b/$2c2421
+-curlinum	$9c9491/$2c2421
+-menusel	$2c2421/$9c9491
+
+-term 0 	$1b1918
+-term 1 	$407ee7
+-term 2 	$7b9726
+-term 3 	$3d97b8
+-term 4 	$df5320
+-term 5 	$6666ea
+-term 6 	$c38418
+-term 7 	$9c9491
+-term 8 	$766e6b
+-term 9 	$407ee7
+-term 10	$7b9726
+-term 11	$3d97b8
+-term 12	$f22c40
+-term 13	$c33ff3
+-term 14	$c38418
+-term 15	$f1efee
+
+=Constant	$df5320
+=String		$7b9726
+=Escape		$3d97b8
+
+=Comment	$766e6b
+=StorageClass	+Type
+=Keyword	$6666ea
+=Conditional	$6666ea
+=Operator	$a8a19f
+=Loop		$c38418
+=Statement	$f22c40
+=Type		$c38418
+
+=DefinedIdent	$f22c40
+=Label		$c38418
+=DefinedType	$c38418
+=Structure	$6666ea
+
+=Preproc	$c38418
+=Include	$407ee7
+=Define		$6666ea
+=TODO		$c38418/$2c2421
+=Precond	$6666ea
+
+=diff.AddLine	$7b9726/$2c2421
+=diff.ChgLine	$766e6b/$2c2421
+=diff.DelLine	$f22c40/$2c2421
+=diff.File	$f22c40
+=diff.FileNew	$7b9726
+=diff.Hunk	$407ee7

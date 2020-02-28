@@ -1,0 +1,42 @@
+# Base16 Brush Trees Dark 256 - alacritty color config
+# Abraham White &lt;abelincoln.white@gmail.com&gt;
+colors:
+  # Default colors
+  primary:
+    background: '0x485867'
+    foreground: '0xB0C5C8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x485867'
+    cursor: '0xB0C5C8'
+
+  # Normal colors
+  normal:
+    black:   '0x485867'
+    red:     '0xb38686'
+    green:   '0x87b386'
+    yellow:  '0xaab386'
+    blue:    '0x868cb3'
+    magenta: '0xb386b2'
+    cyan:    '0x86b3b3'
+    white:   '0xB0C5C8'
+
+  # Bright colors
+  bright:
+    black:   '0x8299A1'
+    red:     '0xb38686'
+    green:   '0x87b386'
+    yellow:  '0xaab386'
+    blue:    '0x868cb3'
+    magenta: '0xb386b2'
+    cyan:    '0x86b3b3'
+    white:   '0xE3EFEF'
+
+  indexed_colors:
+    - { index: 16, color: '0xd8bba2' }
+    - { index: 17, color: '0xb39f9f' }
+    - { index: 18, color: '0x5A6D7A' }
+    - { index: 19, color: '0x6D828E' }
+    - { index: 20, color: '0x98AFB5' }
+    - { index: 21, color: '0xC9DBDC' }

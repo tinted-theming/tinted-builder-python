@@ -1,0 +1,61 @@
+
+# base16 Outrun Dark by Hugo Delahousse (http://github.com/hugodelahousse/)
+
+.colors *
+
+-text		$D0D0FA/$00002A
+-status		$B0B0DA/$30305A
+-cursor		$00002A/$D0D0FA
+-selection	/$30305A
+-curlin		/$20204A
+-linum		$50507A/$20204A
+-curlinum	$B0B0DA/$20204A
+-menusel	$20204A/$B0B0DA
+
+-term 0 	$00002A
+-term 1 	$66B0FF
+-term 2 	$59F176
+-term 3 	$0EF0F0
+-term 4 	$FC8D28
+-term 5 	$F10596
+-term 6 	$F3E877
+-term 7 	$B0B0DA
+-term 8 	$50507A
+-term 9 	$66B0FF
+-term 10	$59F176
+-term 11	$0EF0F0
+-term 12	$FF4242
+-term 13	$F003EF
+-term 14	$F3E877
+-term 15	$F5F5FF
+
+=Constant	$FC8D28
+=String		$59F176
+=Escape		$0EF0F0
+
+=Comment	$50507A
+=StorageClass	+Type
+=Keyword	$F10596
+=Conditional	$F10596
+=Operator	$D0D0FA
+=Loop		$F3E877
+=Statement	$FF4242
+=Type		$F3E877
+
+=DefinedIdent	$FF4242
+=Label		$F3E877
+=DefinedType	$F3E877
+=Structure	$F10596
+
+=Preproc	$F3E877
+=Include	$66B0FF
+=Define		$F10596
+=TODO		$F3E877/$20204A
+=Precond	$F10596
+
+=diff.AddLine	$59F176/$20204A
+=diff.ChgLine	$50507A/$20204A
+=diff.DelLine	$FF4242/$20204A
+=diff.File	$FF4242
+=diff.FileNew	$59F176
+=diff.Hunk	$66B0FF

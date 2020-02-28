@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Sandcastle (https://github.com/chriskempson/base16)
+; Scheme: George Essig (https://github.com/gessig)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00342c28 ; base00
+"ColorTable01"=dword:0098a583 ; base0D
+"ColorTable02"=dword:008b8b52 ; base0B
+"ColorTable03"=dword:0098a583 ; base0C
+"ColorTable04"=dword:0098a583 ; base08
+"ColorTable05"=dword:005f5fd7 ; base0E
+"ColorTable06"=dword:003b7ea0 ; base09
+"ColorTable07"=dword:008499a8 ; base05
+"ColorTable08"=dword:00545c66 ; base03
+"ColorTable09"=dword:003b322c ; base01
+"ColorTable10"=dword:0051443e ; base02
+"ColorTable11"=dword:00545c66 ; base03
+"ColorTable12"=dword:00748392 ; base04
+"ColorTable13"=dword:008499a8 ; base05
+"ColorTable14"=dword:00a1c4d5 ; base06
+"ColorTable15"=dword:00c1f4fd ; base07

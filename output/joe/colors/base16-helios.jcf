@@ -1,0 +1,61 @@
+
+# base16 Helios by Alex Meyer (https://github.com/reyemxela)
+
+.colors *
+
+-text		$d5d5d5/$1d2021
+-status		$cdcdcd/$53585b
+-cursor		$1d2021/$d5d5d5
+-selection	/$53585b
+-curlin		/$383c3e
+-linum		$6f7579/$383c3e
+-curlinum	$cdcdcd/$383c3e
+-menusel	$383c3e/$cdcdcd
+
+-term 0 	$1d2021
+-term 1 	$1e8bac
+-term 2 	$88b92d
+-term 3 	$1ba595
+-term 4 	$eb8413
+-term 5 	$be4264
+-term 6 	$f19d1a
+-term 7 	$cdcdcd
+-term 8 	$6f7579
+-term 9 	$1e8bac
+-term 10	$88b92d
+-term 11	$1ba595
+-term 12	$d72638
+-term 13	$c85e0d
+-term 14	$f19d1a
+-term 15	$e5e5e5
+
+=Constant	$eb8413
+=String		$88b92d
+=Escape		$1ba595
+
+=Comment	$6f7579
+=StorageClass	+Type
+=Keyword	$be4264
+=Conditional	$be4264
+=Operator	$d5d5d5
+=Loop		$f19d1a
+=Statement	$d72638
+=Type		$f19d1a
+
+=DefinedIdent	$d72638
+=Label		$f19d1a
+=DefinedType	$f19d1a
+=Structure	$be4264
+
+=Preproc	$f19d1a
+=Include	$1e8bac
+=Define		$be4264
+=TODO		$f19d1a/$383c3e
+=Precond	$be4264
+
+=diff.AddLine	$88b92d/$383c3e
+=diff.ChgLine	$6f7579/$383c3e
+=diff.DelLine	$d72638/$383c3e
+=diff.File	$d72638
+=diff.FileNew	$88b92d
+=diff.Hunk	$1e8bac

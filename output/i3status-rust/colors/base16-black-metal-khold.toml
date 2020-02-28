@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Black Metal (Khold) by metalelf0 (https://github.com/metalelf0)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#000000"
+idle_fg = "#c1c1c1"
+info_bg = "#aaaaaa"
+info_fg = "#000000"
+good_bg = "#eceee3"
+good_fg = "#000000"
+warning_bg = "#974b46"
+warning_fg = "#000000"
+critical_bg = "#5f8787"
+critical_fg = "#000000"
+# The rest of the theme settings are left at default.

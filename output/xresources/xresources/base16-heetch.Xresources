@@ -1,0 +1,45 @@
+! Base16 Heetch Dark
+! Scheme: Geoffrey Teale (tealeg@gmail.com)
+
+#define base00 #190134
+#define base01 #392551
+#define base02 #5A496E
+#define base03 #7B6D8B
+#define base04 #9C92A8
+#define base05 #BDB6C5
+#define base06 #DEDAE2
+#define base07 #FEFFFF
+#define base08 #27D9D5
+#define base09 #5BA2B6
+#define base0A #8F6C97
+#define base0B #C33678
+#define base0C #F80059
+#define base0D #BD0152
+#define base0E #82034C
+#define base0F #470546
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

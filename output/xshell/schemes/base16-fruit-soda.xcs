@@ -1,0 +1,23 @@
+[Fruit Soda]
+text=515151
+text(bold)=515151
+background=f1ecf1
+black=f1ecf1
+black(bold)=b5b4b6
+red=fe3e31
+red(bold)=fe6d08
+green=47f74c
+green(bold)=e0dee0
+yellow=f7e203
+yellow(bold)=d8d5d5
+blue=2931df
+blue(bold)=979598
+magenta=611fce
+magenta(bold)=474545
+cyan=0f9cfd
+cyan(bold)=b16f40
+white=515151
+white(bold)=2d2c2c
+[Names]
+name0=Fruit Soda
+count=1

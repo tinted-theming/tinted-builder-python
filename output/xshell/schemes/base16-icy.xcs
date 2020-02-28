@@ -1,0 +1,23 @@
+[Icy Dark]
+text=095b67
+text(bold)=095b67
+background=021012
+black=021012
+black(bold)=052e34
+red=16c1d9
+red(bold)=b3ebf2
+green=4dd0e1
+green(bold)=031619
+yellow=80deea
+yellow(bold)=041f23
+blue=00bcd4
+blue(bold)=064048
+magenta=00acc1
+magenta(bold)=0c7c8c
+cyan=26c6da
+cyan(bold)=0097a7
+white=095b67
+white(bold)=109cb0
+[Names]
+name0=Icy Dark
+count=1

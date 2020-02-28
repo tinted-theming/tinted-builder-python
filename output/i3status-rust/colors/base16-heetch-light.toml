@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Heetch Light by Geoffrey Teale (tealeg@gmail.com)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#feffff"
+idle_fg = "#5a496e"
+info_bg = "#c33678"
+info_fg = "#feffff"
+good_bg = "#f80059"
+good_fg = "#feffff"
+warning_bg = "#5ba2b6"
+warning_fg = "#feffff"
+critical_bg = "#27d9d5"
+critical_fg = "#feffff"
+# The rest of the theme settings are left at default.

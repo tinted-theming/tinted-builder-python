@@ -1,0 +1,23 @@
+[Solarized Light]
+text=586e75
+text(bold)=586e75
+background=fdf6e3
+black=fdf6e3
+black(bold)=839496
+red=dc322f
+red(bold)=cb4b16
+green=859900
+green(bold)=eee8d5
+yellow=b58900
+yellow(bold)=93a1a1
+blue=268bd2
+blue(bold)=657b83
+magenta=6c71c4
+magenta(bold)=073642
+cyan=2aa198
+cyan(bold)=d33682
+white=586e75
+white(bold)=002b36
+[Names]
+name0=Solarized Light
+count=1

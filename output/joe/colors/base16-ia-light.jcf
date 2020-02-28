@@ -1,0 +1,61 @@
+
+# base16 iA Light by iA Inc. (modified by aramisgithub)
+
+.colors *
+
+-text		$181818/$f6f6f6
+-status		$767676/$bde5f2
+-cursor		$f6f6f6/$181818
+-selection	/$bde5f2
+-curlin		/$dedede
+-linum		$898989/$dedede
+-curlinum	$767676/$dedede
+-menusel	$dedede/$767676
+
+-term 0 	$f6f6f6
+-term 1 	$48bac2
+-term 2 	$38781c
+-term 3 	$2d6bb1
+-term 4 	$c43e18
+-term 5 	$a94598
+-term 6 	$c48218
+-term 7 	$767676
+-term 8 	$898989
+-term 9 	$48bac2
+-term 10	$38781c
+-term 11	$2d6bb1
+-term 12	$9c5a02
+-term 13	$8b6c37
+-term 14	$c48218
+-term 15	$f8f8f8
+
+=Constant	$c43e18
+=String		$38781c
+=Escape		$2d6bb1
+
+=Comment	$898989
+=StorageClass	+Type
+=Keyword	$a94598
+=Conditional	$a94598
+=Operator	$181818
+=Loop		$c48218
+=Statement	$9c5a02
+=Type		$c48218
+
+=DefinedIdent	$9c5a02
+=Label		$c48218
+=DefinedType	$c48218
+=Structure	$a94598
+
+=Preproc	$c48218
+=Include	$48bac2
+=Define		$a94598
+=TODO		$c48218/$dedede
+=Precond	$a94598
+
+=diff.AddLine	$38781c/$dedede
+=diff.ChgLine	$898989/$dedede
+=diff.DelLine	$9c5a02/$dedede
+=diff.File	$9c5a02
+=diff.FileNew	$38781c
+=diff.Hunk	$48bac2

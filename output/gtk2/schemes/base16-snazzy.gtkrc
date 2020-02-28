@@ -1,0 +1,6 @@
+# Base16 Snazzy for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+# snazzy (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#282a36\nfg_color:#e2e4e5\nbase_color:#282a36\ntext_color:#e2e4e5\nselected_bg_color:#43454f\nselected_fg_color:#e2e4e5\ntooltip_bg_color:#282a36\ntooltip_fg_color:#a5a5a9\ntitlebar_bg_color:#282a36\ntitlebar_fg_color:#57c7ff\nmenubar_bg_color:#282a36\nmenubar_fg_color:#57c7ff\ntoolbar_bg_color:#282a36\ntoolbar_fg_color:#f3f99d\nmenu_bg_color:#282a36\nmenu_fg_color:#e2e4e5\npanel_bg_color:#282a36\npanel_fg_color:#5af78e\nlink_color:#ff9f43"
+

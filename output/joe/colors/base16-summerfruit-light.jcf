@@ -1,0 +1,61 @@
+
+# base16 Summerfruit Light by Christopher Corley (http://christop.club/)
+
+.colors *
+
+-text		$101010/$FFFFFF
+-status		$000000/$D0D0D0
+-cursor		$FFFFFF/$101010
+-selection	/$D0D0D0
+-curlin		/$E0E0E0
+-linum		$B0B0B0/$E0E0E0
+-curlinum	$000000/$E0E0E0
+-menusel	$E0E0E0/$000000
+
+-term 0 	$FFFFFF
+-term 1 	$3777E6
+-term 2 	$00C918
+-term 3 	$1FAAAA
+-term 4 	$FD8900
+-term 5 	$AD00A1
+-term 6 	$ABA800
+-term 7 	$000000
+-term 8 	$B0B0B0
+-term 9 	$3777E6
+-term 10	$00C918
+-term 11	$1FAAAA
+-term 12	$FF0086
+-term 13	$CC6633
+-term 14	$ABA800
+-term 15	$202020
+
+=Constant	$FD8900
+=String		$00C918
+=Escape		$1FAAAA
+
+=Comment	$B0B0B0
+=StorageClass	+Type
+=Keyword	$AD00A1
+=Conditional	$AD00A1
+=Operator	$101010
+=Loop		$ABA800
+=Statement	$FF0086
+=Type		$ABA800
+
+=DefinedIdent	$FF0086
+=Label		$ABA800
+=DefinedType	$ABA800
+=Structure	$AD00A1
+
+=Preproc	$ABA800
+=Include	$3777E6
+=Define		$AD00A1
+=TODO		$ABA800/$E0E0E0
+=Precond	$AD00A1
+
+=diff.AddLine	$00C918/$E0E0E0
+=diff.ChgLine	$B0B0B0/$E0E0E0
+=diff.DelLine	$FF0086/$E0E0E0
+=diff.File	$FF0086
+=diff.FileNew	$00C918
+=diff.Hunk	$3777E6

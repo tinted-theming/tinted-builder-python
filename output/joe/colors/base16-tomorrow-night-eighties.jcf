@@ -1,0 +1,61 @@
+
+# base16 Tomorrow Night by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$cccccc/$2d2d2d
+-status		$b4b7b4/$515151
+-cursor		$2d2d2d/$cccccc
+-selection	/$515151
+-curlin		/$393939
+-linum		$999999/$393939
+-curlinum	$b4b7b4/$393939
+-menusel	$393939/$b4b7b4
+
+-term 0 	$2d2d2d
+-term 1 	$6699cc
+-term 2 	$99cc99
+-term 3 	$66cccc
+-term 4 	$f99157
+-term 5 	$cc99cc
+-term 6 	$ffcc66
+-term 7 	$b4b7b4
+-term 8 	$999999
+-term 9 	$6699cc
+-term 10	$99cc99
+-term 11	$66cccc
+-term 12	$f2777a
+-term 13	$a3685a
+-term 14	$ffcc66
+-term 15	$ffffff
+
+=Constant	$f99157
+=String		$99cc99
+=Escape		$66cccc
+
+=Comment	$999999
+=StorageClass	+Type
+=Keyword	$cc99cc
+=Conditional	$cc99cc
+=Operator	$cccccc
+=Loop		$ffcc66
+=Statement	$f2777a
+=Type		$ffcc66
+
+=DefinedIdent	$f2777a
+=Label		$ffcc66
+=DefinedType	$ffcc66
+=Structure	$cc99cc
+
+=Preproc	$ffcc66
+=Include	$6699cc
+=Define		$cc99cc
+=TODO		$ffcc66/$393939
+=Precond	$cc99cc
+
+=diff.AddLine	$99cc99/$393939
+=diff.ChgLine	$999999/$393939
+=diff.DelLine	$f2777a/$393939
+=diff.File	$f2777a
+=diff.FileNew	$99cc99
+=diff.Hunk	$6699cc

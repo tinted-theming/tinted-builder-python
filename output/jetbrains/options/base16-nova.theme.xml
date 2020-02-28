@@ -1,0 +1,21 @@
+<!--    Base16 Nova
+        Author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="3C4C55" />
+    <option name="treeSelectionColor" value="83AFE5" />
+    <option name="highlightColor" value="6A7D89" />
+    <option name="secondBorderColor" value="3C4C55" />
+    <option name="tableSelectedColor" value="83AFE5" />
+    <option name="contrastColor" value="556873" />
+    <option name="disabledColor" value="899BA6" />
+    <option name="secondaryBackgroundColor" value="556873" />
+    <option name="buttonColor" value="3C4C55" />
+    <option name="selectionForegroundColor" value="899BA6" />
+    <option name="selectionBackgroundColor" value="83AFE5" />
+    <option name="textColor" value="899BA6" />
+    <option name="foregroundColor" value="C5D4DD" />
+    <option name="backgroundColor" value="3C4C55" />
+  </component>
+</application> 

@@ -1,0 +1,61 @@
+
+# base16 Atelier Sulphurpool by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$979db4/$202746
+-status		$898ea4/$5e6687
+-cursor		$202746/$979db4
+-selection	/$5e6687
+-curlin		/$293256
+-linum		$6b7394/$293256
+-curlinum	$898ea4/$293256
+-menusel	$293256/$898ea4
+
+-term 0 	$202746
+-term 1 	$3d8fd1
+-term 2 	$ac9739
+-term 3 	$22a2c9
+-term 4 	$c76b29
+-term 5 	$6679cc
+-term 6 	$c08b30
+-term 7 	$898ea4
+-term 8 	$6b7394
+-term 9 	$3d8fd1
+-term 10	$ac9739
+-term 11	$22a2c9
+-term 12	$c94922
+-term 13	$9c637a
+-term 14	$c08b30
+-term 15	$f5f7ff
+
+=Constant	$c76b29
+=String		$ac9739
+=Escape		$22a2c9
+
+=Comment	$6b7394
+=StorageClass	+Type
+=Keyword	$6679cc
+=Conditional	$6679cc
+=Operator	$979db4
+=Loop		$c08b30
+=Statement	$c94922
+=Type		$c08b30
+
+=DefinedIdent	$c94922
+=Label		$c08b30
+=DefinedType	$c08b30
+=Structure	$6679cc
+
+=Preproc	$c08b30
+=Include	$3d8fd1
+=Define		$6679cc
+=TODO		$c08b30/$293256
+=Precond	$6679cc
+
+=diff.AddLine	$ac9739/$293256
+=diff.ChgLine	$6b7394/$293256
+=diff.DelLine	$c94922/$293256
+=diff.File	$c94922
+=diff.FileNew	$ac9739
+=diff.Hunk	$3d8fd1

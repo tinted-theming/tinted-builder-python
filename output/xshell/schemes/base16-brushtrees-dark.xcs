@@ -1,0 +1,23 @@
+[Brush Trees Dark]
+text=B0C5C8
+text(bold)=B0C5C8
+background=485867
+black=485867
+black(bold)=8299A1
+red=b38686
+red(bold)=d8bba2
+green=87b386
+green(bold)=5A6D7A
+yellow=aab386
+yellow(bold)=6D828E
+blue=868cb3
+blue(bold)=98AFB5
+magenta=b386b2
+magenta(bold)=C9DBDC
+cyan=86b3b3
+cyan(bold)=b39f9f
+white=B0C5C8
+white(bold)=E3EFEF
+[Names]
+name0=Brush Trees Dark
+count=1

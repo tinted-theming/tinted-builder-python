@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Material Vivid (https://github.com/chriskempson/base16)
+; Scheme: joshyrobot
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00242120 ; base00
+"ColorTable01"=dword:00f39621 ; base0D
+"ColorTable02"=dword:0076e600 ; base0B
+"ColorTable03"=dword:00d4bc00 ; base0C
+"ColorTable04"=dword:003643f4 ; base08
+"ColorTable05"=dword:00b73a67 ; base0E
+"ColorTable06"=dword:000098ff ; base09
+"ColorTable07"=dword:008b8680 ; base05
+"ColorTable08"=dword:004d4644 ; base03
+"ColorTable09"=dword:002c2927 ; base01
+"ColorTable10"=dword:00393632 ; base02
+"ColorTable11"=dword:004d4644 ; base03
+"ColorTable12"=dword:00716c67 ; base04
+"ColorTable13"=dword:008b8680 ; base05
+"ColorTable14"=dword:009e9e9e ; base06
+"ColorTable15"=dword:00ffffff ; base07

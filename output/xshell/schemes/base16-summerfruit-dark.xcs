@@ -1,0 +1,23 @@
+[Summerfruit Dark]
+text=D0D0D0
+text(bold)=D0D0D0
+background=151515
+black=151515
+black(bold)=505050
+red=FF0086
+red(bold)=FD8900
+green=00C918
+green(bold)=202020
+yellow=ABA800
+yellow(bold)=303030
+blue=3777E6
+blue(bold)=B0B0B0
+magenta=AD00A1
+magenta(bold)=E0E0E0
+cyan=1FAAAA
+cyan(bold)=CC6633
+white=D0D0D0
+white(bold)=FFFFFF
+[Names]
+name0=Summerfruit Dark
+count=1

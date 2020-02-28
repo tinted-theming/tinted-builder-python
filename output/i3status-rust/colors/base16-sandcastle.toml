@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Sandcastle by George Essig (https://github.com/gessig)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#282c34"
+idle_fg = "#a89984"
+info_bg = "#83a598"
+info_fg = "#282c34"
+good_bg = "#528b8b"
+good_fg = "#282c34"
+warning_bg = "#a07e3b"
+warning_fg = "#282c34"
+critical_bg = "#83a598"
+critical_fg = "#282c34"
+# The rest of the theme settings are left at default.

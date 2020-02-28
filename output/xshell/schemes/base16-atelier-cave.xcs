@@ -1,0 +1,23 @@
+[Atelier Cave]
+text=8b8792
+text(bold)=8b8792
+background=19171c
+black=19171c
+black(bold)=655f6d
+red=be4678
+red(bold)=aa573c
+green=2a9292
+green(bold)=26232a
+yellow=a06e3b
+yellow(bold)=585260
+blue=576ddb
+blue(bold)=7e7887
+magenta=955ae7
+magenta(bold)=e2dfe7
+cyan=398bc6
+cyan(bold)=bf40bf
+white=8b8792
+white(bold)=efecf4
+[Names]
+name0=Atelier Cave
+count=1

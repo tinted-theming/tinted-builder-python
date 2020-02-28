@@ -1,0 +1,23 @@
+[Atelier Forest Light]
+text=68615e
+text(bold)=68615e
+background=f1efee
+black=f1efee
+black(bold)=9c9491
+red=f22c40
+red(bold)=df5320
+green=7b9726
+green(bold)=e6e2e0
+yellow=c38418
+yellow(bold)=a8a19f
+blue=407ee7
+blue(bold)=766e6b
+magenta=6666ea
+magenta(bold)=2c2421
+cyan=3d97b8
+cyan(bold)=c33ff3
+white=68615e
+white(bold)=1b1918
+[Names]
+name0=Atelier Forest Light
+count=1

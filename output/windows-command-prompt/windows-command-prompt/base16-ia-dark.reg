@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 iA Dark (https://github.com/chriskempson/base16)
+; Scheme: iA Inc. (modified by aramisgithub)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:001a1a1a ; base00
+"ColorTable01"=dword:00ddcc8e ; base0D
+"ColorTable02"=dword:0071a483 ; base0B
+"ColorTable03"=dword:00ae9c7c ; base0C
+"ColorTable04"=dword:006885d8 ; base08
+"ColorTable05"=dword:00b28eb9 ; base0E
+"ColorTable06"=dword:006868d8 ; base09
+"ColorTable07"=dword:00cccccc ; base05
+"ColorTable08"=dword:00767676 ; base03
+"ColorTable09"=dword:00222222 ; base01
+"ColorTable10"=dword:004d411d ; base02
+"ColorTable11"=dword:00767676 ; base03
+"ColorTable12"=dword:00b8b8b8 ; base04
+"ColorTable13"=dword:00cccccc ; base05
+"ColorTable14"=dword:00e8e8e8 ; base06
+"ColorTable15"=dword:00f8f8f8 ; base07

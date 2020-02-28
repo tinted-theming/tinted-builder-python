@@ -1,0 +1,6 @@
+# Base16 Materia for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Defman21
+# materia (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#263238\nfg_color:#CDD3DE\nbase_color:#263238\ntext_color:#CDD3DE\nselected_bg_color:#37474F\nselected_fg_color:#CDD3DE\ntooltip_bg_color:#263238\ntooltip_fg_color:#C9CCD3\ntitlebar_bg_color:#263238\ntitlebar_fg_color:#89DDFF\nmenubar_bg_color:#263238\nmenubar_fg_color:#89DDFF\ntoolbar_bg_color:#263238\ntoolbar_fg_color:#FFCC00\nmenu_bg_color:#263238\nmenu_fg_color:#CDD3DE\npanel_bg_color:#263238\npanel_fg_color:#8BD649\nlink_color:#EA9560"
+

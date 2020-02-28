@@ -1,0 +1,6 @@
+# Base16 Atelier Heath for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-heath (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#1b181b\nfg_color:#ab9bab\nbase_color:#1b181b\ntext_color:#ab9bab\nselected_bg_color:#695d69\nselected_fg_color:#ab9bab\ntooltip_bg_color:#1b181b\ntooltip_fg_color:#9e8f9e\ntitlebar_bg_color:#1b181b\ntitlebar_fg_color:#516aec\nmenubar_bg_color:#1b181b\nmenubar_fg_color:#516aec\ntoolbar_bg_color:#1b181b\ntoolbar_fg_color:#bb8a35\nmenu_bg_color:#1b181b\nmenu_fg_color:#ab9bab\npanel_bg_color:#1b181b\npanel_fg_color:#918b3b\nlink_color:#a65926"
+

@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "XCode Dusk",
+	"foreground": "#939599",
+	"background": "#282B35",
+	"black": "#3D4048",
+	"blue": "#790EAD",
+	"brightBlack": "#53555D",
+	"brightBlue": "#790EAD",
+	"brightCyan": "#00A0BE",
+	"brightGreen": "#DF0002",
+	"brightPurple": "#B21889",
+	"brightRed": "#B21889",
+	"brightWhite": "#BEBFC2",
+	"brightYellow": "#438288",
+	"cyan": "#00A0BE",
+	"green": "#DF0002",
+	"purple": "#B21889",
+	"red": "#B21889",
+	"white": "#A9AAAE",
+	"yellow": "#786DC5"
+},

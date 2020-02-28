@@ -1,0 +1,61 @@
+
+# base16 Material Palenight by Nate Peterson
+
+.colors *
+
+-text		$959DCB/$292D3E
+-status		$8796B0/$32374D
+-cursor		$292D3E/$959DCB
+-selection	/$32374D
+-curlin		/$444267
+-linum		$676E95/$444267
+-curlinum	$8796B0/$444267
+-menusel	$444267/$8796B0
+
+-term 0 	$292D3E
+-term 1 	$82AAFF
+-term 2 	$C3E88D
+-term 3 	$89DDFF
+-term 4 	$F78C6C
+-term 5 	$C792EA
+-term 6 	$FFCB6B
+-term 7 	$8796B0
+-term 8 	$676E95
+-term 9 	$82AAFF
+-term 10	$C3E88D
+-term 11	$89DDFF
+-term 12	$F07178
+-term 13	$FF5370
+-term 14	$FFCB6B
+-term 15	$FFFFFF
+
+=Constant	$F78C6C
+=String		$C3E88D
+=Escape		$89DDFF
+
+=Comment	$676E95
+=StorageClass	+Type
+=Keyword	$C792EA
+=Conditional	$C792EA
+=Operator	$959DCB
+=Loop		$FFCB6B
+=Statement	$F07178
+=Type		$FFCB6B
+
+=DefinedIdent	$F07178
+=Label		$FFCB6B
+=DefinedType	$FFCB6B
+=Structure	$C792EA
+
+=Preproc	$FFCB6B
+=Include	$82AAFF
+=Define		$C792EA
+=TODO		$FFCB6B/$444267
+=Precond	$C792EA
+
+=diff.AddLine	$C3E88D/$444267
+=diff.ChgLine	$676E95/$444267
+=diff.DelLine	$F07178/$444267
+=diff.File	$F07178
+=diff.FileNew	$C3E88D
+=diff.Hunk	$82AAFF

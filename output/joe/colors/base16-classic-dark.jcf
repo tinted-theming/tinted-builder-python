@@ -1,0 +1,61 @@
+
+# base16 Classic Dark by Jason Heeris (http://heeris.id.au)
+
+.colors *
+
+-text		$D0D0D0/$151515
+-status		$B0B0B0/$303030
+-cursor		$151515/$D0D0D0
+-selection	/$303030
+-curlin		/$202020
+-linum		$505050/$202020
+-curlinum	$B0B0B0/$202020
+-menusel	$202020/$B0B0B0
+
+-term 0 	$151515
+-term 1 	$6A9FB5
+-term 2 	$90A959
+-term 3 	$75B5AA
+-term 4 	$D28445
+-term 5 	$AA759F
+-term 6 	$F4BF75
+-term 7 	$B0B0B0
+-term 8 	$505050
+-term 9 	$6A9FB5
+-term 10	$90A959
+-term 11	$75B5AA
+-term 12	$AC4142
+-term 13	$8F5536
+-term 14	$F4BF75
+-term 15	$F5F5F5
+
+=Constant	$D28445
+=String		$90A959
+=Escape		$75B5AA
+
+=Comment	$505050
+=StorageClass	+Type
+=Keyword	$AA759F
+=Conditional	$AA759F
+=Operator	$D0D0D0
+=Loop		$F4BF75
+=Statement	$AC4142
+=Type		$F4BF75
+
+=DefinedIdent	$AC4142
+=Label		$F4BF75
+=DefinedType	$F4BF75
+=Structure	$AA759F
+
+=Preproc	$F4BF75
+=Include	$6A9FB5
+=Define		$AA759F
+=TODO		$F4BF75/$202020
+=Precond	$AA759F
+
+=diff.AddLine	$90A959/$202020
+=diff.ChgLine	$505050/$202020
+=diff.DelLine	$AC4142/$202020
+=diff.File	$AC4142
+=diff.FileNew	$90A959
+=diff.Hunk	$6A9FB5

@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Atlas",
+	"foreground": "#a1a19a",
+	"background": "#002635",
+	"black": "#00384d",
+	"blue": "#5dd7b9",
+	"brightBlack": "#517F8D",
+	"brightBlue": "#5dd7b9",
+	"brightCyan": "#14747e",
+	"brightGreen": "#7fc06e",
+	"brightPurple": "#9a70a4",
+	"brightRed": "#ff5a67",
+	"brightWhite": "#fafaf8",
+	"brightYellow": "#ffcc1b",
+	"cyan": "#14747e",
+	"green": "#7fc06e",
+	"purple": "#9a70a4",
+	"red": "#ff5a67",
+	"white": "#e6e6dc",
+	"yellow": "#f08e48"
+},

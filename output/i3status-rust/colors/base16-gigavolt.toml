@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Gigavolt by Aidan Swope (http://github.com/Whillikers)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#202126"
+idle_fg = "#e9e7e1"
+info_bg = "#fb6acb"
+info_fg = "#202126"
+good_bg = "#f2e6a9"
+good_fg = "#202126"
+warning_bg = "#ffdc2d"
+warning_fg = "#202126"
+critical_bg = "#ff661a"
+critical_fg = "#202126"
+# The rest of the theme settings are left at default.

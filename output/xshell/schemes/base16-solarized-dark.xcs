@@ -1,0 +1,23 @@
+[Solarized Dark]
+text=93a1a1
+text(bold)=93a1a1
+background=002b36
+black=002b36
+black(bold)=657b83
+red=dc322f
+red(bold)=cb4b16
+green=859900
+green(bold)=073642
+yellow=b58900
+yellow(bold)=586e75
+blue=268bd2
+blue(bold)=839496
+magenta=6c71c4
+magenta(bold)=eee8d5
+cyan=2aa198
+cyan(bold)=d33682
+white=93a1a1
+white(bold)=fdf6e3
+[Names]
+name0=Solarized Dark
+count=1

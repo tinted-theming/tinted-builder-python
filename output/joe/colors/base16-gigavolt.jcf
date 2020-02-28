@@ -1,0 +1,61 @@
+
+# base16 Gigavolt by Aidan Swope (http://github.com/Whillikers)
+
+.colors *
+
+-text		$e9e7e1/$202126
+-status		$cad3ff/$5a576e
+-cursor		$202126/$e9e7e1
+-selection	/$5a576e
+-curlin		/$2d303d
+-linum		$a1d2e6/$2d303d
+-curlinum	$cad3ff/$2d303d
+-menusel	$2d303d/$cad3ff
+
+-term 0 	$202126
+-term 1 	$40bfff
+-term 2 	$f2e6a9
+-term 3 	$fb6acb
+-term 4 	$19f988
+-term 5 	$ae94f9
+-term 6 	$ffdc2d
+-term 7 	$cad3ff
+-term 8 	$a1d2e6
+-term 9 	$40bfff
+-term 10	$f2e6a9
+-term 11	$fb6acb
+-term 12	$ff661a
+-term 13	$6187ff
+-term 14	$ffdc2d
+-term 15	$f2fbff
+
+=Constant	$19f988
+=String		$f2e6a9
+=Escape		$fb6acb
+
+=Comment	$a1d2e6
+=StorageClass	+Type
+=Keyword	$ae94f9
+=Conditional	$ae94f9
+=Operator	$e9e7e1
+=Loop		$ffdc2d
+=Statement	$ff661a
+=Type		$ffdc2d
+
+=DefinedIdent	$ff661a
+=Label		$ffdc2d
+=DefinedType	$ffdc2d
+=Structure	$ae94f9
+
+=Preproc	$ffdc2d
+=Include	$40bfff
+=Define		$ae94f9
+=TODO		$ffdc2d/$2d303d
+=Precond	$ae94f9
+
+=diff.AddLine	$f2e6a9/$2d303d
+=diff.ChgLine	$a1d2e6/$2d303d
+=diff.DelLine	$ff661a/$2d303d
+=diff.File	$ff661a
+=diff.FileNew	$f2e6a9
+=diff.Hunk	$40bfff

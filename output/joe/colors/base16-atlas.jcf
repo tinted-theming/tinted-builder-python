@@ -1,0 +1,61 @@
+
+# base16 Atlas by Alex Lende (https://ajlende.com)
+
+.colors *
+
+-text		$a1a19a/$002635
+-status		$869696/$517F8D
+-cursor		$002635/$a1a19a
+-selection	/$517F8D
+-curlin		/$00384d
+-linum		$6C8B91/$00384d
+-curlinum	$869696/$00384d
+-menusel	$00384d/$869696
+
+-term 0 	$002635
+-term 1 	$5dd7b9
+-term 2 	$7fc06e
+-term 3 	$14747e
+-term 4 	$f08e48
+-term 5 	$9a70a4
+-term 6 	$ffcc1b
+-term 7 	$869696
+-term 8 	$6C8B91
+-term 9 	$5dd7b9
+-term 10	$7fc06e
+-term 11	$14747e
+-term 12	$ff5a67
+-term 13	$c43060
+-term 14	$ffcc1b
+-term 15	$fafaf8
+
+=Constant	$f08e48
+=String		$7fc06e
+=Escape		$14747e
+
+=Comment	$6C8B91
+=StorageClass	+Type
+=Keyword	$9a70a4
+=Conditional	$9a70a4
+=Operator	$a1a19a
+=Loop		$ffcc1b
+=Statement	$ff5a67
+=Type		$ffcc1b
+
+=DefinedIdent	$ff5a67
+=Label		$ffcc1b
+=DefinedType	$ffcc1b
+=Structure	$9a70a4
+
+=Preproc	$ffcc1b
+=Include	$5dd7b9
+=Define		$9a70a4
+=TODO		$ffcc1b/$00384d
+=Precond	$9a70a4
+
+=diff.AddLine	$7fc06e/$00384d
+=diff.ChgLine	$6C8B91/$00384d
+=diff.DelLine	$ff5a67/$00384d
+=diff.File	$ff5a67
+=diff.FileNew	$7fc06e
+=diff.Hunk	$5dd7b9

@@ -1,0 +1,61 @@
+
+# base16 Zenburn by elnawe
+
+.colors *
+
+-text		$dcdccc/$383838
+-status		$808080/$606060
+-cursor		$383838/$dcdccc
+-selection	/$606060
+-curlin		/$404040
+-linum		$6f6f6f/$404040
+-curlinum	$808080/$404040
+-menusel	$404040/$808080
+
+-term 0 	$383838
+-term 1 	$7cb8bb
+-term 2 	$5f7f5f
+-term 3 	$93e0e3
+-term 4 	$dfaf8f
+-term 5 	$dc8cc3
+-term 6 	$e0cf9f
+-term 7 	$808080
+-term 8 	$6f6f6f
+-term 9 	$7cb8bb
+-term 10	$5f7f5f
+-term 11	$93e0e3
+-term 12	$dca3a3
+-term 13	$000000
+-term 14	$e0cf9f
+-term 15	$ffffff
+
+=Constant	$dfaf8f
+=String		$5f7f5f
+=Escape		$93e0e3
+
+=Comment	$6f6f6f
+=StorageClass	+Type
+=Keyword	$dc8cc3
+=Conditional	$dc8cc3
+=Operator	$dcdccc
+=Loop		$e0cf9f
+=Statement	$dca3a3
+=Type		$e0cf9f
+
+=DefinedIdent	$dca3a3
+=Label		$e0cf9f
+=DefinedType	$e0cf9f
+=Structure	$dc8cc3
+
+=Preproc	$e0cf9f
+=Include	$7cb8bb
+=Define		$dc8cc3
+=TODO		$e0cf9f/$404040
+=Precond	$dc8cc3
+
+=diff.AddLine	$5f7f5f/$404040
+=diff.ChgLine	$6f6f6f/$404040
+=diff.DelLine	$dca3a3/$404040
+=diff.File	$dca3a3
+=diff.FileNew	$5f7f5f
+=diff.Hunk	$7cb8bb

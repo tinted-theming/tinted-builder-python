@@ -1,0 +1,6 @@
+# Base16 Eighties for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# eighties (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2d2d2d\nfg_color:#d3d0c8\nbase_color:#2d2d2d\ntext_color:#d3d0c8\nselected_bg_color:#515151\nselected_fg_color:#d3d0c8\ntooltip_bg_color:#2d2d2d\ntooltip_fg_color:#a09f93\ntitlebar_bg_color:#2d2d2d\ntitlebar_fg_color:#6699cc\nmenubar_bg_color:#2d2d2d\nmenubar_fg_color:#6699cc\ntoolbar_bg_color:#2d2d2d\ntoolbar_fg_color:#ffcc66\nmenu_bg_color:#2d2d2d\nmenu_fg_color:#d3d0c8\npanel_bg_color:#2d2d2d\npanel_fg_color:#99cc99\nlink_color:#f99157"
+

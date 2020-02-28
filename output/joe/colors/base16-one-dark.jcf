@@ -1,0 +1,61 @@
+
+# base16 One Dark by Base24
+
+.colors *
+
+-text		$abb2bf/$282c34
+-status		$9196a1/$4f5666
+-cursor		$282c34/$abb2bf
+-selection	/$4f5666
+-curlin		/$3f4451
+-linum		$545862/$3f4451
+-curlinum	$9196a1/$3f4451
+-menusel	$3f4451/$9196a1
+
+-term 0 	$282c34
+-term 1 	$61afef
+-term 2 	$98c379
+-term 3 	$56b6c2
+-term 4 	$d19a66
+-term 5 	$c678dd
+-term 6 	$e5c07b
+-term 7 	$9196a1
+-term 8 	$545862
+-term 9 	$61afef
+-term 10	$98c379
+-term 11	$56b6c2
+-term 12	$e06c75
+-term 13	$be5046
+-term 14	$e5c07b
+-term 15	$ffffff
+
+=Constant	$d19a66
+=String		$98c379
+=Escape		$56b6c2
+
+=Comment	$545862
+=StorageClass	+Type
+=Keyword	$c678dd
+=Conditional	$c678dd
+=Operator	$abb2bf
+=Loop		$e5c07b
+=Statement	$e06c75
+=Type		$e5c07b
+
+=DefinedIdent	$e06c75
+=Label		$e5c07b
+=DefinedType	$e5c07b
+=Structure	$c678dd
+
+=Preproc	$e5c07b
+=Include	$61afef
+=Define		$c678dd
+=TODO		$e5c07b/$3f4451
+=Precond	$c678dd
+
+=diff.AddLine	$98c379/$3f4451
+=diff.ChgLine	$545862/$3f4451
+=diff.DelLine	$e06c75/$3f4451
+=diff.File	$e06c75
+=diff.FileNew	$98c379
+=diff.Hunk	$61afef

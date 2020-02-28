@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# iA Light by iA Inc. (modified by aramisgithub)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#f6f6f6"
+idle_fg = "#181818"
+info_bg = "#2d6bb1"
+info_fg = "#f6f6f6"
+good_bg = "#38781c"
+good_fg = "#f6f6f6"
+warning_bg = "#c48218"
+warning_fg = "#f6f6f6"
+critical_bg = "#9c5a02"
+critical_fg = "#f6f6f6"
+# The rest of the theme settings are left at default.

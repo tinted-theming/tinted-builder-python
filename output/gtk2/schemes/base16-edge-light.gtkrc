@@ -1,0 +1,6 @@
+# Base16 Edge Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By cjayross (https://github.com/cjayross)
+# edge-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#fafafa\nfg_color:#5e646f\nbase_color:#fafafa\ntext_color:#5e646f\nselected_bg_color:#d69822\nselected_fg_color:#5e646f\ntooltip_bg_color:#fafafa\ntooltip_fg_color:#6587bf\ntitlebar_bg_color:#fafafa\ntitlebar_fg_color:#6587bf\nmenubar_bg_color:#fafafa\nmenubar_fg_color:#6587bf\ntoolbar_bg_color:#fafafa\ntoolbar_fg_color:#d69822\nmenu_bg_color:#fafafa\nmenu_fg_color:#5e646f\npanel_bg_color:#fafafa\npanel_fg_color:#7c9f4b\nlink_color:#db7070"
+

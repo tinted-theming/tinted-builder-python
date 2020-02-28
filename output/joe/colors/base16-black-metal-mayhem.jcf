@@ -1,0 +1,61 @@
+
+# base16 Black Metal (Mayhem) by metalelf0 (https://github.com/metalelf0)
+
+.colors *
+
+-text		$c1c1c1/$000000
+-status		$999999/$222222
+-cursor		$000000/$c1c1c1
+-selection	/$222222
+-curlin		/$121212
+-linum		$333333/$121212
+-curlinum	$999999/$121212
+-menusel	$121212/$999999
+
+-term 0 	$000000
+-term 1 	$888888
+-term 2 	$f3ecd4
+-term 3 	$aaaaaa
+-term 4 	$aaaaaa
+-term 5 	$999999
+-term 6 	$eecc6c
+-term 7 	$999999
+-term 8 	$333333
+-term 9 	$888888
+-term 10	$f3ecd4
+-term 11	$aaaaaa
+-term 12	$5f8787
+-term 13	$444444
+-term 14	$eecc6c
+-term 15	$c1c1c1
+
+=Constant	$aaaaaa
+=String		$f3ecd4
+=Escape		$aaaaaa
+
+=Comment	$333333
+=StorageClass	+Type
+=Keyword	$999999
+=Conditional	$999999
+=Operator	$c1c1c1
+=Loop		$eecc6c
+=Statement	$5f8787
+=Type		$eecc6c
+
+=DefinedIdent	$5f8787
+=Label		$eecc6c
+=DefinedType	$eecc6c
+=Structure	$999999
+
+=Preproc	$eecc6c
+=Include	$888888
+=Define		$999999
+=TODO		$eecc6c/$121212
+=Precond	$999999
+
+=diff.AddLine	$f3ecd4/$121212
+=diff.ChgLine	$333333/$121212
+=diff.DelLine	$5f8787/$121212
+=diff.File	$5f8787
+=diff.FileNew	$f3ecd4
+=diff.Hunk	$888888

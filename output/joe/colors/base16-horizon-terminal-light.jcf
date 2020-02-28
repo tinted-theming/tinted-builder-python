@@ -1,0 +1,61 @@
+
+# base16 Horizon Light by Michaël Ball (http://github.com/michael-ball/)
+
+.colors *
+
+-text		$403C3D/$FDF0ED
+-status		$948C8A/$F9CBBE
+-cursor		$FDF0ED/$403C3D
+-selection	/$F9CBBE
+-curlin		/$FADAD1
+-linum		$BDB3B1/$FADAD1
+-curlinum	$948C8A/$FADAD1
+-menusel	$FADAD1/$948C8A
+
+-term 0 	$FDF0ED
+-term 1 	$26BBD9
+-term 2 	$29D398
+-term 3 	$59E1E3
+-term 4 	$F9CEC3
+-term 5 	$EE64AC
+-term 6 	$FADAD1
+-term 7 	$948C8A
+-term 8 	$BDB3B1
+-term 9 	$26BBD9
+-term 10	$29D398
+-term 11	$59E1E3
+-term 12	$E95678
+-term 13	$F9CBBE
+-term 14	$FADAD1
+-term 15	$201C1D
+
+=Constant	$F9CEC3
+=String		$29D398
+=Escape		$59E1E3
+
+=Comment	$BDB3B1
+=StorageClass	+Type
+=Keyword	$EE64AC
+=Conditional	$EE64AC
+=Operator	$403C3D
+=Loop		$FADAD1
+=Statement	$E95678
+=Type		$FADAD1
+
+=DefinedIdent	$E95678
+=Label		$FADAD1
+=DefinedType	$FADAD1
+=Structure	$EE64AC
+
+=Preproc	$FADAD1
+=Include	$26BBD9
+=Define		$EE64AC
+=TODO		$FADAD1/$FADAD1
+=Precond	$EE64AC
+
+=diff.AddLine	$29D398/$FADAD1
+=diff.ChgLine	$BDB3B1/$FADAD1
+=diff.DelLine	$E95678/$FADAD1
+=diff.File	$E95678
+=diff.FileNew	$29D398
+=diff.Hunk	$26BBD9

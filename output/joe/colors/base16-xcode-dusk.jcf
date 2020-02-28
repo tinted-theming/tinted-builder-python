@@ -1,0 +1,61 @@
+
+# base16 XCode Dusk by Elsa Gonsiorowski (https://github.com/gonsie)
+
+.colors *
+
+-text		$939599/$282B35
+-status		$7E8086/$53555D
+-cursor		$282B35/$939599
+-selection	/$53555D
+-curlin		/$3D4048
+-linum		$686A71/$3D4048
+-curlinum	$7E8086/$3D4048
+-menusel	$3D4048/$7E8086
+
+-term 0 	$282B35
+-term 1 	$790EAD
+-term 2 	$DF0002
+-term 3 	$00A0BE
+-term 4 	$786DC5
+-term 5 	$B21889
+-term 6 	$438288
+-term 7 	$7E8086
+-term 8 	$686A71
+-term 9 	$790EAD
+-term 10	$DF0002
+-term 11	$00A0BE
+-term 12	$B21889
+-term 13	$C77C48
+-term 14	$438288
+-term 15	$BEBFC2
+
+=Constant	$786DC5
+=String		$DF0002
+=Escape		$00A0BE
+
+=Comment	$686A71
+=StorageClass	+Type
+=Keyword	$B21889
+=Conditional	$B21889
+=Operator	$939599
+=Loop		$438288
+=Statement	$B21889
+=Type		$438288
+
+=DefinedIdent	$B21889
+=Label		$438288
+=DefinedType	$438288
+=Structure	$B21889
+
+=Preproc	$438288
+=Include	$790EAD
+=Define		$B21889
+=TODO		$438288/$3D4048
+=Precond	$B21889
+
+=diff.AddLine	$DF0002/$3D4048
+=diff.ChgLine	$686A71/$3D4048
+=diff.DelLine	$B21889/$3D4048
+=diff.File	$B21889
+=diff.FileNew	$DF0002
+=diff.Hunk	$790EAD

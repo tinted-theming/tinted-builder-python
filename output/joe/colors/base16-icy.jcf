@@ -1,0 +1,61 @@
+
+# base16 Icy Dark by icyphox (https://icyphox.ga)
+
+.colors *
+
+-text		$095b67/$021012
+-status		$064048/$041f23
+-cursor		$021012/$095b67
+-selection	/$041f23
+-curlin		/$031619
+-linum		$052e34/$031619
+-curlinum	$064048/$031619
+-menusel	$031619/$064048
+
+-term 0 	$021012
+-term 1 	$00bcd4
+-term 2 	$4dd0e1
+-term 3 	$26c6da
+-term 4 	$b3ebf2
+-term 5 	$00acc1
+-term 6 	$80deea
+-term 7 	$064048
+-term 8 	$052e34
+-term 9 	$00bcd4
+-term 10	$4dd0e1
+-term 11	$26c6da
+-term 12	$16c1d9
+-term 13	$0097a7
+-term 14	$80deea
+-term 15	$109cb0
+
+=Constant	$b3ebf2
+=String		$4dd0e1
+=Escape		$26c6da
+
+=Comment	$052e34
+=StorageClass	+Type
+=Keyword	$00acc1
+=Conditional	$00acc1
+=Operator	$095b67
+=Loop		$80deea
+=Statement	$16c1d9
+=Type		$80deea
+
+=DefinedIdent	$16c1d9
+=Label		$80deea
+=DefinedType	$80deea
+=Structure	$00acc1
+
+=Preproc	$80deea
+=Include	$00bcd4
+=Define		$00acc1
+=TODO		$80deea/$031619
+=Precond	$00acc1
+
+=diff.AddLine	$4dd0e1/$031619
+=diff.ChgLine	$052e34/$031619
+=diff.DelLine	$16c1d9/$031619
+=diff.File	$16c1d9
+=diff.FileNew	$4dd0e1
+=diff.Hunk	$00bcd4

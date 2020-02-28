@@ -1,0 +1,61 @@
+
+# base16 Porple by Niek den Breeje (https://github.com/AuditeMarlow)
+
+.colors *
+
+-text		$d8d8d8/$292c36
+-status		$b8b8b8/$474160
+-cursor		$292c36/$d8d8d8
+-selection	/$474160
+-curlin		/$333344
+-linum		$65568a/$333344
+-curlinum	$b8b8b8/$333344
+-menusel	$333344/$b8b8b8
+
+-term 0 	$292c36
+-term 1 	$8485ce
+-term 2 	$95c76f
+-term 3 	$64878f
+-term 4 	$d28e5d
+-term 5 	$b74989
+-term 6 	$efa16b
+-term 7 	$b8b8b8
+-term 8 	$65568a
+-term 9 	$8485ce
+-term 10	$95c76f
+-term 11	$64878f
+-term 12	$f84547
+-term 13	$986841
+-term 14	$efa16b
+-term 15	$f8f8f8
+
+=Constant	$d28e5d
+=String		$95c76f
+=Escape		$64878f
+
+=Comment	$65568a
+=StorageClass	+Type
+=Keyword	$b74989
+=Conditional	$b74989
+=Operator	$d8d8d8
+=Loop		$efa16b
+=Statement	$f84547
+=Type		$efa16b
+
+=DefinedIdent	$f84547
+=Label		$efa16b
+=DefinedType	$efa16b
+=Structure	$b74989
+
+=Preproc	$efa16b
+=Include	$8485ce
+=Define		$b74989
+=TODO		$efa16b/$333344
+=Precond	$b74989
+
+=diff.AddLine	$95c76f/$333344
+=diff.ChgLine	$65568a/$333344
+=diff.DelLine	$f84547/$333344
+=diff.File	$f84547
+=diff.FileNew	$95c76f
+=diff.Hunk	$8485ce

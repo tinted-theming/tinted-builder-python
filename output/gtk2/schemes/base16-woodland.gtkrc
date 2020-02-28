@@ -1,0 +1,6 @@
+# Base16 Woodland for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jay Cornwall (https://jcornwall.com)
+# woodland (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#231e18\nfg_color:#cabcb1\nbase_color:#231e18\ntext_color:#cabcb1\nselected_bg_color:#48413a\nselected_fg_color:#cabcb1\ntooltip_bg_color:#231e18\ntooltip_fg_color:#b4a490\ntitlebar_bg_color:#231e18\ntitlebar_fg_color:#88a4d3\nmenubar_bg_color:#231e18\nmenubar_fg_color:#88a4d3\ntoolbar_bg_color:#231e18\ntoolbar_fg_color:#e0ac16\nmenu_bg_color:#231e18\nmenu_fg_color:#cabcb1\npanel_bg_color:#231e18\npanel_fg_color:#b7ba53\nlink_color:#ca7f32"
+

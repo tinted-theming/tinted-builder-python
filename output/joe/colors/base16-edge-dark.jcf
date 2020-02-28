@@ -1,0 +1,61 @@
+
+# base16 Edge Dark by cjayross (https://github.com/cjayross)
+
+.colors *
+
+-text		$b7bec9/$262729
+-status		$73b3e7/$b7bec9
+-cursor		$262729/$b7bec9
+-selection	/$b7bec9
+-curlin		/$88909f
+-linum		$3e4249/$88909f
+-curlinum	$73b3e7/$88909f
+-menusel	$88909f/$73b3e7
+
+-term 0 	$262729
+-term 1 	$73b3e7
+-term 2 	$a1bf78
+-term 3 	$5ebaa5
+-term 4 	$e77171
+-term 5 	$d390e7
+-term 6 	$dbb774
+-term 7 	$73b3e7
+-term 8 	$3e4249
+-term 9 	$73b3e7
+-term 10	$a1bf78
+-term 11	$5ebaa5
+-term 12	$e77171
+-term 13	$5ebaa5
+-term 14	$dbb774
+-term 15	$3e4249
+
+=Constant	$e77171
+=String		$a1bf78
+=Escape		$5ebaa5
+
+=Comment	$3e4249
+=StorageClass	+Type
+=Keyword	$d390e7
+=Conditional	$d390e7
+=Operator	$b7bec9
+=Loop		$dbb774
+=Statement	$e77171
+=Type		$dbb774
+
+=DefinedIdent	$e77171
+=Label		$dbb774
+=DefinedType	$dbb774
+=Structure	$d390e7
+
+=Preproc	$dbb774
+=Include	$73b3e7
+=Define		$d390e7
+=TODO		$dbb774/$88909f
+=Precond	$d390e7
+
+=diff.AddLine	$a1bf78/$88909f
+=diff.ChgLine	$3e4249/$88909f
+=diff.DelLine	$e77171/$88909f
+=diff.File	$e77171
+=diff.FileNew	$a1bf78
+=diff.Hunk	$73b3e7

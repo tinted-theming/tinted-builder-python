@@ -1,0 +1,6 @@
+# Base16 Material Palenight for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Nate Peterson
+# material-palenight (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#292D3E\nfg_color:#959DCB\nbase_color:#292D3E\ntext_color:#959DCB\nselected_bg_color:#32374D\nselected_fg_color:#959DCB\ntooltip_bg_color:#292D3E\ntooltip_fg_color:#8796B0\ntitlebar_bg_color:#292D3E\ntitlebar_fg_color:#82AAFF\nmenubar_bg_color:#292D3E\nmenubar_fg_color:#82AAFF\ntoolbar_bg_color:#292D3E\ntoolbar_fg_color:#FFCB6B\nmenu_bg_color:#292D3E\nmenu_fg_color:#959DCB\npanel_bg_color:#292D3E\npanel_fg_color:#C3E88D\nlink_color:#F78C6C"
+

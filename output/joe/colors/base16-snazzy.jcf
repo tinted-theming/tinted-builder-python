@@ -1,0 +1,61 @@
+
+# base16 Snazzy by Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+
+.colors *
+
+-text		$e2e4e5/$282a36
+-status		$a5a5a9/$43454f
+-cursor		$282a36/$e2e4e5
+-selection	/$43454f
+-curlin		/$34353e
+-linum		$78787e/$34353e
+-curlinum	$a5a5a9/$34353e
+-menusel	$34353e/$a5a5a9
+
+-term 0 	$282a36
+-term 1 	$57c7ff
+-term 2 	$5af78e
+-term 3 	$9aedfe
+-term 4 	$ff9f43
+-term 5 	$ff6ac1
+-term 6 	$f3f99d
+-term 7 	$a5a5a9
+-term 8 	$78787e
+-term 9 	$57c7ff
+-term 10	$5af78e
+-term 11	$9aedfe
+-term 12	$ff5c57
+-term 13	$b2643c
+-term 14	$f3f99d
+-term 15	$f1f1f0
+
+=Constant	$ff9f43
+=String		$5af78e
+=Escape		$9aedfe
+
+=Comment	$78787e
+=StorageClass	+Type
+=Keyword	$ff6ac1
+=Conditional	$ff6ac1
+=Operator	$e2e4e5
+=Loop		$f3f99d
+=Statement	$ff5c57
+=Type		$f3f99d
+
+=DefinedIdent	$ff5c57
+=Label		$f3f99d
+=DefinedType	$f3f99d
+=Structure	$ff6ac1
+
+=Preproc	$f3f99d
+=Include	$57c7ff
+=Define		$ff6ac1
+=TODO		$f3f99d/$34353e
+=Precond	$ff6ac1
+
+=diff.AddLine	$5af78e/$34353e
+=diff.ChgLine	$78787e/$34353e
+=diff.DelLine	$ff5c57/$34353e
+=diff.File	$ff5c57
+=diff.FileNew	$5af78e
+=diff.Hunk	$57c7ff

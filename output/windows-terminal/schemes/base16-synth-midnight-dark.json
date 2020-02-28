@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Synth Midnight Dark",
+	"foreground": "#DFDBDF",
+	"background": "#040404",
+	"black": "#141414",
+	"blue": "#03AEFF",
+	"brightBlack": "#242424",
+	"brightBlue": "#03AEFF",
+	"brightCyan": "#7CEDE9",
+	"brightGreen": "#06EA61",
+	"brightPurple": "#EA5CE2",
+	"brightRed": "#B53B50",
+	"brightWhite": "#FFFBFF",
+	"brightYellow": "#DAE84D",
+	"cyan": "#7CEDE9",
+	"green": "#06EA61",
+	"purple": "#EA5CE2",
+	"red": "#B53B50",
+	"white": "#EFEBEF",
+	"yellow": "#E4600E"
+},

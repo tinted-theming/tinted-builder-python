@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Helios (https://github.com/chriskempson/base16)
+; Scheme: Alex Meyer (https://github.com/reyemxela)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:0021201d ; base00
+"ColorTable01"=dword:00ac8b1e ; base0D
+"ColorTable02"=dword:002db988 ; base0B
+"ColorTable03"=dword:0095a51b ; base0C
+"ColorTable04"=dword:003826d7 ; base08
+"ColorTable05"=dword:006442be ; base0E
+"ColorTable06"=dword:001384eb ; base09
+"ColorTable07"=dword:00d5d5d5 ; base05
+"ColorTable08"=dword:0079756f ; base03
+"ColorTable09"=dword:003e3c38 ; base01
+"ColorTable10"=dword:005b5853 ; base02
+"ColorTable11"=dword:0079756f ; base03
+"ColorTable12"=dword:00cdcdcd ; base04
+"ColorTable13"=dword:00d5d5d5 ; base05
+"ColorTable14"=dword:00dddddd ; base06
+"ColorTable15"=dword:00e5e5e5 ; base07

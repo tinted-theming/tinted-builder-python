@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Horizon Light",
+	"foreground": "#403C3D",
+	"background": "#FDF0ED",
+	"black": "#FADAD1",
+	"blue": "#DA103F",
+	"brightBlack": "#F9CBBE",
+	"brightBlue": "#DA103F",
+	"brightCyan": "#DC3318",
+	"brightGreen": "#94E1B0",
+	"brightPurple": "#1D8991",
+	"brightRed": "#F7939B",
+	"brightWhite": "#201C1D",
+	"brightYellow": "#FBE0D9",
+	"cyan": "#DC3318",
+	"green": "#94E1B0",
+	"purple": "#1D8991",
+	"red": "#F7939B",
+	"white": "#302C2D",
+	"yellow": "#F6661E"
+},

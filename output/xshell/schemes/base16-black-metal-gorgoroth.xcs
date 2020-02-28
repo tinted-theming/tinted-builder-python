@@ -1,0 +1,23 @@
+[Black Metal (Gorgoroth)]
+text=c1c1c1
+text(bold)=c1c1c1
+background=000000
+black=000000
+black(bold)=333333
+red=5f8787
+red(bold)=aaaaaa
+green=9b8d7f
+green(bold)=121212
+yellow=8c7f70
+yellow(bold)=222222
+blue=888888
+blue(bold)=999999
+magenta=999999
+magenta(bold)=999999
+cyan=aaaaaa
+cyan(bold)=444444
+white=c1c1c1
+white(bold)=c1c1c1
+[Names]
+name0=Black Metal (Gorgoroth)
+count=1

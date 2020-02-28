@@ -1,0 +1,23 @@
+[iA Dark]
+text=cccccc
+text(bold)=cccccc
+background=1a1a1a
+black=1a1a1a
+black(bold)=767676
+red=d88568
+red(bold)=d86868
+green=83a471
+green(bold)=222222
+yellow=b99353
+yellow(bold)=1d414d
+blue=8eccdd
+blue(bold)=b8b8b8
+magenta=b98eb2
+magenta(bold)=e8e8e8
+cyan=7c9cae
+cyan(bold)=8b6c37
+white=cccccc
+white(bold)=f8f8f8
+[Names]
+name0=iA Dark
+count=1

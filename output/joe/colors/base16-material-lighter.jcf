@@ -1,0 +1,61 @@
+
+# base16 Material Lighter by Nate Peterson
+
+.colors *
+
+-text		$80CBC4/$FAFAFA
+-status		$8796B0/$CCEAE7
+-cursor		$FAFAFA/$80CBC4
+-selection	/$CCEAE7
+-curlin		/$E7EAEC
+-linum		$CCD7DA/$E7EAEC
+-curlinum	$8796B0/$E7EAEC
+-menusel	$E7EAEC/$8796B0
+
+-term 0 	$FAFAFA
+-term 1 	$6182B8
+-term 2 	$91B859
+-term 3 	$39ADB5
+-term 4 	$F76D47
+-term 5 	$7C4DFF
+-term 6 	$FFB62C
+-term 7 	$8796B0
+-term 8 	$CCD7DA
+-term 9 	$6182B8
+-term 10	$91B859
+-term 11	$39ADB5
+-term 12	$FF5370
+-term 13	$E53935
+-term 14	$FFB62C
+-term 15	$FFFFFF
+
+=Constant	$F76D47
+=String		$91B859
+=Escape		$39ADB5
+
+=Comment	$CCD7DA
+=StorageClass	+Type
+=Keyword	$7C4DFF
+=Conditional	$7C4DFF
+=Operator	$80CBC4
+=Loop		$FFB62C
+=Statement	$FF5370
+=Type		$FFB62C
+
+=DefinedIdent	$FF5370
+=Label		$FFB62C
+=DefinedType	$FFB62C
+=Structure	$7C4DFF
+
+=Preproc	$FFB62C
+=Include	$6182B8
+=Define		$7C4DFF
+=TODO		$FFB62C/$E7EAEC
+=Precond	$7C4DFF
+
+=diff.AddLine	$91B859/$E7EAEC
+=diff.ChgLine	$CCD7DA/$E7EAEC
+=diff.DelLine	$FF5370/$E7EAEC
+=diff.File	$FF5370
+=diff.FileNew	$91B859
+=diff.Hunk	$6182B8

@@ -1,0 +1,61 @@
+
+# base16 Atelier Estuary Light by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$5f5e4e/$f4f3ec
+-status		$6c6b5a/$929181
+-cursor		$f4f3ec/$5f5e4e
+-selection	/$929181
+-curlin		/$e7e6df
+-linum		$878573/$e7e6df
+-curlinum	$6c6b5a/$e7e6df
+-menusel	$e7e6df/$6c6b5a
+
+-term 0 	$f4f3ec
+-term 1 	$36a166
+-term 2 	$7d9726
+-term 3 	$5b9d48
+-term 4 	$ae7313
+-term 5 	$5f9182
+-term 6 	$a5980d
+-term 7 	$6c6b5a
+-term 8 	$878573
+-term 9 	$36a166
+-term 10	$7d9726
+-term 11	$5b9d48
+-term 12	$ba6236
+-term 13	$9d6c7c
+-term 14	$a5980d
+-term 15	$22221b
+
+=Constant	$ae7313
+=String		$7d9726
+=Escape		$5b9d48
+
+=Comment	$878573
+=StorageClass	+Type
+=Keyword	$5f9182
+=Conditional	$5f9182
+=Operator	$5f5e4e
+=Loop		$a5980d
+=Statement	$ba6236
+=Type		$a5980d
+
+=DefinedIdent	$ba6236
+=Label		$a5980d
+=DefinedType	$a5980d
+=Structure	$5f9182
+
+=Preproc	$a5980d
+=Include	$36a166
+=Define		$5f9182
+=TODO		$a5980d/$e7e6df
+=Precond	$5f9182
+
+=diff.AddLine	$7d9726/$e7e6df
+=diff.ChgLine	$878573/$e7e6df
+=diff.DelLine	$ba6236/$e7e6df
+=diff.File	$ba6236
+=diff.FileNew	$7d9726
+=diff.Hunk	$36a166

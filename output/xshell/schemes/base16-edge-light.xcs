@@ -1,0 +1,23 @@
+[Edge Light]
+text=5e646f
+text(bold)=5e646f
+background=fafafa
+black=fafafa
+black(bold)=5e646f
+red=db7070
+red(bold)=db7070
+green=7c9f4b
+green(bold)=7c9f4b
+yellow=d69822
+yellow(bold)=d69822
+blue=6587bf
+blue(bold)=6587bf
+magenta=b870ce
+magenta(bold)=b870ce
+cyan=509c93
+cyan(bold)=509c93
+white=5e646f
+white(bold)=5e646f
+[Names]
+name0=Edge Light
+count=1

@@ -1,0 +1,61 @@
+
+# base16 Material Vivid by joshyrobot
+
+.colors *
+
+-text		$80868b/$202124
+-status		$676c71/$323639
+-cursor		$202124/$80868b
+-selection	/$323639
+-curlin		/$27292c
+-linum		$44464d/$27292c
+-curlinum	$676c71/$27292c
+-menusel	$27292c/$676c71
+
+-term 0 	$202124
+-term 1 	$2196f3
+-term 2 	$00e676
+-term 3 	$00bcd4
+-term 4 	$ff9800
+-term 5 	$673ab7
+-term 6 	$ffeb3b
+-term 7 	$676c71
+-term 8 	$44464d
+-term 9 	$2196f3
+-term 10	$00e676
+-term 11	$00bcd4
+-term 12	$f44336
+-term 13	$8d6e63
+-term 14	$ffeb3b
+-term 15	$ffffff
+
+=Constant	$ff9800
+=String		$00e676
+=Escape		$00bcd4
+
+=Comment	$44464d
+=StorageClass	+Type
+=Keyword	$673ab7
+=Conditional	$673ab7
+=Operator	$80868b
+=Loop		$ffeb3b
+=Statement	$f44336
+=Type		$ffeb3b
+
+=DefinedIdent	$f44336
+=Label		$ffeb3b
+=DefinedType	$ffeb3b
+=Structure	$673ab7
+
+=Preproc	$ffeb3b
+=Include	$2196f3
+=Define		$673ab7
+=TODO		$ffeb3b/$27292c
+=Precond	$673ab7
+
+=diff.AddLine	$00e676/$27292c
+=diff.ChgLine	$44464d/$27292c
+=diff.DelLine	$f44336/$27292c
+=diff.File	$f44336
+=diff.FileNew	$00e676
+=diff.Hunk	$2196f3

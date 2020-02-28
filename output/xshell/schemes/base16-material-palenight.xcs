@@ -1,0 +1,23 @@
+[Material Palenight]
+text=959DCB
+text(bold)=959DCB
+background=292D3E
+black=292D3E
+black(bold)=676E95
+red=F07178
+red(bold)=F78C6C
+green=C3E88D
+green(bold)=444267
+yellow=FFCB6B
+yellow(bold)=32374D
+blue=82AAFF
+blue(bold)=8796B0
+magenta=C792EA
+magenta(bold)=959DCB
+cyan=89DDFF
+cyan(bold)=FF5370
+white=959DCB
+white(bold)=FFFFFF
+[Names]
+name0=Material Palenight
+count=1

@@ -1,0 +1,6 @@
+# Base16 Porple for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Niek den Breeje (https://github.com/AuditeMarlow)
+# porple (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#292c36\nfg_color:#d8d8d8\nbase_color:#292c36\ntext_color:#d8d8d8\nselected_bg_color:#474160\nselected_fg_color:#d8d8d8\ntooltip_bg_color:#292c36\ntooltip_fg_color:#b8b8b8\ntitlebar_bg_color:#292c36\ntitlebar_fg_color:#8485ce\nmenubar_bg_color:#292c36\nmenubar_fg_color:#8485ce\ntoolbar_bg_color:#292c36\ntoolbar_fg_color:#efa16b\nmenu_bg_color:#292c36\nmenu_fg_color:#d8d8d8\npanel_bg_color:#292c36\npanel_fg_color:#95c76f\nlink_color:#d28e5d"
+

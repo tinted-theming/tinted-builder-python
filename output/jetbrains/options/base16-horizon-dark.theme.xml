@@ -1,0 +1,21 @@
+<!--    Base16 Horizon Dark
+        Author: Michaël Ball (http://github.com/michael-ball/)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="1C1E26" />
+    <option name="treeSelectionColor" value="DF5273" />
+    <option name="highlightColor" value="2E303E" />
+    <option name="secondBorderColor" value="1C1E26" />
+    <option name="tableSelectedColor" value="DF5273" />
+    <option name="contrastColor" value="232530" />
+    <option name="disabledColor" value="9DA0A2" />
+    <option name="secondaryBackgroundColor" value="232530" />
+    <option name="buttonColor" value="1C1E26" />
+    <option name="selectionForegroundColor" value="DCDFE4" />
+    <option name="selectionBackgroundColor" value="DF5273" />
+    <option name="textColor" value="DCDFE4" />
+    <option name="foregroundColor" value="CBCED0" />
+    <option name="backgroundColor" value="1C1E26" />
+  </component>
+</application> 

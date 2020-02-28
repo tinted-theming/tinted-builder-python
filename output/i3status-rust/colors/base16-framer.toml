@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Framer by Framer (Maintained by Jesse Hoyos)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#181818"
+idle_fg = "#D0D0D0"
+info_bg = "#ACDDFD"
+info_fg = "#181818"
+good_bg = "#32CCDC"
+good_fg = "#181818"
+warning_bg = "#FECB6E"
+warning_fg = "#181818"
+critical_bg = "#FD886B"
+critical_fg = "#181818"
+# The rest of the theme settings are left at default.

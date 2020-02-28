@@ -1,0 +1,23 @@
+[Atelier Sulphurpool]
+text=979db4
+text(bold)=979db4
+background=202746
+black=202746
+black(bold)=6b7394
+red=c94922
+red(bold)=c76b29
+green=ac9739
+green(bold)=293256
+yellow=c08b30
+yellow(bold)=5e6687
+blue=3d8fd1
+blue(bold)=898ea4
+magenta=6679cc
+magenta(bold)=dfe2f1
+cyan=22a2c9
+cyan(bold)=9c637a
+white=979db4
+white(bold)=f5f7ff
+[Names]
+name0=Atelier Sulphurpool
+count=1

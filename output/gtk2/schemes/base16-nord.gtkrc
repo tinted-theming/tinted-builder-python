@@ -1,0 +1,6 @@
+# Base16 Nord for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By arcticicestudio
+# nord (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2E3440\nfg_color:#E5E9F0\nbase_color:#2E3440\ntext_color:#E5E9F0\nselected_bg_color:#434C5E\nselected_fg_color:#E5E9F0\ntooltip_bg_color:#2E3440\ntooltip_fg_color:#D8DEE9\ntitlebar_bg_color:#2E3440\ntitlebar_fg_color:#EBCB8B\nmenubar_bg_color:#2E3440\nmenubar_fg_color:#EBCB8B\ntoolbar_bg_color:#2E3440\ntoolbar_fg_color:#5E81AC\nmenu_bg_color:#2E3440\nmenu_fg_color:#E5E9F0\npanel_bg_color:#2E3440\npanel_fg_color:#BF616A\nlink_color:#81A1C1"
+

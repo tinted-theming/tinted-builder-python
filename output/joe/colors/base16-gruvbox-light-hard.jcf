@@ -1,0 +1,61 @@
+
+# base16 Gruvbox light, hard by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+.colors *
+
+-text		$504945/$f9f5d7
+-status		$665c54/$d5c4a1
+-cursor		$f9f5d7/$504945
+-selection	/$d5c4a1
+-curlin		/$ebdbb2
+-linum		$bdae93/$ebdbb2
+-curlinum	$665c54/$ebdbb2
+-menusel	$ebdbb2/$665c54
+
+-term 0 	$f9f5d7
+-term 1 	$076678
+-term 2 	$79740e
+-term 3 	$427b58
+-term 4 	$af3a03
+-term 5 	$8f3f71
+-term 6 	$b57614
+-term 7 	$665c54
+-term 8 	$bdae93
+-term 9 	$076678
+-term 10	$79740e
+-term 11	$427b58
+-term 12	$9d0006
+-term 13	$d65d0e
+-term 14	$b57614
+-term 15	$282828
+
+=Constant	$af3a03
+=String		$79740e
+=Escape		$427b58
+
+=Comment	$bdae93
+=StorageClass	+Type
+=Keyword	$8f3f71
+=Conditional	$8f3f71
+=Operator	$504945
+=Loop		$b57614
+=Statement	$9d0006
+=Type		$b57614
+
+=DefinedIdent	$9d0006
+=Label		$b57614
+=DefinedType	$b57614
+=Structure	$8f3f71
+
+=Preproc	$b57614
+=Include	$076678
+=Define		$8f3f71
+=TODO		$b57614/$ebdbb2
+=Precond	$8f3f71
+
+=diff.AddLine	$79740e/$ebdbb2
+=diff.ChgLine	$bdae93/$ebdbb2
+=diff.DelLine	$9d0006/$ebdbb2
+=diff.File	$9d0006
+=diff.FileNew	$79740e
+=diff.Hunk	$076678

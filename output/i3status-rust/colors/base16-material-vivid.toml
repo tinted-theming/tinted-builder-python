@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Material Vivid by joshyrobot
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#202124"
+idle_fg = "#80868b"
+info_bg = "#00bcd4"
+info_fg = "#202124"
+good_bg = "#00e676"
+good_fg = "#202124"
+warning_bg = "#ffeb3b"
+warning_fg = "#202124"
+critical_bg = "#f44336"
+critical_fg = "#202124"
+# The rest of the theme settings are left at default.

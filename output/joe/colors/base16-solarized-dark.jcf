@@ -1,0 +1,61 @@
+
+# base16 Solarized Dark by Ethan Schoonover (modified by aramisgithub)
+
+.colors *
+
+-text		$93a1a1/$002b36
+-status		$839496/$586e75
+-cursor		$002b36/$93a1a1
+-selection	/$586e75
+-curlin		/$073642
+-linum		$657b83/$073642
+-curlinum	$839496/$073642
+-menusel	$073642/$839496
+
+-term 0 	$002b36
+-term 1 	$268bd2
+-term 2 	$859900
+-term 3 	$2aa198
+-term 4 	$cb4b16
+-term 5 	$6c71c4
+-term 6 	$b58900
+-term 7 	$839496
+-term 8 	$657b83
+-term 9 	$268bd2
+-term 10	$859900
+-term 11	$2aa198
+-term 12	$dc322f
+-term 13	$d33682
+-term 14	$b58900
+-term 15	$fdf6e3
+
+=Constant	$cb4b16
+=String		$859900
+=Escape		$2aa198
+
+=Comment	$657b83
+=StorageClass	+Type
+=Keyword	$6c71c4
+=Conditional	$6c71c4
+=Operator	$93a1a1
+=Loop		$b58900
+=Statement	$dc322f
+=Type		$b58900
+
+=DefinedIdent	$dc322f
+=Label		$b58900
+=DefinedType	$b58900
+=Structure	$6c71c4
+
+=Preproc	$b58900
+=Include	$268bd2
+=Define		$6c71c4
+=TODO		$b58900/$073642
+=Precond	$6c71c4
+
+=diff.AddLine	$859900/$073642
+=diff.ChgLine	$657b83/$073642
+=diff.DelLine	$dc322f/$073642
+=diff.File	$dc322f
+=diff.FileNew	$859900
+=diff.Hunk	$268bd2

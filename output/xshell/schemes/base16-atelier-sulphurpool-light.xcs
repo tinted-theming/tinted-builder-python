@@ -1,0 +1,23 @@
+[Atelier Sulphurpool Light]
+text=5e6687
+text(bold)=5e6687
+background=f5f7ff
+black=f5f7ff
+black(bold)=898ea4
+red=c94922
+red(bold)=c76b29
+green=ac9739
+green(bold)=dfe2f1
+yellow=c08b30
+yellow(bold)=979db4
+blue=3d8fd1
+blue(bold)=6b7394
+magenta=6679cc
+magenta(bold)=293256
+cyan=22a2c9
+cyan(bold)=9c637a
+white=5e6687
+white(bold)=202746
+[Names]
+name0=Atelier Sulphurpool Light
+count=1

@@ -1,0 +1,61 @@
+
+# base16 Material by Nate Peterson
+
+.colors *
+
+-text		$EEFFFF/$263238
+-status		$B2CCD6/$314549
+-cursor		$263238/$EEFFFF
+-selection	/$314549
+-curlin		/$2E3C43
+-linum		$546E7A/$2E3C43
+-curlinum	$B2CCD6/$2E3C43
+-menusel	$2E3C43/$B2CCD6
+
+-term 0 	$263238
+-term 1 	$82AAFF
+-term 2 	$C3E88D
+-term 3 	$89DDFF
+-term 4 	$F78C6C
+-term 5 	$C792EA
+-term 6 	$FFCB6B
+-term 7 	$B2CCD6
+-term 8 	$546E7A
+-term 9 	$82AAFF
+-term 10	$C3E88D
+-term 11	$89DDFF
+-term 12	$F07178
+-term 13	$FF5370
+-term 14	$FFCB6B
+-term 15	$FFFFFF
+
+=Constant	$F78C6C
+=String		$C3E88D
+=Escape		$89DDFF
+
+=Comment	$546E7A
+=StorageClass	+Type
+=Keyword	$C792EA
+=Conditional	$C792EA
+=Operator	$EEFFFF
+=Loop		$FFCB6B
+=Statement	$F07178
+=Type		$FFCB6B
+
+=DefinedIdent	$F07178
+=Label		$FFCB6B
+=DefinedType	$FFCB6B
+=Structure	$C792EA
+
+=Preproc	$FFCB6B
+=Include	$82AAFF
+=Define		$C792EA
+=TODO		$FFCB6B/$2E3C43
+=Precond	$C792EA
+
+=diff.AddLine	$C3E88D/$2E3C43
+=diff.ChgLine	$546E7A/$2E3C43
+=diff.DelLine	$F07178/$2E3C43
+=diff.File	$F07178
+=diff.FileNew	$C3E88D
+=diff.Hunk	$82AAFF

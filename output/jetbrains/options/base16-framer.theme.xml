@@ -1,0 +1,21 @@
+<!--    Base16 Framer
+        Author: Framer (Maintained by Jesse Hoyos)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="181818" />
+    <option name="treeSelectionColor" value="20BCFC" />
+    <option name="highlightColor" value="464646" />
+    <option name="secondBorderColor" value="181818" />
+    <option name="tableSelectedColor" value="20BCFC" />
+    <option name="contrastColor" value="151515" />
+    <option name="disabledColor" value="B9B9B9" />
+    <option name="secondaryBackgroundColor" value="151515" />
+    <option name="buttonColor" value="181818" />
+    <option name="selectionForegroundColor" value="E8E8E8" />
+    <option name="selectionBackgroundColor" value="20BCFC" />
+    <option name="textColor" value="E8E8E8" />
+    <option name="foregroundColor" value="D0D0D0" />
+    <option name="backgroundColor" value="181818" />
+  </component>
+</application> 

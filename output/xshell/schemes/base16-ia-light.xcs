@@ -1,0 +1,23 @@
+[iA Light]
+text=181818
+text(bold)=181818
+background=f6f6f6
+black=f6f6f6
+black(bold)=898989
+red=9c5a02
+red(bold)=c43e18
+green=38781c
+green(bold)=dedede
+yellow=c48218
+yellow(bold)=bde5f2
+blue=48bac2
+blue(bold)=767676
+magenta=a94598
+magenta(bold)=e8e8e8
+cyan=2d6bb1
+cyan(bold)=8b6c37
+white=181818
+white(bold)=f8f8f8
+[Names]
+name0=iA Light
+count=1

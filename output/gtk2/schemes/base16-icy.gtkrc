@@ -1,0 +1,6 @@
+# Base16 Icy Dark for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By icyphox (https://icyphox.ga)
+# icy (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#021012\nfg_color:#095b67\nbase_color:#021012\ntext_color:#095b67\nselected_bg_color:#041f23\nselected_fg_color:#095b67\ntooltip_bg_color:#021012\ntooltip_fg_color:#064048\ntitlebar_bg_color:#021012\ntitlebar_fg_color:#00bcd4\nmenubar_bg_color:#021012\nmenubar_fg_color:#00bcd4\ntoolbar_bg_color:#021012\ntoolbar_fg_color:#80deea\nmenu_bg_color:#021012\nmenu_fg_color:#095b67\npanel_bg_color:#021012\npanel_fg_color:#4dd0e1\nlink_color:#b3ebf2"
+

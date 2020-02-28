@@ -1,0 +1,6 @@
+# Base16 Atelier Savanna Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-savanna-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#ecf4ee\nfg_color:#526057\nbase_color:#ecf4ee\ntext_color:#526057\nselected_bg_color:#87928a\nselected_fg_color:#526057\ntooltip_bg_color:#ecf4ee\ntooltip_fg_color:#5f6d64\ntitlebar_bg_color:#ecf4ee\ntitlebar_fg_color:#478c90\nmenubar_bg_color:#ecf4ee\nmenubar_fg_color:#478c90\ntoolbar_bg_color:#ecf4ee\ntoolbar_fg_color:#a07e3b\nmenu_bg_color:#ecf4ee\nmenu_fg_color:#526057\npanel_bg_color:#ecf4ee\npanel_fg_color:#489963\nlink_color:#9f713c"
+

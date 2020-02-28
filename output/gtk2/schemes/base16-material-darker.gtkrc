@@ -1,0 +1,6 @@
+# Base16 Material Darker for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Nate Peterson
+# material-darker (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#212121\nfg_color:#EEFFFF\nbase_color:#212121\ntext_color:#EEFFFF\nselected_bg_color:#353535\nselected_fg_color:#EEFFFF\ntooltip_bg_color:#212121\ntooltip_fg_color:#B2CCD6\ntitlebar_bg_color:#212121\ntitlebar_fg_color:#82AAFF\nmenubar_bg_color:#212121\nmenubar_fg_color:#82AAFF\ntoolbar_bg_color:#212121\ntoolbar_fg_color:#FFCB6B\nmenu_bg_color:#212121\nmenu_fg_color:#EEFFFF\npanel_bg_color:#212121\npanel_fg_color:#C3E88D\nlink_color:#F78C6C"
+

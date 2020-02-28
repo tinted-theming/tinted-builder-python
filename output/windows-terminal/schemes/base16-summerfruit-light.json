@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Summerfruit Light",
+	"foreground": "#101010",
+	"background": "#FFFFFF",
+	"black": "#E0E0E0",
+	"blue": "#3777E6",
+	"brightBlack": "#D0D0D0",
+	"brightBlue": "#3777E6",
+	"brightCyan": "#1FAAAA",
+	"brightGreen": "#00C918",
+	"brightPurple": "#AD00A1",
+	"brightRed": "#FF0086",
+	"brightWhite": "#202020",
+	"brightYellow": "#ABA800",
+	"cyan": "#1FAAAA",
+	"green": "#00C918",
+	"purple": "#AD00A1",
+	"red": "#FF0086",
+	"white": "#151515",
+	"yellow": "#FD8900"
+},

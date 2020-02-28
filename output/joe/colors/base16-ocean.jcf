@@ -1,0 +1,61 @@
+
+# base16 Ocean by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$c0c5ce/$2b303b
+-status		$a7adba/$4f5b66
+-cursor		$2b303b/$c0c5ce
+-selection	/$4f5b66
+-curlin		/$343d46
+-linum		$65737e/$343d46
+-curlinum	$a7adba/$343d46
+-menusel	$343d46/$a7adba
+
+-term 0 	$2b303b
+-term 1 	$8fa1b3
+-term 2 	$a3be8c
+-term 3 	$96b5b4
+-term 4 	$d08770
+-term 5 	$b48ead
+-term 6 	$ebcb8b
+-term 7 	$a7adba
+-term 8 	$65737e
+-term 9 	$8fa1b3
+-term 10	$a3be8c
+-term 11	$96b5b4
+-term 12	$bf616a
+-term 13	$ab7967
+-term 14	$ebcb8b
+-term 15	$eff1f5
+
+=Constant	$d08770
+=String		$a3be8c
+=Escape		$96b5b4
+
+=Comment	$65737e
+=StorageClass	+Type
+=Keyword	$b48ead
+=Conditional	$b48ead
+=Operator	$c0c5ce
+=Loop		$ebcb8b
+=Statement	$bf616a
+=Type		$ebcb8b
+
+=DefinedIdent	$bf616a
+=Label		$ebcb8b
+=DefinedType	$ebcb8b
+=Structure	$b48ead
+
+=Preproc	$ebcb8b
+=Include	$8fa1b3
+=Define		$b48ead
+=TODO		$ebcb8b/$343d46
+=Precond	$b48ead
+
+=diff.AddLine	$a3be8c/$343d46
+=diff.ChgLine	$65737e/$343d46
+=diff.DelLine	$bf616a/$343d46
+=diff.File	$bf616a
+=diff.FileNew	$a3be8c
+=diff.Hunk	$8fa1b3

@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 PaperColor Dark (https://github.com/chriskempson/base16)
+; Scheme: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:001c1c1c ; base00
+"ColorTable01"=dword:00af5fff ; base0D
+"ColorTable02"=dword:00d787af ; base0B
+"ColorTable03"=dword:0000afff ; base0C
+"ColorTable04"=dword:00585858 ; base08
+"ColorTable05"=dword:00afaf00 ; base0E
+"ColorTable06"=dword:005faf5f ; base09
+"ColorTable07"=dword:00808080 ; base05
+"ColorTable08"=dword:005fafd7 ; base03
+"ColorTable09"=dword:005f00af ; base01
+"ColorTable10"=dword:0000af5f ; base02
+"ColorTable11"=dword:005fafd7 ; base03
+"ColorTable12"=dword:00d7af5f ; base04
+"ColorTable13"=dword:00808080 ; base05
+"ColorTable14"=dword:005f87d7 ; base06
+"ColorTable15"=dword:00d0d0d0 ; base07

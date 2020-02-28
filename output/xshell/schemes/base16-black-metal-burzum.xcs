@@ -1,0 +1,23 @@
+[Black Metal (Burzum)]
+text=c1c1c1
+text(bold)=c1c1c1
+background=000000
+black=000000
+black(bold)=333333
+red=5f8787
+red(bold)=aaaaaa
+green=ddeecc
+green(bold)=121212
+yellow=99bbaa
+yellow(bold)=222222
+blue=888888
+blue(bold)=999999
+magenta=999999
+magenta(bold)=999999
+cyan=aaaaaa
+cyan(bold)=444444
+white=c1c1c1
+white(bold)=c1c1c1
+[Names]
+name0=Black Metal (Burzum)
+count=1

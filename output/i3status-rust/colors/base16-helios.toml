@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Helios by Alex Meyer (https://github.com/reyemxela)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#1d2021"
+idle_fg = "#d5d5d5"
+info_bg = "#1ba595"
+info_fg = "#1d2021"
+good_bg = "#88b92d"
+good_fg = "#1d2021"
+warning_bg = "#f19d1a"
+warning_fg = "#1d2021"
+critical_bg = "#d72638"
+critical_fg = "#1d2021"
+# The rest of the theme settings are left at default.

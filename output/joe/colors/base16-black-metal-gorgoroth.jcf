@@ -1,0 +1,61 @@
+
+# base16 Black Metal (Gorgoroth) by metalelf0 (https://github.com/metalelf0)
+
+.colors *
+
+-text		$c1c1c1/$000000
+-status		$999999/$222222
+-cursor		$000000/$c1c1c1
+-selection	/$222222
+-curlin		/$121212
+-linum		$333333/$121212
+-curlinum	$999999/$121212
+-menusel	$121212/$999999
+
+-term 0 	$000000
+-term 1 	$888888
+-term 2 	$9b8d7f
+-term 3 	$aaaaaa
+-term 4 	$aaaaaa
+-term 5 	$999999
+-term 6 	$8c7f70
+-term 7 	$999999
+-term 8 	$333333
+-term 9 	$888888
+-term 10	$9b8d7f
+-term 11	$aaaaaa
+-term 12	$5f8787
+-term 13	$444444
+-term 14	$8c7f70
+-term 15	$c1c1c1
+
+=Constant	$aaaaaa
+=String		$9b8d7f
+=Escape		$aaaaaa
+
+=Comment	$333333
+=StorageClass	+Type
+=Keyword	$999999
+=Conditional	$999999
+=Operator	$c1c1c1
+=Loop		$8c7f70
+=Statement	$5f8787
+=Type		$8c7f70
+
+=DefinedIdent	$5f8787
+=Label		$8c7f70
+=DefinedType	$8c7f70
+=Structure	$999999
+
+=Preproc	$8c7f70
+=Include	$888888
+=Define		$999999
+=TODO		$8c7f70/$121212
+=Precond	$999999
+
+=diff.AddLine	$9b8d7f/$121212
+=diff.ChgLine	$333333/$121212
+=diff.DelLine	$5f8787/$121212
+=diff.File	$5f8787
+=diff.FileNew	$9b8d7f
+=diff.Hunk	$888888

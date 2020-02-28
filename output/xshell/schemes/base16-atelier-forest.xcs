@@ -1,0 +1,23 @@
+[Atelier Forest]
+text=a8a19f
+text(bold)=a8a19f
+background=1b1918
+black=1b1918
+black(bold)=766e6b
+red=f22c40
+red(bold)=df5320
+green=7b9726
+green(bold)=2c2421
+yellow=c38418
+yellow(bold)=68615e
+blue=407ee7
+blue(bold)=9c9491
+magenta=6666ea
+magenta(bold)=e6e2e0
+cyan=3d97b8
+cyan(bold)=c33ff3
+white=a8a19f
+white(bold)=f1efee
+[Names]
+name0=Atelier Forest
+count=1

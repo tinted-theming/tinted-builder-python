@@ -1,0 +1,23 @@
+[Tomorrow Night]
+text=c5c8c6
+text(bold)=c5c8c6
+background=1d1f21
+black=1d1f21
+black(bold)=969896
+red=cc6666
+red(bold)=de935f
+green=b5bd68
+green(bold)=282a2e
+yellow=f0c674
+yellow(bold)=373b41
+blue=81a2be
+blue(bold)=b4b7b4
+magenta=b294bb
+magenta(bold)=e0e0e0
+cyan=8abeb7
+cyan(bold)=a3685a
+white=c5c8c6
+white(bold)=ffffff
+[Names]
+name0=Tomorrow Night
+count=1

@@ -1,0 +1,26 @@
+-- Name: Base16 Classic Light
+-- Author: Jason Heeris (http://heeris.id.au)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#303030" }
+Canvas = { Colour="#F5F5F5" }
+Number = { Colour="#D28445" }
+Escape = { Colour="#202020" , Italic=true}
+String = { Colour="#90A959" }
+BlockComment = { Colour="#B0B0B0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#303030" }
+LineNum      = { Color="#B0B0B0" }
+PreProcessor      = { Colour="#8F5536" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#AC4142", Bold=true},
+  { Colour="#F4BF75"},
+  { Colour="#6A9FB5"},
+  { Colour="#F4BF75"},
+  { Colour="#F4BF75" }
+}

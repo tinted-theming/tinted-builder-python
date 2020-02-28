@@ -1,0 +1,23 @@
+[Classic Dark]
+text=D0D0D0
+text(bold)=D0D0D0
+background=151515
+black=151515
+black(bold)=505050
+red=AC4142
+red(bold)=D28445
+green=90A959
+green(bold)=202020
+yellow=F4BF75
+yellow(bold)=303030
+blue=6A9FB5
+blue(bold)=B0B0B0
+magenta=AA759F
+magenta(bold)=E0E0E0
+cyan=75B5AA
+cyan(bold)=8F5536
+white=D0D0D0
+white(bold)=F5F5F5
+[Names]
+name0=Classic Dark
+count=1

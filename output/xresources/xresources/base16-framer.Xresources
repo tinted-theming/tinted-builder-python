@@ -1,0 +1,45 @@
+! Base16 Framer
+! Scheme: Framer (Maintained by Jesse Hoyos)
+
+#define base00 #181818
+#define base01 #151515
+#define base02 #464646
+#define base03 #747474
+#define base04 #B9B9B9
+#define base05 #D0D0D0
+#define base06 #E8E8E8
+#define base07 #EEEEEE
+#define base08 #FD886B
+#define base09 #FC4769
+#define base0A #FECB6E
+#define base0B #32CCDC
+#define base0C #ACDDFD
+#define base0D #20BCFC
+#define base0E #BA8CFC
+#define base0F #B15F4A
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

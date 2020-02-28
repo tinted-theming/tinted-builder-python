@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Fruit Soda by jozip
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#f1ecf1"
+idle_fg = "#515151"
+info_bg = "#0f9cfd"
+info_fg = "#f1ecf1"
+good_bg = "#47f74c"
+good_fg = "#f1ecf1"
+warning_bg = "#f7e203"
+warning_fg = "#f1ecf1"
+critical_bg = "#fe3e31"
+critical_fg = "#f1ecf1"
+# The rest of the theme settings are left at default.

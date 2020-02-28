@@ -1,0 +1,6 @@
+# Base16 One Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Daniel Pfeifer (http://github.com/purpleKarrot)
+# one-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#fafafa\nfg_color:#383a42\nbase_color:#fafafa\ntext_color:#383a42\nselected_bg_color:#e5e5e6\nselected_fg_color:#383a42\ntooltip_bg_color:#fafafa\ntooltip_fg_color:#696c77\ntitlebar_bg_color:#fafafa\ntitlebar_fg_color:#4078f2\nmenubar_bg_color:#fafafa\nmenubar_fg_color:#4078f2\ntoolbar_bg_color:#fafafa\ntoolbar_fg_color:#c18401\nmenu_bg_color:#fafafa\nmenu_fg_color:#383a42\npanel_bg_color:#fafafa\npanel_fg_color:#50a14f\nlink_color:#d75f00"
+

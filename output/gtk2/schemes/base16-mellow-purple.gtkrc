@@ -1,0 +1,6 @@
+# Base16 Mellow Purple for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By gidsi
+# mellow-purple (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#1e0528\nfg_color:#ffeeff\nbase_color:#1e0528\ntext_color:#ffeeff\nselected_bg_color:#331354\nselected_fg_color:#ffeeff\ntooltip_bg_color:#1e0528\ntooltip_fg_color:#873582\ntitlebar_bg_color:#1e0528\ntitlebar_fg_color:#550068\nmenubar_bg_color:#1e0528\nmenubar_fg_color:#550068\ntoolbar_bg_color:#1e0528\ntoolbar_fg_color:#955ae7\nmenu_bg_color:#1e0528\nmenu_fg_color:#ffeeff\npanel_bg_color:#1e0528\npanel_fg_color:#05cb0d\nlink_color:#aa00a3"
+

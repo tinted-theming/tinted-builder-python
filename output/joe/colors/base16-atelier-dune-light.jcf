@@ -1,0 +1,61 @@
+
+# base16 Atelier Dune Light by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$6e6b5e/$fefbec
+-status		$7d7a68/$a6a28c
+-cursor		$fefbec/$6e6b5e
+-selection	/$a6a28c
+-curlin		/$e8e4cf
+-linum		$999580/$e8e4cf
+-curlinum	$7d7a68/$e8e4cf
+-menusel	$e8e4cf/$7d7a68
+
+-term 0 	$fefbec
+-term 1 	$6684e1
+-term 2 	$60ac39
+-term 3 	$1fad83
+-term 4 	$b65611
+-term 5 	$b854d4
+-term 6 	$ae9513
+-term 7 	$7d7a68
+-term 8 	$999580
+-term 9 	$6684e1
+-term 10	$60ac39
+-term 11	$1fad83
+-term 12	$d73737
+-term 13	$d43552
+-term 14	$ae9513
+-term 15	$20201d
+
+=Constant	$b65611
+=String		$60ac39
+=Escape		$1fad83
+
+=Comment	$999580
+=StorageClass	+Type
+=Keyword	$b854d4
+=Conditional	$b854d4
+=Operator	$6e6b5e
+=Loop		$ae9513
+=Statement	$d73737
+=Type		$ae9513
+
+=DefinedIdent	$d73737
+=Label		$ae9513
+=DefinedType	$ae9513
+=Structure	$b854d4
+
+=Preproc	$ae9513
+=Include	$6684e1
+=Define		$b854d4
+=TODO		$ae9513/$e8e4cf
+=Precond	$b854d4
+
+=diff.AddLine	$60ac39/$e8e4cf
+=diff.ChgLine	$999580/$e8e4cf
+=diff.DelLine	$d73737/$e8e4cf
+=diff.File	$d73737
+=diff.FileNew	$60ac39
+=diff.Hunk	$6684e1

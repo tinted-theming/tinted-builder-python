@@ -1,0 +1,23 @@
+[Material Lighter]
+text=80CBC4
+text(bold)=80CBC4
+background=FAFAFA
+black=FAFAFA
+black(bold)=CCD7DA
+red=FF5370
+red(bold)=F76D47
+green=91B859
+green(bold)=E7EAEC
+yellow=FFB62C
+yellow(bold)=CCEAE7
+blue=6182B8
+blue(bold)=8796B0
+magenta=7C4DFF
+magenta(bold)=80CBC4
+cyan=39ADB5
+cyan(bold)=E53935
+white=80CBC4
+white(bold)=FFFFFF
+[Names]
+name0=Material Lighter
+count=1

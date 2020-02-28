@@ -1,0 +1,23 @@
+[Edge Dark]
+text=b7bec9
+text(bold)=b7bec9
+background=262729
+black=262729
+black(bold)=3e4249
+red=e77171
+red(bold)=e77171
+green=a1bf78
+green(bold)=88909f
+yellow=dbb774
+yellow(bold)=b7bec9
+blue=73b3e7
+blue(bold)=73b3e7
+magenta=d390e7
+magenta(bold)=d390e7
+cyan=5ebaa5
+cyan(bold)=5ebaa5
+white=b7bec9
+white(bold)=3e4249
+[Names]
+name0=Edge Dark
+count=1

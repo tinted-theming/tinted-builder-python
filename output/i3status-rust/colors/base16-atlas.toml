@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Atlas by Alex Lende (https://ajlende.com)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#002635"
+idle_fg = "#a1a19a"
+info_bg = "#14747e"
+info_fg = "#002635"
+good_bg = "#7fc06e"
+good_fg = "#002635"
+warning_bg = "#ffcc1b"
+warning_fg = "#002635"
+critical_bg = "#ff5a67"
+critical_fg = "#002635"
+# The rest of the theme settings are left at default.

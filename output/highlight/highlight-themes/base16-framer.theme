@@ -1,0 +1,26 @@
+-- Name: Base16 Framer
+-- Author: Framer (Maintained by Jesse Hoyos)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#D0D0D0" }
+Canvas = { Colour="#181818" }
+Number = { Colour="#FC4769" }
+Escape = { Colour="#E8E8E8" , Italic=true}
+String = { Colour="#32CCDC" }
+BlockComment = { Colour="#747474" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#D0D0D0" }
+LineNum      = { Color="#747474" }
+PreProcessor      = { Colour="#B15F4A" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#FD886B", Bold=true},
+  { Colour="#FECB6E"},
+  { Colour="#20BCFC"},
+  { Colour="#FECB6E"},
+  { Colour="#FECB6E" }
+}

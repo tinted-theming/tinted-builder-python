@@ -1,0 +1,61 @@
+
+# base16 Cupcake by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$8b8198/$fbf1f2
+-status		$a59daf/$d8d5dd
+-cursor		$fbf1f2/$8b8198
+-selection	/$d8d5dd
+-curlin		/$f2f1f4
+-linum		$bfb9c6/$f2f1f4
+-curlinum	$a59daf/$f2f1f4
+-menusel	$f2f1f4/$a59daf
+
+-term 0 	$fbf1f2
+-term 1 	$7297B9
+-term 2 	$A3B367
+-term 3 	$69A9A7
+-term 4 	$EBB790
+-term 5 	$BB99B4
+-term 6 	$DCB16C
+-term 7 	$a59daf
+-term 8 	$bfb9c6
+-term 9 	$7297B9
+-term 10	$A3B367
+-term 11	$69A9A7
+-term 12	$D57E85
+-term 13	$BAA58C
+-term 14	$DCB16C
+-term 15	$585062
+
+=Constant	$EBB790
+=String		$A3B367
+=Escape		$69A9A7
+
+=Comment	$bfb9c6
+=StorageClass	+Type
+=Keyword	$BB99B4
+=Conditional	$BB99B4
+=Operator	$8b8198
+=Loop		$DCB16C
+=Statement	$D57E85
+=Type		$DCB16C
+
+=DefinedIdent	$D57E85
+=Label		$DCB16C
+=DefinedType	$DCB16C
+=Structure	$BB99B4
+
+=Preproc	$DCB16C
+=Include	$7297B9
+=Define		$BB99B4
+=TODO		$DCB16C/$f2f1f4
+=Precond	$BB99B4
+
+=diff.AddLine	$A3B367/$f2f1f4
+=diff.ChgLine	$bfb9c6/$f2f1f4
+=diff.DelLine	$D57E85/$f2f1f4
+=diff.File	$D57E85
+=diff.FileNew	$A3B367
+=diff.Hunk	$7297B9

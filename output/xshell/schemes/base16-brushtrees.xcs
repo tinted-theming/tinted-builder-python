@@ -1,0 +1,23 @@
+[Brush Trees]
+text=6D828E
+text(bold)=6D828E
+background=E3EFEF
+black=E3EFEF
+black(bold)=98AFB5
+red=b38686
+red(bold)=d8bba2
+green=87b386
+green(bold)=C9DBDC
+yellow=aab386
+yellow(bold)=B0C5C8
+blue=868cb3
+blue(bold)=8299A1
+magenta=b386b2
+magenta(bold)=5A6D7A
+cyan=86b3b3
+cyan(bold)=b39f9f
+white=6D828E
+white(bold)=485867
+[Names]
+name0=Brush Trees
+count=1

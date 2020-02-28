@@ -1,0 +1,23 @@
+[Atelier Heath]
+text=ab9bab
+text(bold)=ab9bab
+background=1b181b
+black=1b181b
+black(bold)=776977
+red=ca402b
+red(bold)=a65926
+green=918b3b
+green(bold)=292329
+yellow=bb8a35
+yellow(bold)=695d69
+blue=516aec
+blue(bold)=9e8f9e
+magenta=7b59c0
+magenta(bold)=d8cad8
+cyan=159393
+cyan(bold)=cc33cc
+white=ab9bab
+white(bold)=f7f3f7
+[Names]
+name0=Atelier Heath
+count=1

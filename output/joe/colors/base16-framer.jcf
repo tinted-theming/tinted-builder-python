@@ -1,0 +1,61 @@
+
+# base16 Framer by Framer (Maintained by Jesse Hoyos)
+
+.colors *
+
+-text		$D0D0D0/$181818
+-status		$B9B9B9/$464646
+-cursor		$181818/$D0D0D0
+-selection	/$464646
+-curlin		/$151515
+-linum		$747474/$151515
+-curlinum	$B9B9B9/$151515
+-menusel	$151515/$B9B9B9
+
+-term 0 	$181818
+-term 1 	$20BCFC
+-term 2 	$32CCDC
+-term 3 	$ACDDFD
+-term 4 	$FC4769
+-term 5 	$BA8CFC
+-term 6 	$FECB6E
+-term 7 	$B9B9B9
+-term 8 	$747474
+-term 9 	$20BCFC
+-term 10	$32CCDC
+-term 11	$ACDDFD
+-term 12	$FD886B
+-term 13	$B15F4A
+-term 14	$FECB6E
+-term 15	$EEEEEE
+
+=Constant	$FC4769
+=String		$32CCDC
+=Escape		$ACDDFD
+
+=Comment	$747474
+=StorageClass	+Type
+=Keyword	$BA8CFC
+=Conditional	$BA8CFC
+=Operator	$D0D0D0
+=Loop		$FECB6E
+=Statement	$FD886B
+=Type		$FECB6E
+
+=DefinedIdent	$FD886B
+=Label		$FECB6E
+=DefinedType	$FECB6E
+=Structure	$BA8CFC
+
+=Preproc	$FECB6E
+=Include	$20BCFC
+=Define		$BA8CFC
+=TODO		$FECB6E/$151515
+=Precond	$BA8CFC
+
+=diff.AddLine	$32CCDC/$151515
+=diff.ChgLine	$747474/$151515
+=diff.DelLine	$FD886B/$151515
+=diff.File	$FD886B
+=diff.FileNew	$32CCDC
+=diff.Hunk	$20BCFC

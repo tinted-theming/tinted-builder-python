@@ -1,0 +1,61 @@
+
+# base16 Fruit Soda by jozip
+
+.colors *
+
+-text		$515151/$f1ecf1
+-status		$979598/$d8d5d5
+-cursor		$f1ecf1/$515151
+-selection	/$d8d5d5
+-curlin		/$e0dee0
+-linum		$b5b4b6/$e0dee0
+-curlinum	$979598/$e0dee0
+-menusel	$e0dee0/$979598
+
+-term 0 	$f1ecf1
+-term 1 	$2931df
+-term 2 	$47f74c
+-term 3 	$0f9cfd
+-term 4 	$fe6d08
+-term 5 	$611fce
+-term 6 	$f7e203
+-term 7 	$979598
+-term 8 	$b5b4b6
+-term 9 	$2931df
+-term 10	$47f74c
+-term 11	$0f9cfd
+-term 12	$fe3e31
+-term 13	$b16f40
+-term 14	$f7e203
+-term 15	$2d2c2c
+
+=Constant	$fe6d08
+=String		$47f74c
+=Escape		$0f9cfd
+
+=Comment	$b5b4b6
+=StorageClass	+Type
+=Keyword	$611fce
+=Conditional	$611fce
+=Operator	$515151
+=Loop		$f7e203
+=Statement	$fe3e31
+=Type		$f7e203
+
+=DefinedIdent	$fe3e31
+=Label		$f7e203
+=DefinedType	$f7e203
+=Structure	$611fce
+
+=Preproc	$f7e203
+=Include	$2931df
+=Define		$611fce
+=TODO		$f7e203/$e0dee0
+=Precond	$611fce
+
+=diff.AddLine	$47f74c/$e0dee0
+=diff.ChgLine	$b5b4b6/$e0dee0
+=diff.DelLine	$fe3e31/$e0dee0
+=diff.File	$fe3e31
+=diff.FileNew	$47f74c
+=diff.Hunk	$2931df

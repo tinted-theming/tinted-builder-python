@@ -1,0 +1,23 @@
+[Atelier Cave Light]
+text=585260
+text(bold)=585260
+background=efecf4
+black=efecf4
+black(bold)=7e7887
+red=be4678
+red(bold)=aa573c
+green=2a9292
+green(bold)=e2dfe7
+yellow=a06e3b
+yellow(bold)=8b8792
+blue=576ddb
+blue(bold)=655f6d
+magenta=955ae7
+magenta(bold)=26232a
+cyan=398bc6
+cyan(bold)=bf40bf
+white=585260
+white(bold)=19171c
+[Names]
+name0=Atelier Cave Light
+count=1

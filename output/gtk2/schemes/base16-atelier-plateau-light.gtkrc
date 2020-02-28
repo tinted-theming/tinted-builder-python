@@ -1,0 +1,6 @@
+# Base16 Atelier Plateau Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-plateau-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#f4ecec\nfg_color:#585050\nbase_color:#f4ecec\ntext_color:#585050\nselected_bg_color:#8a8585\nselected_fg_color:#585050\ntooltip_bg_color:#f4ecec\ntooltip_fg_color:#655d5d\ntitlebar_bg_color:#f4ecec\ntitlebar_fg_color:#7272ca\nmenubar_bg_color:#f4ecec\nmenubar_fg_color:#7272ca\ntoolbar_bg_color:#f4ecec\ntoolbar_fg_color:#a06e3b\nmenu_bg_color:#f4ecec\nmenu_fg_color:#585050\npanel_bg_color:#f4ecec\npanel_fg_color:#4b8b8b\nlink_color:#b45a3c"
+

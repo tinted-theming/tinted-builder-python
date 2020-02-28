@@ -1,0 +1,61 @@
+
+# base16 Solar Flare by Chuck Harmston (https://chuck.harmston.ch)
+
+.colors *
+
+-text		$A6AFB8/$18262F
+-status		$85939E/$586875
+-cursor		$18262F/$A6AFB8
+-selection	/$586875
+-curlin		/$222E38
+-linum		$667581/$222E38
+-curlinum	$85939E/$222E38
+-menusel	$222E38/$85939E
+
+-term 0 	$18262F
+-term 1 	$33B5E1
+-term 2 	$7CC844
+-term 3 	$52CBB0
+-term 4 	$E66B2B
+-term 5 	$A363D5
+-term 6 	$E4B51C
+-term 7 	$85939E
+-term 8 	$667581
+-term 9 	$33B5E1
+-term 10	$7CC844
+-term 11	$52CBB0
+-term 12	$EF5253
+-term 13	$D73C9A
+-term 14	$E4B51C
+-term 15	$F5F7FA
+
+=Constant	$E66B2B
+=String		$7CC844
+=Escape		$52CBB0
+
+=Comment	$667581
+=StorageClass	+Type
+=Keyword	$A363D5
+=Conditional	$A363D5
+=Operator	$A6AFB8
+=Loop		$E4B51C
+=Statement	$EF5253
+=Type		$E4B51C
+
+=DefinedIdent	$EF5253
+=Label		$E4B51C
+=DefinedType	$E4B51C
+=Structure	$A363D5
+
+=Preproc	$E4B51C
+=Include	$33B5E1
+=Define		$A363D5
+=TODO		$E4B51C/$222E38
+=Precond	$A363D5
+
+=diff.AddLine	$7CC844/$222E38
+=diff.ChgLine	$667581/$222E38
+=diff.DelLine	$EF5253/$222E38
+=diff.File	$EF5253
+=diff.FileNew	$7CC844
+=diff.Hunk	$33B5E1

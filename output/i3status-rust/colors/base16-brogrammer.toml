@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Brogrammer by Vik Ramanujam (http://github.com/piggyslasher)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#1f1f1f"
+idle_fg = "#4e5ab7"
+info_bg = "#1081d6"
+info_fg = "#1f1f1f"
+good_bg = "#f3bd09"
+good_fg = "#1f1f1f"
+warning_bg = "#1dd361"
+warning_fg = "#1f1f1f"
+critical_bg = "#d6dbe5"
+critical_fg = "#1f1f1f"
+# The rest of the theme settings are left at default.

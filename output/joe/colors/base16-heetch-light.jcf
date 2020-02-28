@@ -1,0 +1,61 @@
+
+# base16 Heetch Light by Geoffrey Teale (tealeg@gmail.com)
+
+.colors *
+
+-text		$5a496e/$feffff
+-status		$ddd6e5/$7b6d8b
+-cursor		$feffff/$5a496e
+-selection	/$7b6d8b
+-curlin		/$392551
+-linum		$9c92a8/$392551
+-curlinum	$ddd6e5/$392551
+-menusel	$392551/$ddd6e5
+
+-term 0 	$feffff
+-term 1 	$47f9f5
+-term 2 	$f80059
+-term 3 	$c33678
+-term 4 	$bdb6c5
+-term 5 	$bd0152
+-term 6 	$5ba2b6
+-term 7 	$ddd6e5
+-term 8 	$9c92a8
+-term 9 	$47f9f5
+-term 10	$f80059
+-term 11	$c33678
+-term 12	$27d9d5
+-term 13	$dedae2
+-term 14	$5ba2b6
+-term 15	$190134
+
+=Constant	$bdb6c5
+=String		$f80059
+=Escape		$c33678
+
+=Comment	$9c92a8
+=StorageClass	+Type
+=Keyword	$bd0152
+=Conditional	$bd0152
+=Operator	$5a496e
+=Loop		$5ba2b6
+=Statement	$27d9d5
+=Type		$5ba2b6
+
+=DefinedIdent	$27d9d5
+=Label		$5ba2b6
+=DefinedType	$5ba2b6
+=Structure	$bd0152
+
+=Preproc	$5ba2b6
+=Include	$47f9f5
+=Define		$bd0152
+=TODO		$5ba2b6/$392551
+=Precond	$bd0152
+
+=diff.AddLine	$f80059/$392551
+=diff.ChgLine	$9c92a8/$392551
+=diff.DelLine	$27d9d5/$392551
+=diff.File	$27d9d5
+=diff.FileNew	$f80059
+=diff.Hunk	$47f9f5

@@ -1,0 +1,6 @@
+# Base16 Helios for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Alex Meyer (https://github.com/reyemxela)
+# helios (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#1d2021\nfg_color:#d5d5d5\nbase_color:#1d2021\ntext_color:#d5d5d5\nselected_bg_color:#53585b\nselected_fg_color:#d5d5d5\ntooltip_bg_color:#1d2021\ntooltip_fg_color:#cdcdcd\ntitlebar_bg_color:#1d2021\ntitlebar_fg_color:#1e8bac\nmenubar_bg_color:#1d2021\nmenubar_fg_color:#1e8bac\ntoolbar_bg_color:#1d2021\ntoolbar_fg_color:#f19d1a\nmenu_bg_color:#1d2021\nmenu_fg_color:#d5d5d5\npanel_bg_color:#1d2021\npanel_fg_color:#88b92d\nlink_color:#eb8413"
+

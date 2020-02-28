@@ -1,0 +1,61 @@
+
+# base16 Atelier Savanna Light by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$526057/$ecf4ee
+-status		$5f6d64/$87928a
+-cursor		$ecf4ee/$526057
+-selection	/$87928a
+-curlin		/$dfe7e2
+-linum		$78877d/$dfe7e2
+-curlinum	$5f6d64/$dfe7e2
+-menusel	$dfe7e2/$5f6d64
+
+-term 0 	$ecf4ee
+-term 1 	$478c90
+-term 2 	$489963
+-term 3 	$1c9aa0
+-term 4 	$9f713c
+-term 5 	$55859b
+-term 6 	$a07e3b
+-term 7 	$5f6d64
+-term 8 	$78877d
+-term 9 	$478c90
+-term 10	$489963
+-term 11	$1c9aa0
+-term 12	$b16139
+-term 13	$867469
+-term 14	$a07e3b
+-term 15	$171c19
+
+=Constant	$9f713c
+=String		$489963
+=Escape		$1c9aa0
+
+=Comment	$78877d
+=StorageClass	+Type
+=Keyword	$55859b
+=Conditional	$55859b
+=Operator	$526057
+=Loop		$a07e3b
+=Statement	$b16139
+=Type		$a07e3b
+
+=DefinedIdent	$b16139
+=Label		$a07e3b
+=DefinedType	$a07e3b
+=Structure	$55859b
+
+=Preproc	$a07e3b
+=Include	$478c90
+=Define		$55859b
+=TODO		$a07e3b/$dfe7e2
+=Precond	$55859b
+
+=diff.AddLine	$489963/$dfe7e2
+=diff.ChgLine	$78877d/$dfe7e2
+=diff.DelLine	$b16139/$dfe7e2
+=diff.File	$b16139
+=diff.FileNew	$489963
+=diff.Hunk	$478c90

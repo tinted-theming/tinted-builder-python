@@ -1,0 +1,23 @@
+[Atelier Plateau]
+text=8a8585
+text(bold)=8a8585
+background=1b1818
+black=1b1818
+black(bold)=655d5d
+red=ca4949
+red(bold)=b45a3c
+green=4b8b8b
+green(bold)=292424
+yellow=a06e3b
+yellow(bold)=585050
+blue=7272ca
+blue(bold)=7e7777
+magenta=8464c4
+magenta(bold)=e7dfdf
+cyan=5485b6
+cyan(bold)=bd5187
+white=8a8585
+white(bold)=f4ecec
+[Names]
+name0=Atelier Plateau
+count=1

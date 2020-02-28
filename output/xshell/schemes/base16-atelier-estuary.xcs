@@ -1,0 +1,23 @@
+[Atelier Estuary]
+text=929181
+text(bold)=929181
+background=22221b
+black=22221b
+black(bold)=6c6b5a
+red=ba6236
+red(bold)=ae7313
+green=7d9726
+green(bold)=302f27
+yellow=a5980d
+yellow(bold)=5f5e4e
+blue=36a166
+blue(bold)=878573
+magenta=5f9182
+magenta(bold)=e7e6df
+cyan=5b9d48
+cyan(bold)=9d6c7c
+white=929181
+white(bold)=f4f3ec
+[Names]
+name0=Atelier Estuary
+count=1

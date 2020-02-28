@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Brush Trees Dark",
+	"foreground": "#B0C5C8",
+	"background": "#485867",
+	"black": "#5A6D7A",
+	"blue": "#868cb3",
+	"brightBlack": "#6D828E",
+	"brightBlue": "#868cb3",
+	"brightCyan": "#86b3b3",
+	"brightGreen": "#87b386",
+	"brightPurple": "#b386b2",
+	"brightRed": "#b38686",
+	"brightWhite": "#E3EFEF",
+	"brightYellow": "#aab386",
+	"cyan": "#86b3b3",
+	"green": "#87b386",
+	"purple": "#b386b2",
+	"red": "#b38686",
+	"white": "#C9DBDC",
+	"yellow": "#d8bba2"
+},

@@ -1,0 +1,61 @@
+
+# base16 PaperColor Light by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+
+.colors *
+
+-text		$878787/$eeeeee
+-status		$0087af/$008700
+-cursor		$eeeeee/$878787
+-selection	/$008700
+-curlin		/$af0000
+-linum		$5f8700/$af0000
+-curlinum	$0087af/$af0000
+-menusel	$af0000/$0087af
+
+-term 0 	$eeeeee
+-term 1 	$d75f00
+-term 2 	$8700af
+-term 3 	$d75f00
+-term 4 	$d70000
+-term 5 	$005faf
+-term 6 	$d70087
+-term 7 	$0087af
+-term 8 	$5f8700
+-term 9 	$d75f00
+-term 10	$8700af
+-term 11	$d75f00
+-term 12	$bcbcbc
+-term 13	$005f87
+-term 14	$d70087
+-term 15	$444444
+
+=Constant	$d70000
+=String		$8700af
+=Escape		$d75f00
+
+=Comment	$5f8700
+=StorageClass	+Type
+=Keyword	$005faf
+=Conditional	$005faf
+=Operator	$878787
+=Loop		$d70087
+=Statement	$bcbcbc
+=Type		$d70087
+
+=DefinedIdent	$bcbcbc
+=Label		$d70087
+=DefinedType	$d70087
+=Structure	$005faf
+
+=Preproc	$d70087
+=Include	$d75f00
+=Define		$005faf
+=TODO		$d70087/$af0000
+=Precond	$005faf
+
+=diff.AddLine	$8700af/$af0000
+=diff.ChgLine	$5f8700/$af0000
+=diff.DelLine	$bcbcbc/$af0000
+=diff.File	$bcbcbc
+=diff.FileNew	$8700af
+=diff.Hunk	$d75f00

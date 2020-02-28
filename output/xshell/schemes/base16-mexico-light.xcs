@@ -1,0 +1,23 @@
+[Mexico Light]
+text=383838
+text(bold)=383838
+background=f8f8f8
+black=f8f8f8
+black(bold)=b8b8b8
+red=ab4642
+red(bold)=dc9656
+green=538947
+green(bold)=e8e8e8
+yellow=f79a0e
+yellow(bold)=d8d8d8
+blue=7cafc2
+blue(bold)=585858
+magenta=96609e
+magenta(bold)=282828
+cyan=4b8093
+cyan(bold)=a16946
+white=383838
+white(bold)=181818
+[Names]
+name0=Mexico Light
+count=1

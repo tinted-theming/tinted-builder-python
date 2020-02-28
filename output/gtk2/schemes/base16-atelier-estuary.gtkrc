@@ -1,0 +1,6 @@
+# Base16 Atelier Estuary for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-estuary (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#22221b\nfg_color:#929181\nbase_color:#22221b\ntext_color:#929181\nselected_bg_color:#5f5e4e\nselected_fg_color:#929181\ntooltip_bg_color:#22221b\ntooltip_fg_color:#878573\ntitlebar_bg_color:#22221b\ntitlebar_fg_color:#36a166\nmenubar_bg_color:#22221b\nmenubar_fg_color:#36a166\ntoolbar_bg_color:#22221b\ntoolbar_fg_color:#a5980d\nmenu_bg_color:#22221b\nmenu_fg_color:#929181\npanel_bg_color:#22221b\npanel_fg_color:#7d9726\nlink_color:#ae7313"
+

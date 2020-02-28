@@ -1,0 +1,42 @@
+# Base16 Classic Light 256 - alacritty color config
+# Jason Heeris (http://heeris.id.au)
+colors:
+  # Default colors
+  primary:
+    background: '0xF5F5F5'
+    foreground: '0x303030'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xF5F5F5'
+    cursor: '0x303030'
+
+  # Normal colors
+  normal:
+    black:   '0xF5F5F5'
+    red:     '0xAC4142'
+    green:   '0x90A959'
+    yellow:  '0xF4BF75'
+    blue:    '0x6A9FB5'
+    magenta: '0xAA759F'
+    cyan:    '0x75B5AA'
+    white:   '0x303030'
+
+  # Bright colors
+  bright:
+    black:   '0xB0B0B0'
+    red:     '0xAC4142'
+    green:   '0x90A959'
+    yellow:  '0xF4BF75'
+    blue:    '0x6A9FB5'
+    magenta: '0xAA759F'
+    cyan:    '0x75B5AA'
+    white:   '0x151515'
+
+  indexed_colors:
+    - { index: 16, color: '0xD28445' }
+    - { index: 17, color: '0x8F5536' }
+    - { index: 18, color: '0xE0E0E0' }
+    - { index: 19, color: '0xD0D0D0' }
+    - { index: 20, color: '0x505050' }
+    - { index: 21, color: '0x202020' }

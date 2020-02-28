@@ -1,0 +1,23 @@
+[Default Dark]
+text=d8d8d8
+text(bold)=d8d8d8
+background=181818
+black=181818
+black(bold)=585858
+red=ab4642
+red(bold)=dc9656
+green=a1b56c
+green(bold)=282828
+yellow=f7ca88
+yellow(bold)=383838
+blue=7cafc2
+blue(bold)=b8b8b8
+magenta=ba8baf
+magenta(bold)=e8e8e8
+cyan=86c1b9
+cyan(bold)=a16946
+white=d8d8d8
+white(bold)=f8f8f8
+[Names]
+name0=Default Dark
+count=1

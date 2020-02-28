@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Hardcore by Chris Caller
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#212121"
+idle_fg = "#cdcdcd"
+info_bg = "#708387"
+info_fg = "#212121"
+good_bg = "#a6e22e"
+good_fg = "#212121"
+warning_bg = "#e6db74"
+warning_fg = "#212121"
+critical_bg = "#f92672"
+critical_fg = "#212121"
+# The rest of the theme settings are left at default.

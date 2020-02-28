@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Classic Light",
+	"foreground": "#303030",
+	"background": "#F5F5F5",
+	"black": "#E0E0E0",
+	"blue": "#6A9FB5",
+	"brightBlack": "#D0D0D0",
+	"brightBlue": "#6A9FB5",
+	"brightCyan": "#75B5AA",
+	"brightGreen": "#90A959",
+	"brightPurple": "#AA759F",
+	"brightRed": "#AC4142",
+	"brightWhite": "#151515",
+	"brightYellow": "#F4BF75",
+	"cyan": "#75B5AA",
+	"green": "#90A959",
+	"purple": "#AA759F",
+	"red": "#AC4142",
+	"white": "#202020",
+	"yellow": "#D28445"
+},

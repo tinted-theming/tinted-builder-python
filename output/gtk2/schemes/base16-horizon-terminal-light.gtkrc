@@ -1,0 +1,6 @@
+# Base16 Horizon Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Michaël Ball (http://github.com/michael-ball/)
+# horizon-terminal-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#FDF0ED\nfg_color:#403C3D\nbase_color:#FDF0ED\ntext_color:#403C3D\nselected_bg_color:#F9CBBE\nselected_fg_color:#403C3D\ntooltip_bg_color:#FDF0ED\ntooltip_fg_color:#948C8A\ntitlebar_bg_color:#FDF0ED\ntitlebar_fg_color:#26BBD9\nmenubar_bg_color:#FDF0ED\nmenubar_fg_color:#26BBD9\ntoolbar_bg_color:#FDF0ED\ntoolbar_fg_color:#FADAD1\nmenu_bg_color:#FDF0ED\nmenu_fg_color:#403C3D\npanel_bg_color:#FDF0ED\npanel_fg_color:#29D398\nlink_color:#F9CEC3"
+

@@ -1,0 +1,23 @@
+[Horizon Light]
+text=403C3D
+text(bold)=403C3D
+background=FDF0ED
+black=FDF0ED
+black(bold)=BDB3B1
+red=E95678
+red(bold)=F9CEC3
+green=29D398
+green(bold)=FADAD1
+yellow=FADAD1
+yellow(bold)=F9CBBE
+blue=26BBD9
+blue(bold)=948C8A
+magenta=EE64AC
+magenta(bold)=302C2D
+cyan=59E1E3
+cyan(bold)=F9CBBE
+white=403C3D
+white(bold)=201C1D
+[Names]
+name0=Horizon Light
+count=1

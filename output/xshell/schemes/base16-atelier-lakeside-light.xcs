@@ -1,0 +1,23 @@
+[Atelier Lakeside Light]
+text=516d7b
+text(bold)=516d7b
+background=ebf8ff
+black=ebf8ff
+black(bold)=7195a8
+red=d22d72
+red(bold)=935c25
+green=568c3b
+green(bold)=c1e4f6
+yellow=8a8a0f
+yellow(bold)=7ea2b4
+blue=257fad
+blue(bold)=5a7b8c
+magenta=6b6bb8
+magenta(bold)=1f292e
+cyan=2d8f6f
+cyan(bold)=b72dd2
+white=516d7b
+white(bold)=161b1d
+[Names]
+name0=Atelier Lakeside Light
+count=1

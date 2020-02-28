@@ -1,0 +1,61 @@
+
+# base16 Hardcore by Chris Caller
+
+.colors *
+
+-text		$cdcdcd/$212121
+-status		$707070/$353535
+-cursor		$212121/$cdcdcd
+-selection	/$353535
+-curlin		/$303030
+-linum		$4A4A4A/$303030
+-curlinum	$707070/$303030
+-menusel	$303030/$707070
+
+-term 0 	$212121
+-term 1 	$66d9ef
+-term 2 	$a6e22e
+-term 3 	$708387
+-term 4 	$fd971f
+-term 5 	$9e6ffe
+-term 6 	$e6db74
+-term 7 	$707070
+-term 8 	$4A4A4A
+-term 9 	$66d9ef
+-term 10	$a6e22e
+-term 11	$708387
+-term 12	$f92672
+-term 13	$e8b882
+-term 14	$e6db74
+-term 15	$ffffff
+
+=Constant	$fd971f
+=String		$a6e22e
+=Escape		$708387
+
+=Comment	$4A4A4A
+=StorageClass	+Type
+=Keyword	$9e6ffe
+=Conditional	$9e6ffe
+=Operator	$cdcdcd
+=Loop		$e6db74
+=Statement	$f92672
+=Type		$e6db74
+
+=DefinedIdent	$f92672
+=Label		$e6db74
+=DefinedType	$e6db74
+=Structure	$9e6ffe
+
+=Preproc	$e6db74
+=Include	$66d9ef
+=Define		$9e6ffe
+=TODO		$e6db74/$303030
+=Precond	$9e6ffe
+
+=diff.AddLine	$a6e22e/$303030
+=diff.ChgLine	$4A4A4A/$303030
+=diff.DelLine	$f92672/$303030
+=diff.File	$f92672
+=diff.FileNew	$a6e22e
+=diff.Hunk	$66d9ef

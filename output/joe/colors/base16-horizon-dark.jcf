@@ -1,0 +1,61 @@
+
+# base16 Horizon Dark by Michaël Ball (http://github.com/michael-ball/)
+
+.colors *
+
+-text		$CBCED0/$1C1E26
+-status		$9DA0A2/$2E303E
+-cursor		$1C1E26/$CBCED0
+-selection	/$2E303E
+-curlin		/$232530
+-linum		$6F6F70/$232530
+-curlinum	$9DA0A2/$232530
+-menusel	$232530/$9DA0A2
+
+-term 0 	$1C1E26
+-term 1 	$DF5273
+-term 2 	$EFAF8E
+-term 3 	$24A8B4
+-term 4 	$E58D7D
+-term 5 	$B072D1
+-term 6 	$EFB993
+-term 7 	$9DA0A2
+-term 8 	$6F6F70
+-term 9 	$DF5273
+-term 10	$EFAF8E
+-term 11	$24A8B4
+-term 12	$E93C58
+-term 13	$E4A382
+-term 14	$EFB993
+-term 15	$E3E6EE
+
+=Constant	$E58D7D
+=String		$EFAF8E
+=Escape		$24A8B4
+
+=Comment	$6F6F70
+=StorageClass	+Type
+=Keyword	$B072D1
+=Conditional	$B072D1
+=Operator	$CBCED0
+=Loop		$EFB993
+=Statement	$E93C58
+=Type		$EFB993
+
+=DefinedIdent	$E93C58
+=Label		$EFB993
+=DefinedType	$EFB993
+=Structure	$B072D1
+
+=Preproc	$EFB993
+=Include	$DF5273
+=Define		$B072D1
+=TODO		$EFB993/$232530
+=Precond	$B072D1
+
+=diff.AddLine	$EFAF8E/$232530
+=diff.ChgLine	$6F6F70/$232530
+=diff.DelLine	$E93C58/$232530
+=diff.File	$E93C58
+=diff.FileNew	$EFAF8E
+=diff.Hunk	$DF5273

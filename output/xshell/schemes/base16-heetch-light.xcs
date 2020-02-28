@@ -1,0 +1,23 @@
+[Heetch Light]
+text=5a496e
+text(bold)=5a496e
+background=feffff
+black=feffff
+black(bold)=9c92a8
+red=27d9d5
+red(bold)=bdb6c5
+green=f80059
+green(bold)=392551
+yellow=5ba2b6
+yellow(bold)=7b6d8b
+blue=47f9f5
+blue(bold)=ddd6e5
+magenta=bd0152
+magenta(bold)=470546
+cyan=c33678
+cyan(bold)=dedae2
+white=5a496e
+white(bold)=190134
+[Names]
+name0=Heetch Light
+count=1

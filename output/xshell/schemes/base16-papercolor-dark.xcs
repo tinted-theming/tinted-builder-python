@@ -1,0 +1,23 @@
+[PaperColor Dark]
+text=808080
+text(bold)=808080
+background=1c1c1c
+black=1c1c1c
+black(bold)=d7af5f
+red=585858
+red(bold)=5faf5f
+green=af87d7
+green(bold)=af005f
+yellow=afd700
+yellow(bold)=5faf00
+blue=ff5faf
+blue(bold)=5fafd7
+magenta=00afaf
+magenta(bold)=d7875f
+cyan=ffaf00
+cyan(bold)=5f8787
+white=808080
+white(bold)=d0d0d0
+[Names]
+name0=PaperColor Dark
+count=1

@@ -1,0 +1,61 @@
+
+# base16 Atelier Seaside by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$8ca68c/$131513
+-status		$809980/$5e6e5e
+-cursor		$131513/$8ca68c
+-selection	/$5e6e5e
+-curlin		/$242924
+-linum		$687d68/$242924
+-curlinum	$809980/$242924
+-menusel	$242924/$809980
+
+-term 0 	$131513
+-term 1 	$3d62f5
+-term 2 	$29a329
+-term 3 	$1999b3
+-term 4 	$87711d
+-term 5 	$ad2bee
+-term 6 	$98981b
+-term 7 	$809980
+-term 8 	$687d68
+-term 9 	$3d62f5
+-term 10	$29a329
+-term 11	$1999b3
+-term 12	$e6193c
+-term 13	$e619c3
+-term 14	$98981b
+-term 15	$f4fbf4
+
+=Constant	$87711d
+=String		$29a329
+=Escape		$1999b3
+
+=Comment	$687d68
+=StorageClass	+Type
+=Keyword	$ad2bee
+=Conditional	$ad2bee
+=Operator	$8ca68c
+=Loop		$98981b
+=Statement	$e6193c
+=Type		$98981b
+
+=DefinedIdent	$e6193c
+=Label		$98981b
+=DefinedType	$98981b
+=Structure	$ad2bee
+
+=Preproc	$98981b
+=Include	$3d62f5
+=Define		$ad2bee
+=TODO		$98981b/$242924
+=Precond	$ad2bee
+
+=diff.AddLine	$29a329/$242924
+=diff.ChgLine	$687d68/$242924
+=diff.DelLine	$e6193c/$242924
+=diff.File	$e6193c
+=diff.FileNew	$29a329
+=diff.Hunk	$3d62f5

@@ -1,0 +1,61 @@
+
+# base16 Nova by George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+
+.colors *
+
+-text		$C5D4DD/$3C4C55
+-status		$899BA6/$6A7D89
+-cursor		$3C4C55/$C5D4DD
+-selection	/$6A7D89
+-curlin		/$556873
+-linum		$899BA6/$556873
+-curlinum	$899BA6/$556873
+-menusel	$556873/$899BA6
+
+-term 0 	$3C4C55
+-term 1 	$83AFE5
+-term 2 	$7FC1CA
+-term 3 	$F2C38F
+-term 4 	$7FC1CA
+-term 5 	$9A93E1
+-term 6 	$A8CE93
+-term 7 	$899BA6
+-term 8 	$899BA6
+-term 9 	$83AFE5
+-term 10	$7FC1CA
+-term 11	$F2C38F
+-term 12	$83AFE5
+-term 13	$F2C38F
+-term 14	$A8CE93
+-term 15	$556873
+
+=Constant	$7FC1CA
+=String		$7FC1CA
+=Escape		$F2C38F
+
+=Comment	$899BA6
+=StorageClass	+Type
+=Keyword	$9A93E1
+=Conditional	$9A93E1
+=Operator	$C5D4DD
+=Loop		$A8CE93
+=Statement	$83AFE5
+=Type		$A8CE93
+
+=DefinedIdent	$83AFE5
+=Label		$A8CE93
+=DefinedType	$A8CE93
+=Structure	$9A93E1
+
+=Preproc	$A8CE93
+=Include	$83AFE5
+=Define		$9A93E1
+=TODO		$A8CE93/$556873
+=Precond	$9A93E1
+
+=diff.AddLine	$7FC1CA/$556873
+=diff.ChgLine	$899BA6/$556873
+=diff.DelLine	$83AFE5/$556873
+=diff.File	$83AFE5
+=diff.FileNew	$7FC1CA
+=diff.Hunk	$83AFE5

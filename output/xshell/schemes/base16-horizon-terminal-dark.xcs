@@ -1,0 +1,23 @@
+[Horizon Dark]
+text=CBCED0
+text(bold)=CBCED0
+background=1C1E26
+black=1C1E26
+black(bold)=6F6F70
+red=E95678
+red(bold)=FAB795
+green=29D398
+green(bold)=232530
+yellow=FAC29A
+yellow(bold)=2E303E
+blue=26BBD9
+blue(bold)=9DA0A2
+magenta=EE64AC
+magenta(bold)=DCDFE4
+cyan=59E1E3
+cyan(bold)=F09383
+white=CBCED0
+white(bold)=E3E6EE
+[Names]
+name0=Horizon Dark
+count=1

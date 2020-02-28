@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <!-- HTML Preview Template -->
+    <!-- Chris Kempson (http://chriskempson.com) -->
+    <meta http-equiv="content-type" content="text/html">
+    <title>Base16 Horizon Light</title>
+    <style type="text/css" media="screen">
+      body { margin: 5% 20%; }
+      .scheme, .author, pre, .block { font-family: "menlo", "consolas", monospace; }
+  	  .block { display: inline-block; font-size: 13px; font-weight: bold; padding: 15px; margin: 0 5px 10px 0; }
+  	  pre {
+  	    font-size: 14px;
+  	    padding: 10px 20px;
+  	  }
+  	  
+      .base00-background { background-color: #FDF0ED; }
+      .base01-background { background-color: #FADAD1; }
+      .base02-background { background-color: #F9CBBE; }
+      .base03-background { background-color: #BDB3B1; }
+      .base04-background { background-color: #948C8A; }
+      .base05-background { background-color: #403C3D; }
+      .base06-background { background-color: #302C2D; }
+      .base07-background { background-color: #201C1D; }
+      .base08-background { background-color: #E95678; }
+      .base09-background { background-color: #F9CEC3; }
+      .base0A-background { background-color: #FADAD1; }
+      .base0B-background { background-color: #29D398; }
+      .base0C-background { background-color: #59E1E3; }
+      .base0D-background { background-color: #26BBD9; }
+      .base0E-background { background-color: #EE64AC; }
+      .base0F-background { background-color: #F9CBBE; }
+      
+      .base00 { color: #FDF0ED; }
+      .base01 { color: #FADAD1; }
+      .base02 { color: #F9CBBE; }
+      .base03 { color: #BDB3B1; }
+      .base04 { color: #948C8A; }
+      .base05 { color: #403C3D; }
+      .base06 { color: #302C2D; }
+      .base07 { color: #201C1D; }
+      .base08 { color: #E95678; }
+      .base09 { color: #F9CEC3; }
+      .base0A { color: #FADAD1; }
+      .base0B { color: #29D398; }
+      .base0C { color: #59E1E3; }
+      .base0D { color: #26BBD9; }
+      .base0E { color: #EE64AC; }
+      .base0F { color: #F9CBBE; }
+    </style>
+  </head>
+  <body>
+
+    <h1 class="scheme">Base16 Horizon Light</h1>
+    <p class="author">Scheme author: Michaël Ball (http://github.com/michael-ball/)</p>
+    
+    <div>
+      <div class="block base00-background base07">00</div>
+      <div class="block base01-background base07">01</div>
+      <div class="block base02-background base07">02</div>
+      <div class="block base03-background base07">03</div>
+      <div class="block base04-background base00">04</div>
+      <div class="block base05-background base00">05</div>
+      <div class="block base06-background base00">06</div>
+      <div class="block base07-background base00">07</div>
+      <br />
+      <div class="block base08-background base07">08</div>
+      <div class="block base09-background base07">09</div>
+      <div class="block base0A-background base07">0A</div>
+      <div class="block base0B-background base07">0B</div>
+      <div class="block base0C-background base07">0C</div>
+      <div class="block base0D-background base07">0D</div>
+      <div class="block base0E-background base07">0E</div>
+      <div class="block base0F-background base07">0F</div>
+    </div>
+
+    <div>
+
+      <pre class="base00-background base05">
+<span class="base0E">require</span> <span class="base0B">"gem"</span>
+
+<span class="base08">string</span> = <span class="base0B">"base16"</span>
+<span class="base08">symbol</span> = <span class="base0B">:base16</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+  
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+  
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+  
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base02-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+
+# base16 Mellow Purple by gidsi
+
+.colors *
+
+-text		$ffeeff/$1e0528
+-status		$873582/$331354
+-cursor		$1e0528/$ffeeff
+-selection	/$331354
+-curlin		/$1A092D
+-linum		$320f55/$1A092D
+-curlinum	$873582/$1A092D
+-menusel	$1A092D/$873582
+
+-term 0 	$1e0528
+-term 1 	$550068
+-term 2 	$05cb0d
+-term 3 	$b900b1
+-term 4 	$aa00a3
+-term 5 	$8991bb
+-term 6 	$955ae7
+-term 7 	$873582
+-term 8 	$320f55
+-term 9 	$550068
+-term 10	$05cb0d
+-term 11	$b900b1
+-term 12	$00d9e9
+-term 13	$4d6fff
+-term 14	$955ae7
+-term 15	$f8c0ff
+
+=Constant	$aa00a3
+=String		$05cb0d
+=Escape		$b900b1
+
+=Comment	$320f55
+=StorageClass	+Type
+=Keyword	$8991bb
+=Conditional	$8991bb
+=Operator	$ffeeff
+=Loop		$955ae7
+=Statement	$00d9e9
+=Type		$955ae7
+
+=DefinedIdent	$00d9e9
+=Label		$955ae7
+=DefinedType	$955ae7
+=Structure	$8991bb
+
+=Preproc	$955ae7
+=Include	$550068
+=Define		$8991bb
+=TODO		$955ae7/$1A092D
+=Precond	$8991bb
+
+=diff.AddLine	$05cb0d/$1A092D
+=diff.ChgLine	$320f55/$1A092D
+=diff.DelLine	$00d9e9/$1A092D
+=diff.File	$00d9e9
+=diff.FileNew	$05cb0d
+=diff.Hunk	$550068

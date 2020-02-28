@@ -1,0 +1,61 @@
+
+# base16 Sandcastle by George Essig (https://github.com/gessig)
+
+.colors *
+
+-text		$a89984/$282c34
+-status		$928374/$3e4451
+-cursor		$282c34/$a89984
+-selection	/$3e4451
+-curlin		/$2c323b
+-linum		$665c54/$2c323b
+-curlinum	$928374/$2c323b
+-menusel	$2c323b/$928374
+
+-term 0 	$282c34
+-term 1 	$83a598
+-term 2 	$528b8b
+-term 3 	$83a598
+-term 4 	$a07e3b
+-term 5 	$d75f5f
+-term 6 	$a07e3b
+-term 7 	$928374
+-term 8 	$665c54
+-term 9 	$83a598
+-term 10	$528b8b
+-term 11	$83a598
+-term 12	$83a598
+-term 13	$a87322
+-term 14	$a07e3b
+-term 15	$fdf4c1
+
+=Constant	$a07e3b
+=String		$528b8b
+=Escape		$83a598
+
+=Comment	$665c54
+=StorageClass	+Type
+=Keyword	$d75f5f
+=Conditional	$d75f5f
+=Operator	$a89984
+=Loop		$a07e3b
+=Statement	$83a598
+=Type		$a07e3b
+
+=DefinedIdent	$83a598
+=Label		$a07e3b
+=DefinedType	$a07e3b
+=Structure	$d75f5f
+
+=Preproc	$a07e3b
+=Include	$83a598
+=Define		$d75f5f
+=TODO		$a07e3b/$2c323b
+=Precond	$d75f5f
+
+=diff.AddLine	$528b8b/$2c323b
+=diff.ChgLine	$665c54/$2c323b
+=diff.DelLine	$83a598/$2c323b
+=diff.File	$83a598
+=diff.FileNew	$528b8b
+=diff.Hunk	$83a598

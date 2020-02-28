@@ -1,0 +1,61 @@
+
+# base16 Atelier Sulphurpool Light by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$5e6687/$f5f7ff
+-status		$6b7394/$979db4
+-cursor		$f5f7ff/$5e6687
+-selection	/$979db4
+-curlin		/$dfe2f1
+-linum		$898ea4/$dfe2f1
+-curlinum	$6b7394/$dfe2f1
+-menusel	$dfe2f1/$6b7394
+
+-term 0 	$f5f7ff
+-term 1 	$3d8fd1
+-term 2 	$ac9739
+-term 3 	$22a2c9
+-term 4 	$c76b29
+-term 5 	$6679cc
+-term 6 	$c08b30
+-term 7 	$6b7394
+-term 8 	$898ea4
+-term 9 	$3d8fd1
+-term 10	$ac9739
+-term 11	$22a2c9
+-term 12	$c94922
+-term 13	$9c637a
+-term 14	$c08b30
+-term 15	$202746
+
+=Constant	$c76b29
+=String		$ac9739
+=Escape		$22a2c9
+
+=Comment	$898ea4
+=StorageClass	+Type
+=Keyword	$6679cc
+=Conditional	$6679cc
+=Operator	$5e6687
+=Loop		$c08b30
+=Statement	$c94922
+=Type		$c08b30
+
+=DefinedIdent	$c94922
+=Label		$c08b30
+=DefinedType	$c08b30
+=Structure	$6679cc
+
+=Preproc	$c08b30
+=Include	$3d8fd1
+=Define		$6679cc
+=TODO		$c08b30/$dfe2f1
+=Precond	$6679cc
+
+=diff.AddLine	$ac9739/$dfe2f1
+=diff.ChgLine	$898ea4/$dfe2f1
+=diff.DelLine	$c94922/$dfe2f1
+=diff.File	$c94922
+=diff.FileNew	$ac9739
+=diff.Hunk	$3d8fd1

@@ -1,0 +1,61 @@
+
+# base16 Black Metal (Immortal) by metalelf0 (https://github.com/metalelf0)
+
+.colors *
+
+-text		$c1c1c1/$000000
+-status		$999999/$222222
+-cursor		$000000/$c1c1c1
+-selection	/$222222
+-curlin		/$121212
+-linum		$333333/$121212
+-curlinum	$999999/$121212
+-menusel	$121212/$999999
+
+-term 0 	$000000
+-term 1 	$888888
+-term 2 	$7799bb
+-term 3 	$aaaaaa
+-term 4 	$aaaaaa
+-term 5 	$999999
+-term 6 	$556677
+-term 7 	$999999
+-term 8 	$333333
+-term 9 	$888888
+-term 10	$7799bb
+-term 11	$aaaaaa
+-term 12	$5f8787
+-term 13	$444444
+-term 14	$556677
+-term 15	$c1c1c1
+
+=Constant	$aaaaaa
+=String		$7799bb
+=Escape		$aaaaaa
+
+=Comment	$333333
+=StorageClass	+Type
+=Keyword	$999999
+=Conditional	$999999
+=Operator	$c1c1c1
+=Loop		$556677
+=Statement	$5f8787
+=Type		$556677
+
+=DefinedIdent	$5f8787
+=Label		$556677
+=DefinedType	$556677
+=Structure	$999999
+
+=Preproc	$556677
+=Include	$888888
+=Define		$999999
+=TODO		$556677/$121212
+=Precond	$999999
+
+=diff.AddLine	$7799bb/$121212
+=diff.ChgLine	$333333/$121212
+=diff.DelLine	$5f8787/$121212
+=diff.File	$5f8787
+=diff.FileNew	$7799bb
+=diff.Hunk	$888888

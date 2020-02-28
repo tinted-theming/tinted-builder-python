@@ -1,0 +1,23 @@
+[One Light]
+text=383a42
+text(bold)=383a42
+background=fafafa
+black=fafafa
+black(bold)=a0a1a7
+red=ca1243
+red(bold)=d75f00
+green=50a14f
+green(bold)=f0f0f1
+yellow=c18401
+yellow(bold)=e5e5e6
+blue=4078f2
+blue(bold)=696c77
+magenta=a626a4
+magenta(bold)=202227
+cyan=0184bc
+cyan(bold)=986801
+white=383a42
+white(bold)=090a0b
+[Names]
+name0=One Light
+count=1

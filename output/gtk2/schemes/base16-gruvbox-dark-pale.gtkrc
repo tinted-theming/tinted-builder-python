@@ -1,0 +1,6 @@
+# Base16 Gruvbox dark, pale for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# gruvbox-dark-pale (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#262626\nfg_color:#dab997\nbase_color:#262626\ntext_color:#dab997\nselected_bg_color:#4e4e4e\nselected_fg_color:#dab997\ntooltip_bg_color:#262626\ntooltip_fg_color:#949494\ntitlebar_bg_color:#262626\ntitlebar_fg_color:#83adad\nmenubar_bg_color:#262626\nmenubar_fg_color:#83adad\ntoolbar_bg_color:#262626\ntoolbar_fg_color:#ffaf00\nmenu_bg_color:#262626\nmenu_fg_color:#dab997\npanel_bg_color:#262626\npanel_fg_color:#afaf00\nlink_color:#ff8700"
+

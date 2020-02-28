@@ -1,0 +1,23 @@
+[XCode Dusk]
+text=939599
+text(bold)=939599
+background=282B35
+black=282B35
+black(bold)=686A71
+red=B21889
+red(bold)=786DC5
+green=DF0002
+green(bold)=3D4048
+yellow=438288
+yellow(bold)=53555D
+blue=790EAD
+blue(bold)=7E8086
+magenta=B21889
+magenta(bold)=A9AAAE
+cyan=00A0BE
+cyan(bold)=C77C48
+white=939599
+white(bold)=BEBFC2
+[Names]
+name0=XCode Dusk
+count=1

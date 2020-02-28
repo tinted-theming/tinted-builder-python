@@ -1,0 +1,23 @@
+[Gruvbox light, soft]
+text=504945
+text(bold)=504945
+background=f2e5bc
+black=f2e5bc
+black(bold)=bdae93
+red=9d0006
+red(bold)=af3a03
+green=79740e
+green(bold)=ebdbb2
+yellow=b57614
+yellow(bold)=d5c4a1
+blue=076678
+blue(bold)=665c54
+magenta=8f3f71
+magenta(bold)=3c3836
+cyan=427b58
+cyan(bold)=d65d0e
+white=504945
+white(bold)=282828
+[Names]
+name0=Gruvbox light, soft
+count=1

@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# Nova by George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#3C4C55"
+idle_fg = "#C5D4DD"
+info_bg = "#F2C38F"
+info_fg = "#3C4C55"
+good_bg = "#7FC1CA"
+good_fg = "#3C4C55"
+warning_bg = "#A8CE93"
+warning_fg = "#3C4C55"
+critical_bg = "#83AFE5"
+critical_fg = "#3C4C55"
+# The rest of the theme settings are left at default.

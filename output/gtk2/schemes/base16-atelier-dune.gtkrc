@@ -1,0 +1,6 @@
+# Base16 Atelier Dune for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Bram de Haan (http://atelierbramdehaan.nl)
+# atelier-dune (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#20201d\nfg_color:#a6a28c\nbase_color:#20201d\ntext_color:#a6a28c\nselected_bg_color:#6e6b5e\nselected_fg_color:#a6a28c\ntooltip_bg_color:#20201d\ntooltip_fg_color:#999580\ntitlebar_bg_color:#20201d\ntitlebar_fg_color:#6684e1\nmenubar_bg_color:#20201d\nmenubar_fg_color:#6684e1\ntoolbar_bg_color:#20201d\ntoolbar_fg_color:#ae9513\nmenu_bg_color:#20201d\nmenu_fg_color:#a6a28c\npanel_bg_color:#20201d\npanel_fg_color:#60ac39\nlink_color:#b65611"
+

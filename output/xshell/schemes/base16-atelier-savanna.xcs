@@ -1,0 +1,23 @@
+[Atelier Savanna]
+text=87928a
+text(bold)=87928a
+background=171c19
+black=171c19
+black(bold)=5f6d64
+red=b16139
+red(bold)=9f713c
+green=489963
+green(bold)=232a25
+yellow=a07e3b
+yellow(bold)=526057
+blue=478c90
+blue(bold)=78877d
+magenta=55859b
+magenta(bold)=dfe7e2
+cyan=1c9aa0
+cyan(bold)=867469
+white=87928a
+white(bold)=ecf4ee
+[Names]
+name0=Atelier Savanna
+count=1

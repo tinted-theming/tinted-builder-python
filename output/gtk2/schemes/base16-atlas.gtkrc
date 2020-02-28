@@ -1,0 +1,6 @@
+# Base16 Atlas for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Alex Lende (https://ajlende.com)
+# atlas (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#002635\nfg_color:#a1a19a\nbase_color:#002635\ntext_color:#a1a19a\nselected_bg_color:#517F8D\nselected_fg_color:#a1a19a\ntooltip_bg_color:#002635\ntooltip_fg_color:#869696\ntitlebar_bg_color:#002635\ntitlebar_fg_color:#5dd7b9\nmenubar_bg_color:#002635\nmenubar_fg_color:#5dd7b9\ntoolbar_bg_color:#002635\ntoolbar_fg_color:#ffcc1b\nmenu_bg_color:#002635\nmenu_fg_color:#a1a19a\npanel_bg_color:#002635\npanel_fg_color:#7fc06e\nlink_color:#f08e48"
+

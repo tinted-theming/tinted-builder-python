@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Solar Flare",
+	"foreground": "#A6AFB8",
+	"background": "#18262F",
+	"black": "#222E38",
+	"blue": "#33B5E1",
+	"brightBlack": "#586875",
+	"brightBlue": "#33B5E1",
+	"brightCyan": "#52CBB0",
+	"brightGreen": "#7CC844",
+	"brightPurple": "#A363D5",
+	"brightRed": "#EF5253",
+	"brightWhite": "#F5F7FA",
+	"brightYellow": "#E4B51C",
+	"cyan": "#52CBB0",
+	"green": "#7CC844",
+	"purple": "#A363D5",
+	"red": "#EF5253",
+	"white": "#E8E9ED",
+	"yellow": "#E66B2B"
+},

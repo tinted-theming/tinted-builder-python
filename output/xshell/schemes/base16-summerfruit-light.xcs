@@ -1,0 +1,23 @@
+[Summerfruit Light]
+text=101010
+text(bold)=101010
+background=FFFFFF
+black=FFFFFF
+black(bold)=B0B0B0
+red=FF0086
+red(bold)=FD8900
+green=00C918
+green(bold)=E0E0E0
+yellow=ABA800
+yellow(bold)=D0D0D0
+blue=3777E6
+blue(bold)=000000
+magenta=AD00A1
+magenta(bold)=151515
+cyan=1FAAAA
+cyan(bold)=CC6633
+white=101010
+white(bold)=202020
+[Names]
+name0=Summerfruit Light
+count=1

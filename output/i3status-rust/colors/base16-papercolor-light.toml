@@ -1,0 +1,19 @@
+# vi:syntax=toml
+
+# base16-i3status-rust (https://github.com/mystfox/base16-i3status-rust)
+# PaperColor Light by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#eeeeee"
+idle_fg = "#878787"
+info_bg = "#d75f00"
+info_fg = "#eeeeee"
+good_bg = "#8700af"
+good_fg = "#eeeeee"
+warning_bg = "#d70087"
+warning_fg = "#eeeeee"
+critical_bg = "#bcbcbc"
+critical_fg = "#eeeeee"
+# The rest of the theme settings are left at default.

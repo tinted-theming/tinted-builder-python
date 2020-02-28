@@ -1,0 +1,22 @@
+// Add custom color schemes to the "schemes" array
+{
+	"name": "Nova",
+	"foreground": "#C5D4DD",
+	"background": "#3C4C55",
+	"black": "#556873",
+	"blue": "#83AFE5",
+	"brightBlack": "#6A7D89",
+	"brightBlue": "#83AFE5",
+	"brightCyan": "#F2C38F",
+	"brightGreen": "#7FC1CA",
+	"brightPurple": "#9A93E1",
+	"brightRed": "#83AFE5",
+	"brightWhite": "#556873",
+	"brightYellow": "#A8CE93",
+	"cyan": "#F2C38F",
+	"green": "#7FC1CA",
+	"purple": "#9A93E1",
+	"red": "#83AFE5",
+	"white": "#899BA6",
+	"yellow": "#7FC1CA"
+},

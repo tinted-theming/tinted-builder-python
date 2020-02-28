@@ -1,0 +1,23 @@
+[Heetch Dark]
+text=BDB6C5
+text(bold)=BDB6C5
+background=190134
+black=190134
+black(bold)=7B6D8B
+red=27D9D5
+red(bold)=5BA2B6
+green=C33678
+green(bold)=392551
+yellow=8F6C97
+yellow(bold)=5A496E
+blue=BD0152
+blue(bold)=9C92A8
+magenta=82034C
+magenta(bold)=DEDAE2
+cyan=F80059
+cyan(bold)=470546
+white=BDB6C5
+white(bold)=FEFFFF
+[Names]
+name0=Heetch Dark
+count=1

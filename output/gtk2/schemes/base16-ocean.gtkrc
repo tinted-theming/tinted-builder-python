@@ -1,0 +1,6 @@
+# Base16 Ocean for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# ocean (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2b303b\nfg_color:#c0c5ce\nbase_color:#2b303b\ntext_color:#c0c5ce\nselected_bg_color:#4f5b66\nselected_fg_color:#c0c5ce\ntooltip_bg_color:#2b303b\ntooltip_fg_color:#a7adba\ntitlebar_bg_color:#2b303b\ntitlebar_fg_color:#8fa1b3\nmenubar_bg_color:#2b303b\nmenubar_fg_color:#8fa1b3\ntoolbar_bg_color:#2b303b\ntoolbar_fg_color:#ebcb8b\nmenu_bg_color:#2b303b\nmenu_fg_color:#c0c5ce\npanel_bg_color:#2b303b\npanel_fg_color:#a3be8c\nlink_color:#d08770"
+

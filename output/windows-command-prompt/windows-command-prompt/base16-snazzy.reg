@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Snazzy (https://github.com/chriskempson/base16)
+; Scheme: Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00362a28 ; base00
+"ColorTable01"=dword:00ffc757 ; base0D
+"ColorTable02"=dword:008ef75a ; base0B
+"ColorTable03"=dword:00feed9a ; base0C
+"ColorTable04"=dword:00575cff ; base08
+"ColorTable05"=dword:00c16aff ; base0E
+"ColorTable06"=dword:00439fff ; base09
+"ColorTable07"=dword:00e5e4e2 ; base05
+"ColorTable08"=dword:007e7878 ; base03
+"ColorTable09"=dword:003e3534 ; base01
+"ColorTable10"=dword:004f4543 ; base02
+"ColorTable11"=dword:007e7878 ; base03
+"ColorTable12"=dword:00a9a5a5 ; base04
+"ColorTable13"=dword:00e5e4e2 ; base05
+"ColorTable14"=dword:00ebf0ef ; base06
+"ColorTable15"=dword:00f0f1f1 ; base07

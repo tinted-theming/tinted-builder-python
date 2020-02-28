@@ -1,0 +1,23 @@
+[Gruvbox dark, pale]
+text=dab997
+text(bold)=dab997
+background=262626
+black=262626
+black(bold)=8a8a8a
+red=d75f5f
+red(bold)=ff8700
+green=afaf00
+green(bold)=3a3a3a
+yellow=ffaf00
+yellow(bold)=4e4e4e
+blue=83adad
+blue(bold)=949494
+magenta=d485ad
+magenta(bold)=d5c4a1
+cyan=85ad85
+cyan(bold)=d65d0e
+white=dab997
+white(bold)=ebdbb2
+[Names]
+name0=Gruvbox dark, pale
+count=1

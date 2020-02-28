@@ -1,0 +1,61 @@
+
+# base16 Tomorrow by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$4d4d4c/$ffffff
+-status		$969896/$d6d6d6
+-cursor		$ffffff/$4d4d4c
+-selection	/$d6d6d6
+-curlin		/$e0e0e0
+-linum		$8e908c/$e0e0e0
+-curlinum	$969896/$e0e0e0
+-menusel	$e0e0e0/$969896
+
+-term 0 	$ffffff
+-term 1 	$4271ae
+-term 2 	$718c00
+-term 3 	$3e999f
+-term 4 	$f5871f
+-term 5 	$8959a8
+-term 6 	$eab700
+-term 7 	$969896
+-term 8 	$8e908c
+-term 9 	$4271ae
+-term 10	$718c00
+-term 11	$3e999f
+-term 12	$c82829
+-term 13	$a3685a
+-term 14	$eab700
+-term 15	$1d1f21
+
+=Constant	$f5871f
+=String		$718c00
+=Escape		$3e999f
+
+=Comment	$8e908c
+=StorageClass	+Type
+=Keyword	$8959a8
+=Conditional	$8959a8
+=Operator	$4d4d4c
+=Loop		$eab700
+=Statement	$c82829
+=Type		$eab700
+
+=DefinedIdent	$c82829
+=Label		$eab700
+=DefinedType	$eab700
+=Structure	$8959a8
+
+=Preproc	$eab700
+=Include	$4271ae
+=Define		$8959a8
+=TODO		$eab700/$e0e0e0
+=Precond	$8959a8
+
+=diff.AddLine	$718c00/$e0e0e0
+=diff.ChgLine	$8e908c/$e0e0e0
+=diff.DelLine	$c82829/$e0e0e0
+=diff.File	$c82829
+=diff.FileNew	$718c00
+=diff.Hunk	$4271ae
