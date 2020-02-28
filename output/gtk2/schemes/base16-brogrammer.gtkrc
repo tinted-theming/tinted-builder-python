@@ -1,6 +1,0 @@
-# Base16 Brogrammer for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Vik Ramanujam (http://github.com/piggyslasher)
-# brogrammer (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#1f1f1f\nfg_color:#4e5ab7\nbase_color:#1f1f1f\ntext_color:#4e5ab7\nselected_bg_color:#2dc55e\nselected_fg_color:#4e5ab7\ntooltip_bg_color:#1f1f1f\ntooltip_fg_color:#2a84d2\ntitlebar_bg_color:#1f1f1f\ntitlebar_fg_color:#5350b9\nmenubar_bg_color:#1f1f1f\nmenubar_fg_color:#5350b9\ntoolbar_bg_color:#1f1f1f\ntoolbar_fg_color:#1dd361\nmenu_bg_color:#1f1f1f\nmenu_fg_color:#4e5ab7\npanel_bg_color:#1f1f1f\npanel_fg_color:#f3bd09\nlink_color:#de352e"
-

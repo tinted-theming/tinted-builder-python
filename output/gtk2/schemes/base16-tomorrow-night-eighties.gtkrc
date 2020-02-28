@@ -1,6 +1,0 @@
-# Base16 Tomorrow Night for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Chris Kempson (http://chriskempson.com)
-# tomorrow-night-eighties (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#2d2d2d\nfg_color:#cccccc\nbase_color:#2d2d2d\ntext_color:#cccccc\nselected_bg_color:#515151\nselected_fg_color:#cccccc\ntooltip_bg_color:#2d2d2d\ntooltip_fg_color:#b4b7b4\ntitlebar_bg_color:#2d2d2d\ntitlebar_fg_color:#6699cc\nmenubar_bg_color:#2d2d2d\nmenubar_fg_color:#6699cc\ntoolbar_bg_color:#2d2d2d\ntoolbar_fg_color:#ffcc66\nmenu_bg_color:#2d2d2d\nmenu_fg_color:#cccccc\npanel_bg_color:#2d2d2d\npanel_fg_color:#99cc99\nlink_color:#f99157"
-

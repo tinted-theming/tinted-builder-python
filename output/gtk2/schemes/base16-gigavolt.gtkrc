@@ -1,6 +1,0 @@
-# Base16 Gigavolt for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Aidan Swope (http://github.com/Whillikers)
-# gigavolt (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#202126\nfg_color:#e9e7e1\nbase_color:#202126\ntext_color:#e9e7e1\nselected_bg_color:#5a576e\nselected_fg_color:#e9e7e1\ntooltip_bg_color:#202126\ntooltip_fg_color:#cad3ff\ntitlebar_bg_color:#202126\ntitlebar_fg_color:#40bfff\nmenubar_bg_color:#202126\nmenubar_fg_color:#40bfff\ntoolbar_bg_color:#202126\ntoolbar_fg_color:#ffdc2d\nmenu_bg_color:#202126\nmenu_fg_color:#e9e7e1\npanel_bg_color:#202126\npanel_fg_color:#f2e6a9\nlink_color:#19f988"
-

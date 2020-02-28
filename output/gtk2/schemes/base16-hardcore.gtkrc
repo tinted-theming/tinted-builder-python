@@ -1,6 +1,0 @@
-# Base16 Hardcore for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Chris Caller
-# hardcore (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#212121\nfg_color:#cdcdcd\nbase_color:#212121\ntext_color:#cdcdcd\nselected_bg_color:#353535\nselected_fg_color:#cdcdcd\ntooltip_bg_color:#212121\ntooltip_fg_color:#707070\ntitlebar_bg_color:#212121\ntitlebar_fg_color:#66d9ef\nmenubar_bg_color:#212121\nmenubar_fg_color:#66d9ef\ntoolbar_bg_color:#212121\ntoolbar_fg_color:#e6db74\nmenu_bg_color:#212121\nmenu_fg_color:#cdcdcd\npanel_bg_color:#212121\npanel_fg_color:#a6e22e\nlink_color:#fd971f"
-

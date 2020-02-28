@@ -1,6 +1,0 @@
-# Base16 iA Dark for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By iA Inc. (modified by aramisgithub)
-# ia-dark (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#1a1a1a\nfg_color:#cccccc\nbase_color:#1a1a1a\ntext_color:#cccccc\nselected_bg_color:#1d414d\nselected_fg_color:#cccccc\ntooltip_bg_color:#1a1a1a\ntooltip_fg_color:#b8b8b8\ntitlebar_bg_color:#1a1a1a\ntitlebar_fg_color:#8eccdd\nmenubar_bg_color:#1a1a1a\nmenubar_fg_color:#8eccdd\ntoolbar_bg_color:#1a1a1a\ntoolbar_fg_color:#b99353\nmenu_bg_color:#1a1a1a\nmenu_fg_color:#cccccc\npanel_bg_color:#1a1a1a\npanel_fg_color:#83a471\nlink_color:#d86868"
-

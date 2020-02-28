@@ -1,6 +1,0 @@
-# Base16 Synth Midnight Dark for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Michaël Ball (http://github.com/michael-ball/)
-# synth-midnight-dark (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#040404\nfg_color:#DFDBDF\nbase_color:#040404\ntext_color:#DFDBDF\nselected_bg_color:#242424\nselected_fg_color:#DFDBDF\ntooltip_bg_color:#040404\ntooltip_fg_color:#BFBBBF\ntitlebar_bg_color:#040404\ntitlebar_fg_color:#03AEFF\nmenubar_bg_color:#040404\nmenubar_fg_color:#03AEFF\ntoolbar_bg_color:#040404\ntoolbar_fg_color:#DAE84D\nmenu_bg_color:#040404\nmenu_fg_color:#DFDBDF\npanel_bg_color:#040404\npanel_fg_color:#06EA61\nlink_color:#E4600E"
-

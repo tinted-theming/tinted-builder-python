@@ -1,6 +1,0 @@
-# Base16 Decaf for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Alex Mirrington (https://github.com/alexmirrington)
-# decaf (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#2d2d2d\nfg_color:#cccccc\nbase_color:#2d2d2d\ntext_color:#cccccc\nselected_bg_color:#515151\nselected_fg_color:#cccccc\ntooltip_bg_color:#2d2d2d\ntooltip_fg_color:#b4b7b4\ntitlebar_bg_color:#2d2d2d\ntitlebar_fg_color:#90bee1\nmenubar_bg_color:#2d2d2d\nmenubar_fg_color:#90bee1\ntoolbar_bg_color:#2d2d2d\ntoolbar_fg_color:#ffd67c\nmenu_bg_color:#2d2d2d\nmenu_fg_color:#cccccc\npanel_bg_color:#2d2d2d\npanel_fg_color:#beda78\nlink_color:#ffbf70"
-

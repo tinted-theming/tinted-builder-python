@@ -1,6 +1,0 @@
-# Base16 Fruit Soda for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By jozip
-# fruit-soda (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#f1ecf1\nfg_color:#515151\nbase_color:#f1ecf1\ntext_color:#515151\nselected_bg_color:#d8d5d5\nselected_fg_color:#515151\ntooltip_bg_color:#f1ecf1\ntooltip_fg_color:#979598\ntitlebar_bg_color:#f1ecf1\ntitlebar_fg_color:#2931df\nmenubar_bg_color:#f1ecf1\nmenubar_fg_color:#2931df\ntoolbar_bg_color:#f1ecf1\ntoolbar_fg_color:#f7e203\nmenu_bg_color:#f1ecf1\nmenu_fg_color:#515151\npanel_bg_color:#f1ecf1\npanel_fg_color:#47f74c\nlink_color:#fe6d08"
-

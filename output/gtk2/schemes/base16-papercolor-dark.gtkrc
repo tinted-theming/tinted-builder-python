@@ -1,6 +1,0 @@
-# Base16 PaperColor Dark for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
-# papercolor-dark (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#1c1c1c\nfg_color:#808080\nbase_color:#1c1c1c\ntext_color:#808080\nselected_bg_color:#5faf00\nselected_fg_color:#808080\ntooltip_bg_color:#1c1c1c\ntooltip_fg_color:#5fafd7\ntitlebar_bg_color:#1c1c1c\ntitlebar_fg_color:#ff5faf\nmenubar_bg_color:#1c1c1c\nmenubar_fg_color:#ff5faf\ntoolbar_bg_color:#1c1c1c\ntoolbar_fg_color:#afd700\nmenu_bg_color:#1c1c1c\nmenu_fg_color:#808080\npanel_bg_color:#1c1c1c\npanel_fg_color:#af87d7\nlink_color:#5faf5f"
-

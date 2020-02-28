@@ -1,6 +1,0 @@
-# Base16 Solar Flare for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Chuck Harmston (https://chuck.harmston.ch)
-# solarflare (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#18262F\nfg_color:#A6AFB8\nbase_color:#18262F\ntext_color:#A6AFB8\nselected_bg_color:#586875\nselected_fg_color:#A6AFB8\ntooltip_bg_color:#18262F\ntooltip_fg_color:#85939E\ntitlebar_bg_color:#18262F\ntitlebar_fg_color:#33B5E1\nmenubar_bg_color:#18262F\nmenubar_fg_color:#33B5E1\ntoolbar_bg_color:#18262F\ntoolbar_fg_color:#E4B51C\nmenu_bg_color:#18262F\nmenu_fg_color:#A6AFB8\npanel_bg_color:#18262F\npanel_fg_color:#7CC844\nlink_color:#E66B2B"
-
