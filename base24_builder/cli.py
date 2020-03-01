@@ -31,15 +31,13 @@ def build_mode(arg_namespace):
 		)
 		# return with exit code 2 if there were any non-fatal incidents during
 		sys.exit(0 if result else 2)
-
-	except (LookupError, PermissionError) as exception:
-		if isinstance(exception, LookupError):
-			err_print(
-				"Necessary resources for building not found in current "
-				"working directory."
-			)
-		if isinstance(exception, PermissionError):
-			err_print("Lacking necessary access permissions for output directory.")
+	except LookupError:
+		err_print(
+			"Necessary resources for building not found in current "
+			"working directory."
+		)
+	except PermissionError:
+		err_print("Lacking necessary access permissions for output directory.")
 
 
 @catch_keyboard_interrupt
@@ -47,38 +45,18 @@ def inject_mode(arg_namespace):
 	"""Check command line arguments and run build function."""
 	try:
 		injector.inject_into_files(arg_namespace.scheme, arg_namespace.file)
-	except (
-		IndexError,
-		FileNotFoundError,
-		LookupError,
-		PermissionError,
-		IsADirectoryError,
-		ValueError,
-	) as exception:
-		if isinstance(exception, ValueError):
-			err_print(
-				"Pattern {} matches more than one scheme.".format(*arg_namespace.scheme)
-			)
-		elif isinstance(exception, IndexError):
-			err_print(
-				'"{}" has no valid injection marker lines.'.format(exception.args[0])
-			)
-		elif isinstance(exception, FileNotFoundError):
-			err_print(
-				'Lacking resource "{}" to complete operation.'.format(
-					exception.filename
-				)
-			)
-		elif isinstance(exception, PermissionError):
-			err_print("No write permission for current working directory.")
-		elif isinstance(exception, IsADirectoryError):
-			err_print(
-				'"{}" is a directory. Provide a *.yaml scheme file instead.'.format(
-					exception.filename
-				)
-			)
-		elif isinstance(exception, LookupError):
-			err_print('No scheme "{}" found.'.format(*arg_namespace.scheme))
+	except IndexError as exception:
+		err_print('"{}" has no valid injection marker lines.'.format(exception.args[0]))
+	except FileNotFoundError as exception:
+		err_print('Lacking resource "{}" to complete operation.'.format(exception.filename))
+	except LookupError:
+		err_print('No scheme "{}" found.'.format(*arg_namespace.scheme))
+	except PermissionError:
+		err_print("No write permission for current working directory.")
+	except IsADirectoryError as exception:
+		err_print('"{}" is a directory. Provide a *.yaml scheme file instead.'.format(exception.filename))
+	except ValueError:
+		err_print("Pattern {} matches more than one scheme.".format(*arg_namespace.scheme))
 
 
 @catch_keyboard_interrupt
@@ -91,18 +69,18 @@ def update_mode(arg_namespace):
 		# return with exit code 2 if there were any non-fatal incidents during
 		# update
 		sys.exit(0 if result else 2)
-
-	except (PermissionError, FileNotFoundError) as exception:
-		if isinstance(exception, PermissionError):
-			err_print("No write permission for current working directory.")
-		if isinstance(exception, FileNotFoundError):
-			err_print(
-				"Necessary resources for updating not found in current "
-				"working directory."
-			)
+	except PermissionError:
+		err_print("No write permission for current working directory. On windows this is likely due to a permission error when removing a git directory - you'll have to do this manually")
+	except FileNotFoundError:
+		err_print(
+			"Necessary resources for updating not found in current "
+			"working directory."
+		)
 
 
 def run():
+	"""Run the program
+	"""
 	arg_namespace = argparser.parse_args()
 	arg_namespace.func(arg_namespace)
 

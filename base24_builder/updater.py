@@ -76,10 +76,10 @@ def update(custom_sources=False, verbose=False):
 			write_sources_file()
 
 		print("Cloning sources…")
-		sources_file = rel_to_cwd("sources.yaml")
 		r = event_loop.run_until_complete(
 			git_clone_scheduler(
-				sources_file, rel_to_cwd("sources"), verbose=verbose
+				rel_to_cwd("sources.yaml"),
+				rel_to_cwd("sources"), verbose=verbose
 			)
 		)
 		results.append(r)

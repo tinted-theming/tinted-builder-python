@@ -5,17 +5,56 @@
 [![License](https://img.shields.io/github/license/Base24/base24-builder-python.svg?style=for-the-badge)](/LICENSE.md)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
+[![PyPI](https://img.shields.io/pypi/dm/base24builder.svg?style=for-the-badge)](https://pypi.org/project/base24builder/2020/)
 
 # base24-builder-python
 
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
+A base 24 builder written in Python
 
-Finally, a base24 builder that doesn't require me to install anything new.
+Thank you to https://github.com/InspectorMustache/base16-builder-python (MIT)
+for the original base16-builder
 
 ## Installation
 As this project uses async/await syntax, the lowest supported Python version is 3.5.
 
+## Install With PIP
+
+```python
+pip install base24builder
+```
+
+Head to https://pypi.org/project/base24builder/ for more info
+
+## Download
+### Clone
+#### Using The Command Line
+1. Press the Clone or download button in the top right
+2. Copy the URL (link)
+3. Open the command line and change directory to where you wish to
+clone to
+4. Type 'git clone' followed by URL in step 2
+```bash
+$ git clone https://github.com/Base24/base24-builder-python
+```
+
+More information can be found at
+<https://help.github.com/en/articles/cloning-a-repository>
+
+#### Using GitHub Desktop
+1. Press the Clone or download button in the top right
+2. Click open in desktop
+3. Choose the path for where you want and click Clone
+
+More information can be found at
+<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop>
+
+### Download Zip File
+
+1. Download this GitHub repository
+2. Extract the zip archive
+3. Copy/ move to the desired location
 
 If you don't want to clutter your computer with something that you're just going to use once you can also just clone this repository and use the provided base24.py file.
 
@@ -31,7 +70,6 @@ There are three modes of operation:
 
 ### Basic Usage
 
-
 If you just want to build all base24 colorschemes and then pick out the ones you need, simply run:
 ```bash
 ./base24.py update
@@ -46,7 +84,6 @@ For a more detailed explanation of the individual commands, read on.
 
 Downloads all base24 schemes and templates to the current working directory.
 The source files, i.e. the files pointing to the scheme and template repositories
-
 
 
 will also be updated by default.  If you want to use your own versions of these
@@ -152,36 +189,6 @@ sudo apt install python3.8
 
 ## Changelog
 See the [CHANGELOG](/CHANGELOG.md) for more information.
-
-
-## Download
-### Clone
-#### Using The Command Line
-1. Press the Clone or download button in the top right
-2. Copy the URL (link)
-3. Open the command line and change directory to where you wish to
-clone to
-4. Type 'git clone' followed by URL in step 2
-```bash
-$ git clone https://github.com/Base24/base24-builder-python
-```
-
-More information can be found at
-<https://help.github.com/en/articles/cloning-a-repository>
-
-#### Using GitHub Desktop
-1. Press the Clone or download button in the top right
-2. Click open in desktop
-3. Choose the path for where you want and click Clone
-
-More information can be found at
-<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop>
-
-### Download Zip File
-
-1. Download this GitHub repository
-2. Extract the zip archive
-3. Copy/ move to the desired location
 
 
 ## Licence

@@ -74,7 +74,6 @@ def get_scheme_files(patterns=None):
 		for pattern in pattern_list:
 			file_paths = glob(os.path.join(scheme_path, pattern))
 			scheme_files.extend(file_paths)
-
 	return scheme_files
 
 
@@ -86,13 +85,14 @@ def reverse_hex(hex_str):
 
 def format_scheme(scheme, slug):
 	"""Change $scheme so it can be applied to a template."""
+	# Base16 here:
 	scheme["scheme-name"] = scheme.pop("scheme")
 	scheme["scheme-author"] = scheme.pop("author")
 	scheme["scheme-slug"] = slug
 	bases = ["base{:02X}".format(x) for x in range(0, 16)]
 	for base in bases:
 		scheme["{}-hex".format(base)] = scheme.pop(base)
-
+	# Base24 (with fallbacks)
 	extended_bases = ["base{:02X}".format(x) for x in range(16, 24)]
 	base_map = {"base10": "base00", "base11": "base00", "base12": "base08", "base13": "base0A", "base14": "base0B", "base15": "base0C", "base16": "base0D", "base17": "base0E"}
 	for extended_base in extended_bases:
@@ -103,24 +103,19 @@ def format_scheme(scheme, slug):
 
 	all_bases = ["base{:02X}".format(x) for x in range(0, 24)]
 	for all_base in all_bases:
+		# HEX and Reverse HEX
 		scheme["{}-hex-r".format(all_base)] = scheme["{}-hex".format(all_base)][0:2]
 		scheme["{}-hex-g".format(all_base)] = scheme["{}-hex".format(all_base)][2:4]
 		scheme["{}-hex-b".format(all_base)] = scheme["{}-hex".format(all_base)][4:6]
 		scheme["{}-hex-bgr".format(all_base)] = reverse_hex(scheme["{}-hex".format(all_base)])
-
+		# RGB 0-255
 		scheme["{}-rgb-r".format(all_base)] = str(int(scheme["{}-hex-r".format(all_base)], 16))
 		scheme["{}-rgb-g".format(all_base)] = str(int(scheme["{}-hex-g".format(all_base)], 16))
 		scheme["{}-rgb-b".format(all_base)] = str(int(scheme["{}-hex-b".format(all_base)], 16))
-
-		scheme["{}-dec-r".format(all_base)] = str(
-			int(scheme["{}-rgb-r".format(all_base)]) / 255
-		)
-		scheme["{}-dec-g".format(all_base)] = str(
-			int(scheme["{}-rgb-g".format(all_base)]) / 255
-		)
-		scheme["{}-dec-b".format(all_base)] = str(
-			int(scheme["{}-rgb-b".format(all_base)]) / 255
-		)
+		# RGB 0.0-1.0
+		scheme["{}-dec-r".format(all_base)] = str(int(scheme["{}-rgb-r".format(all_base)]) / 255)
+		scheme["{}-dec-g".format(all_base)] = str(int(scheme["{}-rgb-g".format(all_base)]) / 255)
+		scheme["{}-dec-b".format(all_base)] = str(int(scheme["{}-rgb-b".format(all_base)]) / 255)
 
 
 def slugify(scheme_file):
@@ -161,8 +156,7 @@ async def build_single(scheme_file, job_options):
 
 			build_path = os.path.join(output_dir, filename)
 
-			# include a warning for files being overwritten to comply with
-			# base16 0.9.1
+			# include a warning for files being overwritten to comply with base16 0.9.1
 			if os.path.isfile(build_path):
 				verb_msg("File {} exists and will be overwritten.".format(build_path))
 				warn = True
