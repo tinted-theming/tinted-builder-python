@@ -5,7 +5,7 @@ with open("README.md", "r") as readme:
 
 setuptools.setup(
 	name="base24builder",
-	version="2020",
+	version="2020.1",
 	author="Base24 - original: Pu Anlai",
 	description="A base 24 builder written in Python",
 	long_description=long_description,

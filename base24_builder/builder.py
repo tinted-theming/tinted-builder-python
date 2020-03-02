@@ -85,6 +85,7 @@ def reverse_hex(hex_str):
 
 def format_scheme(scheme, slug):
 	"""Change $scheme so it can be applied to a template."""
+	scheme["scheme-type"] = "16"
 	# Base16 here:
 	scheme["scheme-name"] = scheme.pop("scheme")
 	scheme["scheme-author"] = scheme.pop("author")
@@ -98,6 +99,7 @@ def format_scheme(scheme, slug):
 	for extended_base in extended_bases:
 		if extended_base in scheme:
 			scheme["{}-hex".format(extended_base)] = scheme.pop(extended_base)
+			scheme["scheme-type"] = "24"
 		else:
 			scheme["{}-hex".format(extended_base)] = scheme["{}-hex".format(base_map[extended_base])]
 
@@ -133,6 +135,7 @@ async def build_single(scheme_file, job_options):
 	scheme_slug = slugify(scheme_file)
 	format_scheme(scheme, scheme_slug)
 	scheme_name = scheme["scheme-name"]
+	scheme_type = scheme["scheme-type"]
 	warn = False  # set this for feedback to the caller
 
 	if job_options.verbose:
@@ -150,9 +153,9 @@ async def build_single(scheme_file, job_options):
 				pass
 
 			if sub["extension"] is not None:
-				filename = "base16-{}{}".format(scheme_slug, sub["extension"])
+				filename = "base{}-{}{}".format(scheme_type, scheme_slug, sub["extension"])
 			else:
-				filename = "base16-{}".format(scheme_slug)
+				filename = "base{}-{}".format(scheme_type, scheme_slug)
 
 			build_path = os.path.join(output_dir, filename)
 
