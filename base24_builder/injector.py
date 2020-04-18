@@ -1,3 +1,4 @@
+"""Inject theme into a file """
 import re
 import pystache
 from . import builder

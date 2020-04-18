@@ -1,3 +1,4 @@
+"""CLI entry point """
 import sys
 import argparse
 from . import updater, builder, injector
@@ -70,7 +71,9 @@ def update_mode(arg_namespace):
 		# update
 		sys.exit(0 if result else 2)
 	except PermissionError:
-		err_print("No write permission for current working directory. On windows this is likely due to a permission error when removing a git directory - you'll have to do this manually")
+		err_print("No write permission for current working directory. On " +
+		"windows this is likely due to a permission error when removing a " +
+		"git directory - you'll have to do this manually")
 	except FileNotFoundError:
 		err_print(
 			"Necessary resources for updating not found in current "
@@ -116,7 +119,8 @@ build_parser.add_argument(
 	"--template",
 	action="append",
 	metavar="TEMP",
-	help="restrict operation to specific templates (must correspond to a directory in ./templates); can be specified more than once",
+	help="restrict operation to specific templates (must correspond to a " +
+	"directory in ./templates); can be specified more than once",
 )
 build_parser.add_argument(
 	"-s",
@@ -137,7 +141,8 @@ inject_parser.add_argument(
 	"--file",
 	action="append",
 	required=True,
-	help="provide paths to files into which you wish to inject a colorscheme; can be specified more than once",
+	help="provide paths to files into which you wish to inject a colorscheme; "	+
+	"can be specified more than once",
 )
 inject_parser.add_argument(
 	"-s",

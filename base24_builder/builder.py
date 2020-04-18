@@ -1,12 +1,13 @@
+"""Combine schemes and templates to generate user-ready themes """
 import os
 import asyncio
+from glob import glob
 import aiofiles
 import pystache
-from glob import glob
 from .shared import get_yaml_dict, rel_to_cwd, JobOptions, verb_msg, compat_event_loop
 
 
-class TemplateGroup(object):
+class TemplateGroup():
 	"""Representation of a template group, i.e. a group of templates specified
 	in a config.yaml."""
 
@@ -95,7 +96,9 @@ def format_scheme(scheme, slug):
 		scheme["{}-hex".format(base)] = scheme.pop(base)
 	# Base24 (with fallbacks)
 	extended_bases = ["base{:02X}".format(x) for x in range(16, 24)]
-	base_map = {"base10": "base00", "base11": "base00", "base12": "base08", "base13": "base0A", "base14": "base0B", "base15": "base0C", "base16": "base0D", "base17": "base0E"}
+	base_map = {"base10": "base00", "base11": "base00", "base12": "base08",
+	"base13": "base0A", "base14": "base0B", "base15": "base0C",
+	"base16": "base0D", "base17": "base0E"}
 	for extended_base in extended_bases:
 		if extended_base in scheme:
 			scheme["{}-hex".format(extended_base)] = scheme.pop(extended_base)

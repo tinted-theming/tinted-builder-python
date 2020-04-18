@@ -1,10 +1,13 @@
+"""Shared utils used by the other builder components
+"""
 import os
 import sys
 import asyncio
-import yaml
-from collections import namedtuple
 from contextlib import contextmanager
+import yaml
+from metprint import LogType, Logger, FHFormatter
 
+printf = Logger(FHFormatter())
 
 class JobOptions:
 	"""Container for options related to job processing"""
@@ -15,9 +18,6 @@ class JobOptions:
 
 
 CWD = os.path.realpath(os.getcwd())
-ACodes = namedtuple("ACodes", ["red", "yellow", "bold", "end"])
-acodes = ACodes(red="\033[31m", yellow="\033[33m", bold="\033[1m", end="\033[0m")
-
 
 @contextmanager
 def compat_event_loop():
@@ -61,9 +61,6 @@ def err_print(msg, exit_code=1):
 def verb_msg(msg, lvl=1):
 	"""Print a warning ($lvl=1) or an error ($lvl=2) message."""
 	if lvl == 1:
-		print(
-			"{0.yellow}{0.bold}Warning{0.end}:\n{1}".format(acodes, msg),
-			file=sys.stderr,
-		)
+		print(printf.logString(msg, LogType.WARNING), file=sys.stderr)
 	elif lvl == 2:
-		print("{0.red}{0.bold}Error{0.end}:\n{1}".format(acodes, msg), file=sys.stderr)
+		print(printf.logString(msg, LogType.ERROR), file=sys.stderr)

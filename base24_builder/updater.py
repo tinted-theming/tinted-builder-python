@@ -1,3 +1,4 @@
+"""Pull git repos and update the local schemes and templates files """
 import os
 import sys
 import shutil
@@ -45,7 +46,7 @@ async def git_clone(git_url, path, verbose=False):
 
 		verb_msg("{}:\n{}".format(git_url, stderr.decode("utf-8")))
 		return False
-	elif verbose:
+	if verbose:
 		print("Cloned {}".format(git_url))
 	return True
 
@@ -58,6 +59,7 @@ async def git_clone_scheduler(yaml_file, base_dir, verbose=False):
 
 
 def generate_jobs_from_yaml(yaml_file, base_dir):
+	"""Get a set of jobs from a yaml file """
 	yaml_dict = get_yaml_dict(yaml_file)
 	for key, value in yaml_dict.items():
 		yield (value, rel_to_cwd(base_dir, key))
