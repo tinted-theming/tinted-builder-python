@@ -9,6 +9,10 @@ homepage = "https://github.com/Base24/base24-builder-python"
 repository = "https://github.com/Base24/base24-builder-python"
 documentation = "https://github.com/Base24/base24-builder-python/blob/master/README.md"
 readme = "README.md"
+packages = [
+    { include = "base24_builder" },
+    { include = "base24.py" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.5"
