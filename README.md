@@ -1,5 +1,5 @@
 [![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/Base24/base24-builder-python)
+[![Codacy grade](https://img.shields.io/codacy/grade/3479c0638ef54d57839343ad4be367e0.svg?style=for-the-badge)](https://www.codacy.com/gh/Base24/base24-builder-python)
 [![Repository size](https://img.shields.io/github/repo-size/Base24/base24-builder-python.svg?style=for-the-badge)](../../)
 [![Issues](https://img.shields.io/github/issues/Base24/base24-builder-python.svg?style=for-the-badge)](../../issues)
 [![License](https://img.shields.io/github/license/Base24/base24-builder-python.svg?style=for-the-badge)](/LICENSE.md)
