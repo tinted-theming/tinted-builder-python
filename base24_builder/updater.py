@@ -1,9 +1,10 @@
 """Pull git repos and update the local schemes and templates files """
-import os
-import sys
-import shutil
 import asyncio
-from .shared import get_yaml_dict, rel_to_cwd, verb_msg, compat_event_loop
+import os
+import shutil
+import sys
+
+from .shared import compat_event_loop, get_yaml_dict, rel_to_cwd, verb_msg
 
 
 def write_sources_file():
@@ -15,7 +16,7 @@ def write_sources_file():
 		"https://github.com/Base24/base24-templates-source.git"
 	)
 	file_path = rel_to_cwd("sources.yaml")
-	with open(file_path, "w") as file_:
+	with open(file_path, "w", encoding="utf-8") as file_:
 		file_.write(file_content)
 
 
@@ -23,7 +24,7 @@ async def git_clone(git_url, path, verbose=False):
 	"""Clone git repository at $git_url to $path. Return True if successful,
 	otherwise False."""
 	if verbose:
-		print("Cloning {}...".format(git_url))
+		print(f"Cloning {git_url}...")
 	if os.path.exists(os.path.join(path, ".git")):
 		# get rid of local repo if it already exists
 		shutil.rmtree(path)
@@ -44,10 +45,10 @@ async def git_clone(git_url, path, verbose=False):
 		except OSError:
 			pass
 
-		verb_msg("{}:\n{}".format(git_url, stderr.decode("utf-8")))
+		verb_msg(f"{git_url}:\n{stderr}")
 		return False
 	if verbose:
-		print("Cloned {}".format(git_url))
+		print(f"Cloned {git_url}")
 	return True
 
 
@@ -59,7 +60,7 @@ async def git_clone_scheduler(yaml_file, base_dir, verbose=False):
 
 
 def generate_jobs_from_yaml(yaml_file, base_dir):
-	"""Get a set of jobs from a yaml file """
+	"""Get a set of jobs from a yaml file"""
 	yaml_dict = get_yaml_dict(yaml_file)
 	for key, value in yaml_dict.items():
 		yield (value, rel_to_cwd(base_dir, key))
@@ -79,10 +80,7 @@ def update(custom_sources=False, verbose=False):
 
 		print("Cloning sources…")
 		r = event_loop.run_until_complete(
-			git_clone_scheduler(
-				rel_to_cwd("sources.yaml"),
-				rel_to_cwd("sources"), verbose=verbose
-			)
+			git_clone_scheduler(rel_to_cwd("sources.yaml"), rel_to_cwd("sources"), verbose=verbose)
 		)
 		results.append(r)
 

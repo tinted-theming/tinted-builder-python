@@ -3,9 +3,7 @@
 /output
 sources
 sources.*
-
-# DepHell stuff
-poetry.lock
+requirements_optional.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

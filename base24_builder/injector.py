@@ -1,8 +1,10 @@
 """Inject theme into a file """
 import re
+
 import pystache
+
 from . import builder
-from .shared import rel_to_cwd, get_yaml_dict
+from .shared import get_yaml_dict, rel_to_cwd
 
 TEMP_NEEDLE = re.compile(r"^.*%%base16_template:([^%]+)%%$")
 TEMP_END_NEEDLE = re.compile(r"^.*%%base16_template_end%%$")
@@ -18,7 +20,7 @@ class Recipient:
 
 	def _get_file_content(self, path):
 		"""Return a string representation file content at $path."""
-		with open(path, "r") as file_:
+		with open(path, encoding="utf-8") as file_:
 			content = file_.read()
 		return content
 
@@ -87,7 +89,7 @@ class Recipient:
 
 	def write(self):
 		"""Write content back to file."""
-		with open(self.path, "w") as file_:
+		with open(self.path, "w", encoding="utf-8") as file_:
 			file_.write(self.content)
 
 

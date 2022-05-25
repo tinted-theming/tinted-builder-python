@@ -1,13 +1,15 @@
 """Combine schemes and templates to generate user-ready themes """
-import os
 import asyncio
+import os
 from glob import glob
+
 import aiofiles
 import pystache
-from .shared import get_yaml_dict, rel_to_cwd, JobOptions, verb_msg, compat_event_loop
+
+from .shared import JobOptions, compat_event_loop, get_yaml_dict, rel_to_cwd, verb_msg
 
 
-class TemplateGroup():
+class TemplateGroup:
 	"""Representation of a template group, i.e. a group of templates specified
 	in a config.yaml."""
 
@@ -26,9 +28,7 @@ class TemplateGroup():
 		config_path = rel_to_cwd(self.base_path, "templates", "config.yaml")
 		templates = get_yaml_dict(config_path)
 		for temp, sub in templates.items():
-			mustache_path = os.path.join(
-				get_parent_dir(config_path), "{}.mustache".format(temp)
-			)
+			mustache_path = os.path.join(get_parent_dir(config_path), f"{temp}.mustache")
 			sub["parsed"] = get_pystache_parsed(mustache_path)
 		return templates
 
@@ -44,7 +44,7 @@ def get_parent_dir(base_dir, level=1):
 def get_pystache_parsed(mustache_file):
 	"""Return a ParsedTemplate instance based on the contents of
 	$mustache_file."""
-	with open(mustache_file, "r") as file_:
+	with open(mustache_file, encoding="utf-8") as file_:
 		parsed = pystache.parse(file_.read())
 	return parsed
 
@@ -69,7 +69,7 @@ def get_scheme_files(patterns=None):
 	"""Return a list of all (or those matching $pattern) yaml (scheme)
 	files."""
 	patterns = patterns or ["*"]
-	pattern_list = ["{}.yaml".format(pattern) for pattern in patterns]
+	pattern_list = [f"{pattern}.yaml" for pattern in patterns]
 	scheme_files = []
 	for scheme_path in get_scheme_dirs():
 		for pattern in pattern_list:
@@ -91,36 +91,43 @@ def format_scheme(scheme, slug):
 	scheme["scheme-name"] = scheme.pop("scheme")
 	scheme["scheme-author"] = scheme.pop("author")
 	scheme["scheme-slug"] = slug
-	bases = ["base{:02X}".format(x) for x in range(0, 16)]
+	bases = [f"base{x:02X}" for x in range(0, 16)]
 	for base in bases:
-		scheme["{}-hex".format(base)] = scheme.pop(base)
+		scheme[f"{base}-hex"] = scheme.pop(base)
 	# Base24 (with fallbacks)
-	extended_bases = ["base{:02X}".format(x) for x in range(16, 24)]
-	base_map = {"base10": "base00", "base11": "base00", "base12": "base08",
-	"base13": "base0A", "base14": "base0B", "base15": "base0C",
-	"base16": "base0D", "base17": "base0E"}
+	extended_bases = [f"base{x:02X}" for x in range(16, 24)]
+	base_map = {
+		"base10": "base00",
+		"base11": "base00",
+		"base12": "base08",
+		"base13": "base0A",
+		"base14": "base0B",
+		"base15": "base0C",
+		"base16": "base0D",
+		"base17": "base0E",
+	}
 	for extended_base in extended_bases:
 		if extended_base in scheme:
-			scheme["{}-hex".format(extended_base)] = scheme.pop(extended_base)
+			scheme[f"{extended_base}-hex"] = scheme.pop(extended_base)
 			scheme["scheme-type"] = "24"
 		else:
-			scheme["{}-hex".format(extended_base)] = scheme["{}-hex".format(base_map[extended_base])]
+			scheme[f"{extended_base}-hex"] = scheme[f"{base_map[extended_base]}-hex"]
 
-	all_bases = ["base{:02X}".format(x) for x in range(0, 24)]
+	all_bases = [f"base{x:02X}" for x in range(0, 24)]
 	for all_base in all_bases:
 		# HEX and Reverse HEX
-		scheme["{}-hex-r".format(all_base)] = scheme["{}-hex".format(all_base)][0:2]
-		scheme["{}-hex-g".format(all_base)] = scheme["{}-hex".format(all_base)][2:4]
-		scheme["{}-hex-b".format(all_base)] = scheme["{}-hex".format(all_base)][4:6]
-		scheme["{}-hex-bgr".format(all_base)] = reverse_hex(scheme["{}-hex".format(all_base)])
+		scheme[f"{all_base}-hex-r"] = scheme[f"{all_base}-hex"][0:2]
+		scheme[f"{all_base}-hex-g"] = scheme[f"{all_base}-hex"][2:4]
+		scheme[f"{all_base}-hex-b"] = scheme[f"{all_base}-hex"][4:6]
+		scheme[f"{all_base}-hex-bgr"] = reverse_hex(scheme[f"{all_base}-hex"])
 		# RGB 0-255
-		scheme["{}-rgb-r".format(all_base)] = str(int(scheme["{}-hex-r".format(all_base)], 16))
-		scheme["{}-rgb-g".format(all_base)] = str(int(scheme["{}-hex-g".format(all_base)], 16))
-		scheme["{}-rgb-b".format(all_base)] = str(int(scheme["{}-hex-b".format(all_base)], 16))
+		scheme[f"{all_base}-rgb-r"] = str(int(scheme[f"{all_base}-hex-r"], 16))
+		scheme[f"{all_base}-rgb-g"] = str(int(scheme[f"{all_base}-hex-g"], 16))
+		scheme[f"{all_base}-rgb-b"] = str(int(scheme[f"{all_base}-hex-b"], 16))
 		# RGB 0.0-1.0
-		scheme["{}-dec-r".format(all_base)] = str(int(scheme["{}-rgb-r".format(all_base)]) / 255)
-		scheme["{}-dec-g".format(all_base)] = str(int(scheme["{}-rgb-g".format(all_base)]) / 255)
-		scheme["{}-dec-b".format(all_base)] = str(int(scheme["{}-rgb-b".format(all_base)]) / 255)
+		scheme[f"{all_base}-dec-r"] = str(int(scheme[f"{all_base}-rgb-r"]) / 255)
+		scheme[f"{all_base}-dec-g"] = str(int(scheme[f"{all_base}-rgb-g"]) / 255)
+		scheme[f"{all_base}-dec-b"] = str(int(scheme[f"{all_base}-rgb-b"]) / 255)
 
 
 def slugify(scheme_file):
@@ -142,29 +149,27 @@ async def build_single(scheme_file, job_options):
 	warn = False  # set this for feedback to the caller
 
 	if job_options.verbose:
-		print('Building colorschemes for scheme "{}"...'.format(scheme_name))
+		print(f'Building colorschemes for scheme "{scheme_name}"...')
 
 	for temp_group in job_options.templates:
 
 		for _, sub in temp_group.templates.items():
-			output_dir = os.path.join(
-				job_options.base_output_dir, temp_group.name, sub["output"]
-			)
+			output_dir = os.path.join(job_options.base_output_dir, temp_group.name, sub["output"])
 			try:
 				os.makedirs(output_dir)
 			except FileExistsError:
 				pass
 
 			if sub["extension"] is not None:
-				filename = "base{}-{}{}".format(scheme_type, scheme_slug, sub["extension"])
+				filename = f"base{scheme_type}-{scheme_slug}{sub['extension']}"
 			else:
-				filename = "base{}-{}".format(scheme_type, scheme_slug)
+				filename = f"base{scheme_type}-{scheme_slug}"
 
 			build_path = os.path.join(output_dir, filename)
 
 			# include a warning for files being overwritten to comply with base16 0.9.1
 			if os.path.isfile(build_path):
-				verb_msg("File {} exists and will be overwritten.".format(build_path))
+				verb_msg(f"File {build_path} exists and will be overwritten.")
 				warn = True
 
 			async with aiofiles.open(build_path, "w") as file_:
@@ -172,7 +177,7 @@ async def build_single(scheme_file, job_options):
 				await file_.write(file_content)
 
 			if job_options.verbose:
-				print('Built colorschemes for scheme "{}".'.format(scheme_name))
+				print(f'Built colorschemes for scheme "{scheme_name}".')
 
 	return not (warn)
 
@@ -183,7 +188,7 @@ async def build_single_task(scheme_file, job_options):
 	try:
 		return await build_single(scheme_file, job_options)
 	except Exception as e:
-		verb_msg("{}: {!s}".format(scheme_file, e), lvl=2)
+		verb_msg(f"{scheme_file}: {e!s}", lvl=2)
 		return False
 
 
@@ -215,14 +220,10 @@ def build(templates=None, schemes=None, base_output_dir=None, verbose=False):
 
 	templates = [TemplateGroup(path) for path in template_dirs]
 
-	job_options = JobOptions(
-		base_output_dir=base_output_dir, templates=templates, verbose=verbose
-	)
+	job_options = JobOptions(base_output_dir=base_output_dir, templates=templates, verbose=verbose)
 
 	with compat_event_loop() as event_loop:
-		results = event_loop.run_until_complete(
-			build_scheduler(scheme_files, job_options)
-		)
+		results = event_loop.run_until_complete(build_scheduler(scheme_files, job_options))
 
 	print("Finished building process.")
 	return all(results)

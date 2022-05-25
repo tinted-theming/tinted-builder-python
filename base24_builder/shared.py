@@ -1,13 +1,12 @@
 """Shared utils used by the other builder components
 """
+import asyncio
 import os
 import sys
-import asyncio
 from contextlib import contextmanager
-import yaml
-from metprint import LogType, Logger, FHFormatter
 
-printf = Logger(FHFormatter())
+import yaml
+
 
 class JobOptions:
 	"""Container for options related to job processing"""
@@ -18,6 +17,7 @@ class JobOptions:
 
 
 CWD = os.path.realpath(os.getcwd())
+
 
 @contextmanager
 def compat_event_loop():
@@ -45,7 +45,7 @@ def get_yaml_dict(yaml_file):
 	"""Return a yaml_dict from reading yaml_file. If yaml_file is empty or
 	doesn't exist, return an empty dict instead."""
 	try:
-		with open(yaml_file, "r") as file_:
+		with open(yaml_file, encoding="utf-8") as file_:
 			yaml_dict = yaml.safe_load(file_.read()) or {}
 		return yaml_dict
 	except FileNotFoundError:
@@ -61,6 +61,6 @@ def err_print(msg, exit_code=1):
 def verb_msg(msg, lvl=1):
 	"""Print a warning ($lvl=1) or an error ($lvl=2) message."""
 	if lvl == 1:
-		print(printf.logString(msg, LogType.WARNING), file=sys.stderr)
+		print("WARN:", msg, file=sys.stderr)
 	elif lvl == 2:
-		print(printf.logString(msg, LogType.ERROR), file=sys.stderr)
+		print("ERRO:", msg, file=sys.stderr)

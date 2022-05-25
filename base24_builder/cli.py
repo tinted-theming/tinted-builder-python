@@ -1,8 +1,9 @@
 """CLI entry point """
-import sys
 import argparse
-from . import updater, builder, injector
-from .shared import rel_to_cwd, err_print
+import sys
+
+from . import builder, injector, updater
+from .shared import err_print, rel_to_cwd
 
 
 def catch_keyboard_interrupt(func):
@@ -33,10 +34,7 @@ def build_mode(arg_namespace):
 		# return with exit code 2 if there were any non-fatal incidents during
 		sys.exit(0 if result else 2)
 	except LookupError:
-		err_print(
-			"Necessary resources for building not found in current "
-			"working directory."
-		)
+		err_print("Necessary resources for building not found in current working directory.")
 	except PermissionError:
 		err_print("Lacking necessary access permissions for output directory.")
 
@@ -47,43 +45,39 @@ def inject_mode(arg_namespace):
 	try:
 		injector.inject_into_files(arg_namespace.scheme, arg_namespace.file)
 	except IndexError as exception:
-		err_print('"{}" has no valid injection marker lines.'.format(exception.args[0]))
+		err_print(f'"{exception.args[0]}" has no valid injection marker lines.')
 	except FileNotFoundError as exception:
-		err_print('Lacking resource "{}" to complete operation.'.format(exception.filename))
+		err_print(f'Lacking resource "{exception.filename}" to complete operation.')
 	except LookupError:
-		err_print('No scheme "{}" found.'.format(*arg_namespace.scheme))
+		err_print(f'No scheme "{arg_namespace.scheme}" found.')
 	except PermissionError:
 		err_print("No write permission for current working directory.")
 	except IsADirectoryError as exception:
-		err_print('"{}" is a directory. Provide a *.yaml scheme file instead.'.format(exception.filename))
+		err_print(f'"{exception.filename}" is a directory. Provide a *.yaml scheme file instead.')
 	except ValueError:
-		err_print("Pattern {} matches more than one scheme.".format(*arg_namespace.scheme))
+		err_print(f"Pattern {arg_namespace.scheme} matches more than one scheme.")
 
 
 @catch_keyboard_interrupt
 def update_mode(arg_namespace):
 	"""Check command line arguments and run update function."""
 	try:
-		result = updater.update(
-			custom_sources=arg_namespace.custom, verbose=arg_namespace.verbose
-		)
+		result = updater.update(custom_sources=arg_namespace.custom, verbose=arg_namespace.verbose)
 		# return with exit code 2 if there were any non-fatal incidents during
 		# update
 		sys.exit(0 if result else 2)
 	except PermissionError:
-		err_print("No write permission for current working directory. On " +
-		"windows this is likely due to a permission error when removing a " +
-		"git directory - you'll have to do this manually")
-	except FileNotFoundError:
 		err_print(
-			"Necessary resources for updating not found in current "
-			"working directory."
+			"No write permission for current working directory. On "
+			+ "windows this is likely due to a permission error when removing a "
+			+ "git directory - you'll have to do this manually"
 		)
+	except FileNotFoundError:
+		err_print("Necessary resources for updating not found in current working directory.")
 
 
 def run():
-	"""Run the program
-	"""
+	"""Run the program"""
 	arg_namespace = argparser.parse_args()
 	arg_namespace.func(arg_namespace)
 
@@ -111,16 +105,14 @@ build_parser = subparsers.add_parser(
 	"build", help="build: build base16 colorschemes from templates"
 )
 build_parser.set_defaults(func=build_mode)
-build_parser.add_argument(
-	"-o", "--output", help="specify a target directory for the build output"
-)
+build_parser.add_argument("-o", "--output", help="specify a target directory for the build output")
 build_parser.add_argument(
 	"-t",
 	"--template",
 	action="append",
 	metavar="TEMP",
-	help="restrict operation to specific templates (must correspond to a " +
-	"directory in ./templates); can be specified more than once",
+	help="restrict operation to specific templates (must correspond to a "
+	+ "directory in ./templates); can be specified more than once",
 )
 build_parser.add_argument(
 	"-s",
@@ -141,8 +133,8 @@ inject_parser.add_argument(
 	"--file",
 	action="append",
 	required=True,
-	help="provide paths to files into which you wish to inject a colorscheme; "	+
-	"can be specified more than once",
+	help="provide paths to files into which you wish to inject a colorscheme; "
+	+ "can be specified more than once",
 )
 inject_parser.add_argument(
 	"-s",
