@@ -1,10 +1,9 @@
-# Base24-builder-python Modules
+# Base24-builder-python Index
 
-> Auto-generated documentation modules index.
+> Auto-generated documentation index.
 
-Full list of [Base24-builder-python](README.md#base24-builder-python-index) project modules.
+A full list of `Base24-builder-python` project modules.
 
-- [Base24-builder-python Index](README.md#base24-builder-python-index)
 - [Base24 Builder](base24_builder/index.md#base24-builder)
     - [Module](base24_builder/module.md#module)
     - [Builder](base24_builder/builder.md#builder)
