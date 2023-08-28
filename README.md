@@ -1,11 +1,10 @@
-[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/3479c0638ef54d57839343ad4be367e0.svg?style=for-the-badge)](https://www.codacy.com/gh/Base24/base24-builder-python)
-[![Repository size](https://img.shields.io/github/repo-size/Base24/base24-builder-python.svg?style=for-the-badge)](../../)
-[![Issues](https://img.shields.io/github/issues/Base24/base24-builder-python.svg?style=for-the-badge)](../../issues)
-[![License](https://img.shields.io/github/license/Base24/base24-builder-python.svg?style=for-the-badge)](/LICENSE.md)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
-[![Last commit](https://img.shields.io/github/last-commit/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
-[![PyPI](https://img.shields.io/pypi/dm/base24builder.svg?style=for-the-badge)](https://pypi.org/project/base24builder/)
+[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)
+[![Codacy grade](https://img.shields.io/codacy/grade/3479c0638ef54d57839343ad4be367e0.svg?style=for-the-badge&cacheSeconds=28800)](https://www.codacy.com/gh/Base24/base24-builder-python)
+[![Issues](https://img.shields.io/github/issues/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../issues)
+[![License](https://img.shields.io/github/license/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](/LICENSE.md)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../commits/master)
+[![Last commit](https://img.shields.io/github/last-commit/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../commits/master)
+[![PyPI](https://img.shields.io/pypi/dm/base24builder.svg?style=for-the-badge&cacheSeconds=28800)](https://pypi.org/project/base24builder/)
 
 <!-- omit in TOC -->
 # base24-builder-python
