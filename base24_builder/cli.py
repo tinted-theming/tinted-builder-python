@@ -1,145 +1,71 @@
-"""CLI entry point """
 import argparse
-import sys
+import asyncio
+import glob
 
-from . import builder, injector, updater
-from .shared import err_print, rel_to_cwd
+import os
 
+from typing import Any
 
-def catch_keyboard_interrupt(func):
-	"""Decorator for catching KeyboardInterrupt and quitting gracefully."""
-
-	def decorated(*args, **kwargs):
-		try:
-			func(*args, **kwargs)
-		except KeyboardInterrupt:
-			err_print("Interrupt signal received.")
-
-	return decorated
+from builder import build
 
 
-@catch_keyboard_interrupt
-def build_mode(arg_namespace):
-	"""Check command line arguments and run build function."""
-	custom_temps = arg_namespace.template or []
-	temp_paths = [rel_to_cwd("templates", temp) for temp in custom_temps]
+def run() -> None:
 
-	try:
-		result = builder.build(
-			templates=temp_paths,
-			schemes=arg_namespace.scheme,
-			base_output_dir=arg_namespace.output,
-			verbose=arg_namespace.verbose,
-		)
-		# return with exit code 2 if there were any non-fatal incidents during
-		sys.exit(0 if result else 2)
-	except LookupError:
-		err_print("Necessary resources for building not found in current working directory.")
-	except PermissionError:
-		err_print("Lacking necessary access permissions for output directory.")
+	parser = argparse.ArgumentParser(description="Base16 builder in Python")
+	parser.add_argument(
+		"--schemes-dir",
+		default=".",
+		help="Target directory for scheme data",
+	)
+	parser.add_argument(
+		"--template-dir",
+		default=".",
+		help="Target template directory to build",
+	)
+	parser.add_argument(
+		"--verbose",
+		action="store_true",
+		help="Log all debug messages",
+	)
+	parser.add_argument(
+		"--online",
+		action="store_true",
+		help="Run in online mode and pull schemes directly from GitHub",
+	)
 
-
-@catch_keyboard_interrupt
-def inject_mode(arg_namespace):
-	"""Check command line arguments and run build function."""
-	try:
-		injector.inject_into_files(arg_namespace.scheme, arg_namespace.file)
-	except IndexError as exception:
-		err_print(f'"{exception.args[0]}" has no valid injection marker lines.')
-	except FileNotFoundError as exception:
-		err_print(f'Lacking resource "{exception.filename}" to complete operation.')
-	except LookupError:
-		err_print(f'No scheme "{arg_namespace.scheme}" found.')
-	except PermissionError:
-		err_print("No write permission for current working directory.")
-	except IsADirectoryError as exception:
-		err_print(f'"{exception.filename}" is a directory. Provide a *.yaml scheme file instead.')
-	except ValueError:
-		err_print(f"Pattern {arg_namespace.scheme} matches more than one scheme.")
+	args = parser.parse_args()
 
 
-@catch_keyboard_interrupt
-def update_mode(arg_namespace):
-	"""Check command line arguments and run update function."""
-	try:
-		result = updater.update(custom_sources=arg_namespace.custom, verbose=arg_namespace.verbose)
-		# return with exit code 2 if there were any non-fatal incidents during
-		# update
-		sys.exit(0 if result else 2)
-	except PermissionError:
-		err_print(
-			"No write permission for current working directory. On "
-			+ "windows this is likely due to a permission error when removing a "
-			+ "git directory - you'll have to do this manually"
-		)
-	except FileNotFoundError:
-		err_print("Necessary resources for updating not found in current working directory.")
+	schemes_dir = args.schemes_dir
+	if args.online:
+		schemes_dir = asyncio.run(get_schemes_from_github()) + "/base24"
 
 
-def run():
-	"""Run the program"""
-	arg_namespace = argparser.parse_args()
-	arg_namespace.func(arg_namespace)
+	scheme_files = set(glob.glob(f"{schemes_dir}/**/*.yaml"))
+	template_files = set(glob.glob(f"{args.template_dir}/**/*.mustache"))
 
 
-argparser = argparse.ArgumentParser(prog="base24")
-subparsers = argparser.add_subparsers(dest="mode")
-subparsers.required = True  # workaround for versions <3.7
+	build(template_files=template_files, scheme_files=scheme_files, base_output_dir=".", verbose=args.verbose)
 
-update_parser = subparsers.add_parser(
-	"update", help="update: download all base16 scheme and template repositories"
-)
-update_parser.set_defaults(func=update_mode)
-update_parser.add_argument(
-	"-c",
-	"--custom",
-	action="store_const",
-	const=True,
-	help="update repositories but don't update source files",
-)
-update_parser.add_argument(
-	"-v", "--verbose", action="store_const", const=True, help="increase verbosity"
-)
 
-build_parser = subparsers.add_parser(
-	"build", help="build: build base16 colorschemes from templates"
-)
-build_parser.set_defaults(func=build_mode)
-build_parser.add_argument("-o", "--output", help="specify a target directory for the build output")
-build_parser.add_argument(
-	"-t",
-	"--template",
-	action="append",
-	metavar="TEMP",
-	help="restrict operation to specific templates (must correspond to a "
-	+ "directory in ./templates); can be specified more than once",
-)
-build_parser.add_argument(
-	"-s",
-	"--scheme",
-	action="append",
-	help="restrict operation to specific schemes; (properly escaped) wildcards allowed",
-)
-build_parser.add_argument(
-	"-v", "--verbose", action="store_const", const=True, help="increase verbosity"
-)
 
-inject_parser = subparsers.add_parser(
-	"inject", help="inject: inject a colorscheme into one or multiple files"
-)
-inject_parser.set_defaults(func=inject_mode)
-inject_parser.add_argument(
-	"-f",
-	"--file",
-	action="append",
-	required=True,
-	help="provide paths to files into which you wish to inject a colorscheme; "
-	+ "can be specified more than once",
-)
-inject_parser.add_argument(
-	"-s",
-	"--scheme",
-	action="append",
-	required=True,
-	help="select a scheme; allows for wildcards",
-)
+async def get_schemes_from_github() -> str:
+	print("Attempting to load schemes from GitHub")
+
+	proc_env = os.environ.copy()
+	proc_env["GIT_TERMINAL_PROMPT"] = "0"
+
+	url = "https://github.com/tinted-theming/schemes/archive/refs/heads/jamy/feature/base24.tar.gz"
+	clone_path = "schemes"
+	await asyncio.create_subprocess_exec(
+		"git", "clone", url, clone_path, stderr=asyncio.subprocess.PIPE, env=proc_env
+	)
+
+	return clone_path
+
+
+
+
+
+if __name__ == "__main__":
+	run()

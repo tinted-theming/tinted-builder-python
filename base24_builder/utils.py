@@ -8,13 +8,6 @@ from contextlib import contextmanager
 import yaml
 
 
-class JobOptions:
-	"""Container for options related to job processing"""
-
-	def __init__(self, **kwargs):
-		for k, v in kwargs.items():
-			setattr(self, k, v)
-
 
 CWD = os.path.realpath(os.getcwd())
 
@@ -36,12 +29,12 @@ def compat_event_loop():
 	event_loop.close()
 
 
-def rel_to_cwd(*args):
+def rel_to_cwd(*args) -> str:
 	"""Get absolute real path of $path with $CWD as base."""
 	return os.path.join(CWD, *args)
 
 
-def get_yaml_dict(yaml_file):
+def get_yaml_dict(yaml_file) -> dict:
 	"""Return a yaml_dict from reading yaml_file. If yaml_file is empty or
 	doesn't exist, return an empty dict instead."""
 	try:
@@ -52,13 +45,13 @@ def get_yaml_dict(yaml_file):
 		return {}
 
 
-def err_print(msg, exit_code=1):
+def err_print(msg: str, exit_code: int=1):
 	"""Print $msg and exit with $exit_code."""
 	print(msg, file=sys.stderr)
 	sys.exit(exit_code)
 
 
-def verb_msg(msg, lvl=1):
+def verb_msg(msg: str, lvl: int=1):
 	"""Print a warning ($lvl=1) or an error ($lvl=2) message."""
 	if lvl == 1:
 		print("WARN:", msg, file=sys.stderr)
