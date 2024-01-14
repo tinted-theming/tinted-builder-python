@@ -23,8 +23,7 @@ Check command line arguments and run build function.
 
 ```python
 @catch_keyboard_interrupt
-def build_mode(arg_namespace):
-    ...
+def build_mode(arg_namespace): ...
 ```
 
 #### See also
@@ -42,8 +41,7 @@ Decorator for catching KeyboardInterrupt and quitting gracefully.
 #### Signature
 
 ```python
-def catch_keyboard_interrupt(func):
-    ...
+def catch_keyboard_interrupt(func): ...
 ```
 
 
@@ -58,8 +56,7 @@ Check command line arguments and run build function.
 
 ```python
 @catch_keyboard_interrupt
-def inject_mode(arg_namespace):
-    ...
+def inject_mode(arg_namespace): ...
 ```
 
 #### See also
@@ -77,8 +74,7 @@ Run the program
 #### Signature
 
 ```python
-def run():
-    ...
+def run(): ...
 ```
 
 
@@ -93,12 +89,9 @@ Check command line arguments and run update function.
 
 ```python
 @catch_keyboard_interrupt
-def update_mode(arg_namespace):
-    ...
+def update_mode(arg_namespace): ...
 ```
 
 #### See also
 
 - [catch_keyboard_interrupt](#catch_keyboard_interrupt)
-
-

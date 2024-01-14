@@ -33,8 +33,7 @@ in a config.yaml.
 
 ```python
 class TemplateGroup:
-    def __init__(self, base_path):
-        ...
+    def __init__(self, base_path): ...
 ```
 
 ### TemplateGroup().get_templates
@@ -49,8 +48,7 @@ the parsed corresponding mustache file is added to the sub-dictionary.
 #### Signature
 
 ```python
-def get_templates(self):
-    ...
+def get_templates(self): ...
 ```
 
 
@@ -64,8 +62,7 @@ Main build function to initiate building process.
 #### Signature
 
 ```python
-def build(templates=None, schemes=None, base_output_dir=None, verbose=False):
-    ...
+def build(templates=None, schemes=None, base_output_dir=None, verbose=False): ...
 ```
 
 
@@ -79,8 +76,7 @@ Create a task list from scheme_files and run tasks asynchronously.
 #### Signature
 
 ```python
-async def build_scheduler(scheme_files, job_options):
-    ...
+async def build_scheduler(scheme_files, job_options): ...
 ```
 
 
@@ -95,8 +91,7 @@ completed without warnings. Otherwise false.
 #### Signature
 
 ```python
-async def build_single(scheme_file, job_options):
-    ...
+async def build_single(scheme_file, job_options): ...
 ```
 
 
@@ -111,8 +106,7 @@ templates using $templates until it receives None.
 #### Signature
 
 ```python
-async def build_single_task(scheme_file, job_options):
-    ...
+async def build_single_task(scheme_file, job_options): ...
 ```
 
 
@@ -126,8 +120,7 @@ Change $scheme so it can be applied to a template.
 #### Signature
 
 ```python
-def format_scheme(scheme, slug):
-    ...
+def format_scheme(scheme, slug): ...
 ```
 
 
@@ -141,8 +134,7 @@ Get the directory $level levels above $base_dir.
 #### Signature
 
 ```python
-def get_parent_dir(base_dir, level=1):
-    ...
+def get_parent_dir(base_dir, level=1): ...
 ```
 
 
@@ -157,8 +149,7 @@ $mustache_file.
 #### Signature
 
 ```python
-def get_pystache_parsed(mustache_file):
-    ...
+def get_pystache_parsed(mustache_file): ...
 ```
 
 
@@ -172,8 +163,7 @@ Return a set of all scheme directories.
 #### Signature
 
 ```python
-def get_scheme_dirs():
-    ...
+def get_scheme_dirs(): ...
 ```
 
 
@@ -188,8 +178,7 @@ files.
 #### Signature
 
 ```python
-def get_scheme_files(patterns=None):
-    ...
+def get_scheme_files(patterns=None): ...
 ```
 
 
@@ -203,8 +192,7 @@ Return a set of all template directories.
 #### Signature
 
 ```python
-def get_template_dirs():
-    ...
+def get_template_dirs(): ...
 ```
 
 
@@ -218,8 +206,7 @@ Reverse a hex foreground string into its background version.
 #### Signature
 
 ```python
-def reverse_hex(hex_str):
-    ...
+def reverse_hex(hex_str): ...
 ```
 
 
@@ -233,8 +220,5 @@ Format $scheme_file_name to be used as a slug variable.
 #### Signature
 
 ```python
-def slugify(scheme_file):
-    ...
+def slugify(scheme_file): ...
 ```
-
-

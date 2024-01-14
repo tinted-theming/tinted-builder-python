@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 import sys
 from importlib.util import find_spec as module_exists
 

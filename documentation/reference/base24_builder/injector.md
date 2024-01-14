@@ -23,8 +23,7 @@ Represents a file into which a base16 scheme is to be injected.
 
 ```python
 class Recipient:
-    def __init__(self, path):
-        ...
+    def __init__(self, path): ...
 ```
 
 ### Recipient().get_colorscheme
@@ -37,8 +36,7 @@ inserted.
 #### Signature
 
 ```python
-def get_colorscheme(self, scheme_file):
-    ...
+def get_colorscheme(self, scheme_file): ...
 ```
 
 ### Recipient().inject_scheme
@@ -50,8 +48,7 @@ Inject string $b16_scheme into self.content.
 #### Signature
 
 ```python
-def inject_scheme(self, b16_scheme):
-    ...
+def inject_scheme(self, b16_scheme): ...
 ```
 
 ### Recipient().write
@@ -63,8 +60,7 @@ Write content back to file.
 #### Signature
 
 ```python
-def write(self):
-    ...
+def write(self): ...
 ```
 
 
@@ -78,8 +74,5 @@ Inject $scheme into list $files.
 #### Signature
 
 ```python
-def inject_into_files(scheme, files):
-    ...
+def inject_into_files(scheme, files): ...
 ```
-
-

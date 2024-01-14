@@ -5,6 +5,8 @@ sources
 sources.*
 requirements_optional.txt
 
+poetry.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

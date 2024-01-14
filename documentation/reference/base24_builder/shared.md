@@ -24,8 +24,7 @@ Container for options related to job processing
 
 ```python
 class JobOptions:
-    def __init__(self, **kwargs):
-        ...
+    def __init__(self, **kwargs): ...
 ```
 
 
@@ -40,8 +39,7 @@ OS agnostic context manager for an event loop.
 
 ```python
 @contextmanager
-def compat_event_loop():
-    ...
+def compat_event_loop(): ...
 ```
 
 
@@ -55,8 +53,7 @@ Print $msg and exit with $exit_code.
 #### Signature
 
 ```python
-def err_print(msg, exit_code=1):
-    ...
+def err_print(msg, exit_code=1): ...
 ```
 
 
@@ -71,8 +68,7 @@ doesn't exist, return an empty dict instead.
 #### Signature
 
 ```python
-def get_yaml_dict(yaml_file):
-    ...
+def get_yaml_dict(yaml_file): ...
 ```
 
 
@@ -86,8 +82,7 @@ Get absolute real path of $path with $CWD as base.
 #### Signature
 
 ```python
-def rel_to_cwd(*args):
-    ...
+def rel_to_cwd(*args): ...
 ```
 
 
@@ -101,8 +96,5 @@ Print a warning ($lvl=1) or an error ($lvl=2) message.
 #### Signature
 
 ```python
-def verb_msg(msg, lvl=1):
-    ...
+def verb_msg(msg, lvl=1): ...
 ```
-
-

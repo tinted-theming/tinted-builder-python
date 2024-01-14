@@ -22,8 +22,7 @@ Get a set of jobs from a yaml file
 #### Signature
 
 ```python
-def generate_jobs_from_yaml(yaml_file, base_dir):
-    ...
+def generate_jobs_from_yaml(yaml_file, base_dir): ...
 ```
 
 
@@ -38,8 +37,7 @@ otherwise False.
 #### Signature
 
 ```python
-async def git_clone(git_url, path, verbose=False):
-    ...
+async def git_clone(git_url, path, verbose=False): ...
 ```
 
 
@@ -53,8 +51,7 @@ Create task list for clone jobs and run them asynchronously.
 #### Signature
 
 ```python
-async def git_clone_scheduler(yaml_file, base_dir, verbose=False):
-    ...
+async def git_clone_scheduler(yaml_file, base_dir, verbose=False): ...
 ```
 
 
@@ -68,8 +65,7 @@ Update function to be called from cli.py
 #### Signature
 
 ```python
-def update(custom_sources=False, verbose=False):
-    ...
+def update(custom_sources=False, verbose=False): ...
 ```
 
 
@@ -83,8 +79,5 @@ Write a sources.yaml file to current working dir.
 #### Signature
 
 ```python
-def write_sources_file():
-    ...
+def write_sources_file(): ...
 ```
-
-

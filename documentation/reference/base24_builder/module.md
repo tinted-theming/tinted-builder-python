@@ -5,5 +5,4 @@
 Module
 
 > Auto-generated documentation for [base24_builder.__main__](../../../base24_builder/__main__.py) module.
-
 - [Module](#module)
