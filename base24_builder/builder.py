@@ -58,7 +58,7 @@ def format_scheme(scheme: dict, slug: str):
 		"base17": "base0E",
 	}
 	for extended_base in extended_bases:
-		if extended_base in scheme:
+		if extended_base in scheme["palette"]:
 			scheme[f"{extended_base}-hex"] = scheme["palette"].pop(extended_base)
 			scheme["scheme-type"] = "24"
 		else:
