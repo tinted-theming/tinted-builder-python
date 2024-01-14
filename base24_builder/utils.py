@@ -7,8 +7,6 @@ from contextlib import contextmanager
 
 import yaml
 
-
-
 CWD = os.path.realpath(os.getcwd())
 
 
@@ -45,13 +43,13 @@ def get_yaml_dict(yaml_file) -> dict:
 		return {}
 
 
-def err_print(msg: str, exit_code: int=1):
+def err_print(msg: str, exit_code: int = 1):
 	"""Print $msg and exit with $exit_code."""
 	print(msg, file=sys.stderr)
 	sys.exit(exit_code)
 
 
-def verb_msg(msg: str, lvl: int=1):
+def verb_msg(msg: str, lvl: int = 1):
 	"""Print a warning ($lvl=1) or an error ($lvl=2) message."""
 	if lvl == 1:
 		print("WARN:", msg, file=sys.stderr)

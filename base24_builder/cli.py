@@ -1,12 +1,11 @@
 import argparse
 import asyncio
 import glob
-
 import os
-
 from typing import Any
 
 from .builder import build
+from .utils import compat_event_loop, get_yaml_dict, rel_to_cwd, verb_msg
 
 
 def run() -> None:
@@ -32,26 +31,31 @@ def run() -> None:
 		action="store_true",
 		help="Run in online mode and pull schemes directly from GitHub",
 	)
+	parser.add_argument(
+		"--config",
+		default="config.yaml",
+		help="Configuration",
+	)
 
 	args = parser.parse_args()
 
+	conf = get_yaml_dict(args.config)
 
 	schemes_dir = args.schemes_dir
 	if args.online:
 		schemes_dir = asyncio.run(get_schemes_from_github()) + "/base24"
 
-	cwd = os.path.realpath(os.getcwd())
-	osj = os.path.join
-
-
 	scheme_files = glob.glob(f"{schemes_dir}/**/*.yaml", recursive=True)
 	template_files = glob.glob(f"{args.template_dir}/**/*.mustache", recursive=True)
 
-	print(scheme_files,template_files )
+	print(scheme_files, template_files)
 
-
-	build(template_files={osj(cwd, x) for x in template_files}, scheme_files={osj(cwd, x) for x in scheme_files}, base_output_dir=".", verbose=args.verbose)
-
+	build(
+		template_files=set(template_files),
+		scheme_files=set(scheme_files),
+		verbose=args.verbose,
+		conf=conf,
+	)
 
 
 async def get_schemes_from_github() -> str:
@@ -68,9 +72,6 @@ async def get_schemes_from_github() -> str:
 	)
 
 	return clone_path
-
-
-
 
 
 if __name__ == "__main__":

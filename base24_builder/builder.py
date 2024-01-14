@@ -10,13 +10,10 @@ from pathlib import Path
 import aiofiles
 import pystache
 
-from .utils import compat_event_loop, get_yaml_dict, rel_to_cwd, verb_msg
+from .utils import compat_event_loop, get_yaml_dict, verb_msg
 
 
-
-
-
-def get_parent_dir(base_dir: str, level: int=1):
+def get_parent_dir(base_dir: str, level: int = 1):
 	"Get the directory $level levels above $base_dir."
 	while level > 0:
 		base_dir = os.path.dirname(base_dir)
@@ -30,8 +27,6 @@ def get_pystache_parsed(mustache_file: str):
 	with open(mustache_file, encoding="utf-8") as file_:
 		parsed = pystache.parse(file_.read())
 	return parsed
-
-
 
 
 def reverse_hex(hex_str: str):
@@ -94,7 +89,7 @@ def slugify(scheme_file: str):
 	return scheme_file_name.lower().replace(" ", "-")
 
 
-async def build_single(template_file: str, scheme_file: str, base_output_dir: str, verbose:bool):
+async def build_single(template_file: str, scheme_file: str, conf: dict, verbose: bool):
 	"""Build colorscheme from $scheme_file using $job_options. Return True if
 	completed without warnings. Otherwise false."""
 	scheme = get_yaml_dict(scheme_file)
@@ -107,14 +102,13 @@ async def build_single(template_file: str, scheme_file: str, base_output_dir: st
 	if verbose:
 		print(f'Building colorschemes for scheme "{scheme_name}"...')
 
-
-	output_dir = os.path.join(base_output_dir, Path(template_file).name)
+	output_dir = os.path.join(conf.get("output", "."), Path(template_file).name)
 	try:
 		os.makedirs(output_dir)
 	except FileExistsError:
 		pass
 
-	filename = f"base{scheme_type}-{scheme_slug}"
+	filename = f"base{scheme_type}-{scheme_slug}.{conf.get('extension')}"
 
 	build_path = os.path.join(output_dir, filename)
 
@@ -133,28 +127,33 @@ async def build_single(template_file: str, scheme_file: str, base_output_dir: st
 	return not (warn)
 
 
-async def build_single_task(template_file: str, scheme_file: str, base_output_dir: str, verbose:bool):
+async def build_single_task(template_file: str, scheme_file: str, conf: dict, verbose: bool):
 	"""Worker thread for picking up scheme files from $queue and building b16
 	templates using $templates until it receives None."""
 	try:
-		return await build_single(template_file, scheme_file, base_output_dir, verbose)
+		return await build_single(template_file, scheme_file, conf, verbose)
 	except Exception as e:
 		verb_msg(f"{scheme_file}: {repr(e)}", lvl=2)
 		return False
 
 
-async def build_scheduler(scheme_files: set[str], template_files: set[str], base_output_dir: str, verbose:bool):
+async def build_scheduler(
+	scheme_files: set[str], template_files: set[str], conf: dict, verbose: bool
+):
 	"""Create a task list from scheme_files and run tasks asynchronously."""
-	task_list =	[
-		build_single_task(template_file, scheme_file, base_output_dir, verbose)
+	task_list = [
+		build_single_task(template_file, scheme_file, conf, verbose)
 		for scheme_file in scheme_files
 		for template_file in template_files
-  	]
+	]
 	return await asyncio.gather(*task_list)
 
 
+def build(template_files: set[str], scheme_files: set[str], verbose: bool, conf: dict):
 
-def build(template_files: set[str], scheme_files: set[str], base_output_dir: str, verbose: bool):
+	default = conf.get("default", {"extension": ".json", "output": "themes"})
+
+	base_output_dir = default.get("output")
 
 	# raise PermissionError if user has no write access for $base_output_dir
 	try:
@@ -166,7 +165,9 @@ def build(template_files: set[str], scheme_files: set[str], base_output_dir: str
 		raise PermissionError
 
 	with compat_event_loop() as event_loop:
-		results = event_loop.run_until_complete(build_scheduler(scheme_files, template_files, base_output_dir, verbose))
+		results = event_loop.run_until_complete(
+			build_scheduler(scheme_files, template_files, default, verbose)
+		)
 
 	print("Finished building process.")
 	return all(results)
