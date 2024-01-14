@@ -102,11 +102,8 @@ async def build_single(template_file: str, scheme_file: str, conf: dict, verbose
 	if verbose:
 		print(f'Building colorschemes for scheme "{scheme_name}"...')
 
-	output_dir = os.path.join(conf.get("output", "."), Path(template_file).name)
-	try:
-		os.makedirs(output_dir)
-	except FileExistsError:
-		pass
+	output_dir = conf.get("output", ".")
+	os.makedirs(output_dir, exist_ok=True)
 
 	filename = f"base{scheme_type}-{scheme_slug}.{conf.get('extension')}"
 
@@ -161,10 +158,7 @@ def build(scheme_files: set[str], verbose: bool, conf_file:str):
 		template_file = f"{Path(conf_file).parent}/{template}.mustache"
 
 		# raise PermissionError if user has no write access for $base_output_dir
-		try:
-			os.makedirs(base_output_dir)
-		except FileExistsError:
-			pass
+		os.makedirs(base_output_dir, exist_ok=True)
 
 		if not os.access(base_output_dir, os.W_OK | os.X_OK):
 			raise PermissionError
