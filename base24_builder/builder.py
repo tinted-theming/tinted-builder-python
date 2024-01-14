@@ -1,4 +1,7 @@
 """Combine schemes and templates to generate user-ready themes """
+
+from __future__ import annotations
+
 import asyncio
 import os
 from glob import glob
@@ -41,12 +44,12 @@ def format_scheme(scheme: dict, slug: str):
 	"""Change $scheme so it can be applied to a template."""
 	scheme["scheme-type"] = "16"
 	# Base16 here:
-	scheme["scheme-name"] = scheme.pop("scheme")
+	scheme["scheme-name"] = scheme.pop("name")
 	scheme["scheme-author"] = scheme.pop("author")
 	scheme["scheme-slug"] = slug
 	bases = [f"base{x:02X}" for x in range(0, 16)]
 	for base in bases:
-		scheme[f"{base}-hex"] = scheme.pop(base)
+		scheme[f"{base}-hex"] = scheme["palette"].pop(base)
 	# Base24 (with fallbacks)
 	extended_bases = [f"base{x:02X}" for x in range(16, 24)]
 	base_map = {
@@ -61,7 +64,7 @@ def format_scheme(scheme: dict, slug: str):
 	}
 	for extended_base in extended_bases:
 		if extended_base in scheme:
-			scheme[f"{extended_base}-hex"] = scheme.pop(extended_base)
+			scheme[f"{extended_base}-hex"] = scheme["palette"].pop(extended_base)
 			scheme["scheme-type"] = "24"
 		else:
 			scheme[f"{extended_base}-hex"] = scheme[f"{base_map[extended_base]}-hex"]
@@ -111,10 +114,7 @@ async def build_single(template_file: str, scheme_file: str, base_output_dir: st
 	except FileExistsError:
 		pass
 
-	if sub["extension"] is not None:
-		filename = f"base{scheme_type}-{scheme_slug}{sub['extension']}"
-	else:
-		filename = f"base{scheme_type}-{scheme_slug}"
+	filename = f"base{scheme_type}-{scheme_slug}"
 
 	build_path = os.path.join(output_dir, filename)
 
@@ -139,7 +139,7 @@ async def build_single_task(template_file: str, scheme_file: str, base_output_di
 	try:
 		return await build_single(template_file, scheme_file, base_output_dir, verbose)
 	except Exception as e:
-		verb_msg(f"{scheme_file}: {e!s}", lvl=2)
+		verb_msg(f"{scheme_file}: {repr(e)}", lvl=2)
 		return False
 
 
@@ -155,10 +155,6 @@ async def build_scheduler(scheme_files: set[str], template_files: set[str], base
 
 
 def build(template_files: set[str], scheme_files: set[str], base_output_dir: str, verbose: bool):
-	# raise LookupError if there is not at least one template or scheme
-	# to work with
-	if not template_files or not scheme_files:
-		raise LookupError
 
 	# raise PermissionError if user has no write access for $base_output_dir
 	try:

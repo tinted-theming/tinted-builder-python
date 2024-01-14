@@ -40,12 +40,17 @@ def run() -> None:
 	if args.online:
 		schemes_dir = asyncio.run(get_schemes_from_github()) + "/base24"
 
+	cwd = os.path.realpath(os.getcwd())
+	osj = os.path.join
 
-	scheme_files = set(glob.glob(f"{schemes_dir}/**/*.yaml"))
-	template_files = set(glob.glob(f"{args.template_dir}/**/*.mustache"))
+
+	scheme_files = glob.glob(f"{schemes_dir}/**/*.yaml", recursive=True)
+	template_files = glob.glob(f"{args.template_dir}/**/*.mustache", recursive=True)
+
+	print(scheme_files,template_files )
 
 
-	build(template_files=template_files, scheme_files=scheme_files, base_output_dir=".", verbose=args.verbose)
+	build(template_files={osj(cwd, x) for x in template_files}, scheme_files={osj(cwd, x) for x in scheme_files}, base_output_dir=".", verbose=args.verbose)
 
 
 
@@ -55,10 +60,11 @@ async def get_schemes_from_github() -> str:
 	proc_env = os.environ.copy()
 	proc_env["GIT_TERMINAL_PROMPT"] = "0"
 
-	url = "https://github.com/tinted-theming/schemes/archive/refs/heads/jamy/feature/base24.tar.gz"
+	url = "https://github.com/tinted-theming/schemes"
+	branch = "jamy/feature/base24"
 	clone_path = "schemes"
 	await asyncio.create_subprocess_exec(
-		"git", "clone", url, clone_path, stderr=asyncio.subprocess.PIPE, env=proc_env
+		"git", "clone", "-b", branch, url, clone_path, stderr=asyncio.subprocess.PIPE, env=proc_env
 	)
 
 	return clone_path
