@@ -6,7 +6,7 @@ import os
 
 from typing import Any
 
-from builder import build
+from .builder import build
 
 
 def run() -> None:
