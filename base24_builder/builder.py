@@ -138,36 +138,40 @@ async def build_single_task(template_file: str, scheme_file: str, conf: dict, ve
 
 
 async def build_scheduler(
-	scheme_files: set[str], template_files: set[str], conf: dict, verbose: bool
+	scheme_files: set[str], template_file: str, conf: dict, verbose: bool
 ):
 	"""Create a task list from scheme_files and run tasks asynchronously."""
 	task_list = [
 		build_single_task(template_file, scheme_file, conf, verbose)
 		for scheme_file in scheme_files
-		for template_file in template_files
 	]
 	return await asyncio.gather(*task_list)
 
 
-def build(template_files: set[str], scheme_files: set[str], verbose: bool, conf: dict):
+def build(scheme_files: set[str], verbose: bool, conf_file:str):
 
-	default = conf.get("default", {"extension": ".json", "output": "themes"})
+	conf = get_yaml_dict(conf_file)
 
-	base_output_dir = default.get("output")
 
-	# raise PermissionError if user has no write access for $base_output_dir
-	try:
-		os.makedirs(base_output_dir)
-	except FileExistsError:
-		pass
+	for template in conf:
 
-	if not os.access(base_output_dir, os.W_OK | os.X_OK):
-		raise PermissionError
+		default = conf[template]
 
-	with compat_event_loop() as event_loop:
-		results = event_loop.run_until_complete(
-			build_scheduler(scheme_files, template_files, default, verbose)
-		)
+		base_output_dir = default.get("output")
+		template_file = f"{Path(conf_file).parent}/{template}.mustache"
+
+		# raise PermissionError if user has no write access for $base_output_dir
+		try:
+			os.makedirs(base_output_dir)
+		except FileExistsError:
+			pass
+
+		if not os.access(base_output_dir, os.W_OK | os.X_OK):
+			raise PermissionError
+
+		with compat_event_loop() as event_loop:
+			_ = event_loop.run_until_complete(
+				build_scheduler(scheme_files, template_file, default, verbose)
+			)
 
 	print("Finished building process.")
-	return all(results)

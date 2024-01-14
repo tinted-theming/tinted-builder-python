@@ -17,11 +17,6 @@ def run() -> None:
 		help="Target directory for scheme data",
 	)
 	parser.add_argument(
-		"--template-dir",
-		default=".",
-		help="Target template directory to build",
-	)
-	parser.add_argument(
 		"--verbose",
 		action="store_true",
 		help="Log all debug messages",
@@ -39,22 +34,18 @@ def run() -> None:
 
 	args = parser.parse_args()
 
-	conf = get_yaml_dict(args.config)
 
 	schemes_dir = args.schemes_dir
 	if args.online:
 		schemes_dir = asyncio.run(get_schemes_from_github()) + "/base24"
 
 	scheme_files = glob.glob(f"{schemes_dir}/**/*.yaml", recursive=True)
-	template_files = glob.glob(f"{args.template_dir}/**/*.mustache", recursive=True)
 
-	print(scheme_files, template_files)
 
 	build(
-		template_files=set(template_files),
 		scheme_files=set(scheme_files),
 		verbose=args.verbose,
-		conf=conf,
+		conf_file=args.config,
 	)
 
 
