@@ -66,6 +66,8 @@ def format_scheme(scheme: dict, slug: str):
 
 	all_bases = [f"base{x:02X}" for x in range(0, 24)]
 	for all_base in all_bases:
+		if scheme[f"{all_base}-hex"].startswith('#'):
+			scheme[f"{all_base}-hex"] = scheme[f"{all_base}-hex"][1:]
 		# HEX and Reverse HEX
 		scheme[f"{all_base}-hex-r"] = scheme[f"{all_base}-hex"][0:2]
 		scheme[f"{all_base}-hex-g"] = scheme[f"{all_base}-hex"][2:4]
